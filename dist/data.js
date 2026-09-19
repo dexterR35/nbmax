@@ -90,5 +90,8 @@ window.MAX_DATA = (() => {
   ];
   return {families,levels,poses,figma:'https://www.figma.com/design/7XyxLDzYaGxD4i81uIeXIZ/Loyalty-Plan?node-id=4340-11687',
     introVideo:{id:'main',name:'The ranks in motion',poster:'family-bronze',src:'assets/video/max-main.mp4',captions:null,need:'A short explaining or pointing clip using the proposed still as direction; maintain chest-emblem placement and add captions for dialogue.'},
-    motion:[{id:'bronze',name:'The Bronze rank',poster:'family-bronze',src:'assets/video/max-small.mp4',captions:null,need:'A concise character and emblem presentation for the Bronze rank.'}]};
+    motion:[
+      {id:'main',name:'The ranks in motion',poster:'family-bronze',src:'assets/video/max-main.mp4',captions:null,need:'Max introduces the rank collection through a composed character film.'},
+      {id:'bronze',name:'The Bronze rank',poster:'family-bronze',src:'assets/video/max-small.mp4',captions:null,need:'A concise character and emblem presentation for the Bronze rank.'}
+    ]};
 })();
