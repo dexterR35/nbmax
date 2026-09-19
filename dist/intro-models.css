@@ -66,6 +66,7 @@
 .intro-discovery-group.landings .studio-base{height:100%!important;object-fit:cover}
 .intro-discovery-card>strong{display:block;font-size:15px;line-height:1.4;font-weight:600}
 .intro-discovery-card>span:last-child{display:block;color:#91a9ce;font-size:11px;line-height:1.45;margin-top:7px}
+.intro-landing-stack{display:grid;gap:clamp(32px,5vw,64px)}
 @media(max-width:1050px){.intro-discovery-group.landings .studio-art{aspect-ratio:16/9}}
 @media(max-width:700px){.intro-discovery-grid{grid-template-columns:1fr;gap:42px}.intro-discovery-group.faces{grid-column:auto}.intro-discovery-title{align-items:start;flex-direction:column;gap:8px}}
 @media(max-width:520px){.intro-discovery-group.faces .intro-discovery-cards{grid-template-columns:1fr}}
