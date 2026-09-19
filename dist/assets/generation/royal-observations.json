@@ -1,0 +1,413 @@
+{
+  "created_at": "2026-09-19",
+  "generator": "built-in image_gen",
+  "coordinate_system": {
+    "units": "percent",
+    "origin": "top-left",
+    "x": "100 * image pixel x / 1024",
+    "y": "100 * image pixel y / 1536",
+    "note": "Visual placement estimates on the saved full source image, not a cropped stage. Emblem centres refer to intentionally empty fabric immediately below NB. Rank shield should be a separate source PNG layer."
+  },
+  "assets": [
+    {
+      "file": "family-elite.png",
+      "path": "/workspace/scratch/ebe4c5fe5c2a/family-assets/family-elite.png",
+      "references": [
+        "proposal-gold.png"
+      ],
+      "selected_generated_source": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-856da8cf-eb92-4df3-9bdd-ad33a3eb904d.png",
+      "garments": {
+        "coat_lapel": "Deep navy fitted long coat with raised collar, narrow bronze piping, sparse violet and bronze embroidered flourishes. Viewer-right lapel below NB is now plain navy after one targeted repair.",
+        "waistcoat": "Plum-purple paisley/brocade waistcoat with bronze buttons and small gold chain.",
+        "neckwear": "Ivory gathered cravat.",
+        "cuff": "Deep navy cuff with violet/bronze embroidery, narrow bronze border and white shirt cuff; a small dark-and-gold circular N cuff detail on the pointing arm.",
+        "trousers": "Dark navy tailored long trousers with fine bronze side piping.",
+        "footwear": "Polished black loafers with gold horsebit-style hardware.",
+        "nb": "Small bronze/gold serif NB on viewer-right upper lapel."
+      },
+      "pose": "Viewer-left hand open with palm tilted upward at low waist; viewer-right arm extends with index finger pointing gently right. Relaxed tall stance with both feet visible.",
+      "points": {
+        "emblem_blank_centre": {
+          "x": 54.15,
+          "y": 21.8
+        },
+        "nb": {
+          "x": 54.7,
+          "y": 19.45
+        },
+        "coat_lapel": {
+          "x": 37,
+          "y": 20.5
+        },
+        "waistcoat": {
+          "x": 46.4,
+          "y": 29
+        },
+        "cuff": {
+          "x": 75.5,
+          "y": 31
+        },
+        "trousers": {
+          "x": 53,
+          "y": 62
+        },
+        "footwear": {
+          "x": 71.5,
+          "y": 93
+        }
+      },
+      "emblem_fit": {
+        "suggested_width_percent": 3.3,
+        "suggested_max_height_percent": 2.6,
+        "note": "Follow lapel perspective; retain small visual gap below NB."
+      },
+      "qa": {
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "format": "PNG",
+        "colour_mode": "RGB",
+        "alpha": false,
+        "checkerboard": false,
+        "complete_silhouette": true,
+        "hair_hands_hems_and_footwear_inside_frame": true,
+        "original_max_identity_preserved": true,
+        "long_slim_legs": true,
+        "chest_shield_absent": true,
+        "chest_patch_or_placeholder_absent": true,
+        "nb_on_character_left_viewer_right": true,
+        "plain_cloth_below_nb": true,
+        "cane_absent": true,
+        "page_text_absent": true,
+        "background": "Visually clean midnight navy, with small generated pixel/color variation; not a mathematically flat exact #0B1629 fill.",
+        "repair_count": 1,
+        "repair_result": "Removed the violet flourish beneath NB. Identity, pose, framing and garments remain visually stable.",
+        "margin_note": "Entire silhouette retained. Small navy space above swept hair and clear space below loafers."
+      }
+    },
+    {
+      "file": "family-black-diamond.png",
+      "path": "/workspace/scratch/ebe4c5fe5c2a/family-assets/family-black-diamond.png",
+      "references": [
+        "ref-11.png"
+      ],
+      "selected_generated_source": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-f8db72b3-d0fb-4797-8c8a-c1d063688fcf.png",
+      "garments": {
+        "coat_lapel": "Black raised-collar cutaway tailcoat, long shaped back tails, restrained fine silver floral edgework on lapels and cuffs.",
+        "waistcoat": "Dark charcoal/black damask-patterned waistcoat with small silver buttons.",
+        "neckwear": "Pale ivory-white cravat.",
+        "cuff": "Black cuffs with fine silver floral stitching, small silver buttons and white shirt cuffs.",
+        "trousers": "Matte graphite tailored trousers with a very subtle dark floral surface pattern visible under light.",
+        "footwear": "Polished black ankle boots; a small silver buckle is visible on the viewer-left boot.",
+        "nb": "Small pale-gold/ivory serif NB on viewer-right chest; plain black fabric beneath."
+      },
+      "pose": "Viewer-left arm bends with the right hand resting over upper waist; viewer-right left hand offers a restrained open palm. Chest stays unobstructed.",
+      "points": {
+        "emblem_blank_centre": {
+          "x": 60.7,
+          "y": 21.6
+        },
+        "nb": {
+          "x": 60.7,
+          "y": 19.5
+        },
+        "coat_lapel": {
+          "x": 39.3,
+          "y": 20.2
+        },
+        "waistcoat": {
+          "x": 49.5,
+          "y": 27.5
+        },
+        "cuff": {
+          "x": 73.7,
+          "y": 36.2
+        },
+        "trousers": {
+          "x": 51,
+          "y": 64
+        },
+        "footwear": {
+          "x": 45,
+          "y": 90
+        }
+      },
+      "emblem_fit": {
+        "suggested_width_percent": 3.6,
+        "suggested_max_height_percent": 3,
+        "note": "Broad plain chest panel provides a clean attachment area."
+      },
+      "qa": {
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "format": "PNG",
+        "colour_mode": "RGB",
+        "alpha": false,
+        "checkerboard": false,
+        "complete_silhouette": true,
+        "hair_hands_hems_and_footwear_inside_frame": true,
+        "original_max_identity_preserved": true,
+        "long_slim_legs": true,
+        "chest_shield_absent": true,
+        "chest_patch_or_placeholder_absent": true,
+        "nb_on_character_left_viewer_right": true,
+        "plain_cloth_below_nb": true,
+        "cane_absent": true,
+        "page_text_absent": true,
+        "background": "Visually clean midnight navy, with small generated pixel/color variation; not a mathematically flat exact #0B1629 fill.",
+        "repair_count": 0,
+        "margin_note": "Entire cutaway tailcoat and boots visible; small navy margin above hair."
+      }
+    },
+    {
+      "file": "family-red-diamond.png",
+      "path": "/workspace/scratch/ebe4c5fe5c2a/family-assets/family-red-diamond.png",
+      "references": [
+        "proposal-reserve.png"
+      ],
+      "selected_generated_source": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-4a57c86c-3e79-42c3-888d-7740fcd01277.png",
+      "garments": {
+        "coat_lapel": "Original black patterned long coat with burgundy raised collar and lapels, gold floral embroidery, burgundy lining, gold piping and angular shaped tails.",
+        "waistcoat": "Original charcoal-black damask waistcoat with small gold buttons and double gold chain.",
+        "neckwear": "Original burgundy cravat with red circular neck fastening retained.",
+        "cuff": "Burgundy embroidered cuffs with gold floral details and circular gold N cuff badges.",
+        "trousers": "Original burgundy tailored trousers.",
+        "footwear": "Original polished black lace-up boots with burgundy side panels.",
+        "nb": "Original gold NB retained on viewer-right burgundy lapel; former red shield removed into continuous burgundy cloth."
+      },
+      "pose": "Original two-hand presentation toward viewer-right: upper hand open at chest height, lower hand open across the waist; original crossed long-leg stance.",
+      "points": {
+        "emblem_blank_centre": {
+          "x": 55.9,
+          "y": 20.65
+        },
+        "nb": {
+          "x": 55.5,
+          "y": 18.8
+        },
+        "coat_lapel": {
+          "x": 38.3,
+          "y": 23.3
+        },
+        "waistcoat": {
+          "x": 49.8,
+          "y": 28.8
+        },
+        "cuff": {
+          "x": 47.5,
+          "y": 36.3
+        },
+        "trousers": {
+          "x": 47.1,
+          "y": 64
+        },
+        "footwear": {
+          "x": 60,
+          "y": 93
+        }
+      },
+      "emblem_fit": {
+        "suggested_width_percent": 3.2,
+        "suggested_max_height_percent": 2.6,
+        "note": "Use the original removed shield centre; preserve gap above lower lapel embroidery."
+      },
+      "qa": {
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "format": "PNG",
+        "colour_mode": "RGB",
+        "alpha": false,
+        "checkerboard": false,
+        "complete_silhouette": true,
+        "hair_hands_hems_and_footwear_inside_frame": true,
+        "original_max_identity_preserved": true,
+        "long_slim_legs": true,
+        "chest_shield_absent": true,
+        "chest_patch_or_placeholder_absent": true,
+        "nb_on_character_left_viewer_right": true,
+        "plain_cloth_below_nb": true,
+        "cane_absent": true,
+        "page_text_absent": true,
+        "background": "Visually clean midnight navy, with small generated pixel/color variation; not a mathematically flat exact #0B1629 fill.",
+        "repair_count": 0,
+        "edit_scope": "Only requested chest-shield removal. Rest of figure and image preserved visually; generated output is not byte/pixel-identical outside the edit.",
+        "outside_shield_mean_absolute_rgb_difference_on_0_to_255_scale": 2.3532,
+        "margin_note": "Original framing preserved exactly in size and composition; hair and boots fully inside frame."
+      }
+    },
+    {
+      "file": "family-private.png",
+      "path": "/workspace/scratch/ebe4c5fe5c2a/family-assets/family-private.png",
+      "references": [
+        "proposal-gold.png",
+        "ref-11.png"
+      ],
+      "selected_generated_source": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-38f23be9-2b1b-4729-ae0e-fe98b9ef5da5.png",
+      "garments": {
+        "coat_lapel": "Black velvet-like Edwardian long frock coat with raised collar and very narrow cobalt-blue edge piping, subtle black surface texture and silver buttons.",
+        "waistcoat": "Pearl-grey and silver paisley/damask waistcoat, silver buttons and chain.",
+        "neckwear": "Deep blue-black satin cravat.",
+        "cuff": "Black cuffs with cobalt edging, white shirt cuffs and small cobalt oval cuff links.",
+        "trousers": "Charcoal long tailored trousers with fine low-contrast grey windowpane checks.",
+        "footwear": "Polished black monk-strap ankle boots with restrained cobalt-edged straps and silver buckles.",
+        "nb": "Small silver-white serif NB on viewer-right lapel, plain black cloth below."
+      },
+      "pose": "Viewer-left right hand offers an open palm at waist/chest level; viewer-right left hand points diagonally down toward the lower right. Chest is unblocked.",
+      "points": {
+        "emblem_blank_centre": {
+          "x": 55.8,
+          "y": 20.8
+        },
+        "nb": {
+          "x": 56.1,
+          "y": 18.7
+        },
+        "coat_lapel": {
+          "x": 36.5,
+          "y": 21
+        },
+        "waistcoat": {
+          "x": 46.5,
+          "y": 28
+        },
+        "cuff": {
+          "x": 74.2,
+          "y": 40.5
+        },
+        "trousers": {
+          "x": 50,
+          "y": 60.5
+        },
+        "footwear": {
+          "x": 71.5,
+          "y": 92.2
+        }
+      },
+      "emblem_fit": {
+        "suggested_width_percent": 3.4,
+        "suggested_max_height_percent": 2.8,
+        "note": "Align below silver NB inside the cobalt lapel edge."
+      },
+      "qa": {
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "format": "PNG",
+        "colour_mode": "RGB",
+        "alpha": false,
+        "checkerboard": false,
+        "complete_silhouette": true,
+        "hair_hands_hems_and_footwear_inside_frame": true,
+        "original_max_identity_preserved": true,
+        "long_slim_legs": true,
+        "chest_shield_absent": true,
+        "chest_patch_or_placeholder_absent": true,
+        "nb_on_character_left_viewer_right": true,
+        "plain_cloth_below_nb": true,
+        "cane_absent": true,
+        "page_text_absent": true,
+        "background": "Visually clean midnight navy, with small generated pixel/color variation; not a mathematically flat exact #0B1629 fill.",
+        "repair_count": 0,
+        "margin_note": "Full long silhouette and boots visible; small navy space above hair."
+      }
+    },
+    {
+      "file": "family-prismatic.png",
+      "path": "/workspace/scratch/ebe4c5fe5c2a/family-assets/family-prismatic.png",
+      "references": [
+        "ref-24.png"
+      ],
+      "selected_generated_source": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-e062e98b-5368-486c-ba86-2caba1a2a03b.png",
+      "garments": {
+        "coat_lapel": "Black formal long coat with gold floral borders and restrained gold edging; chest lapel stays plain beneath NB.",
+        "cape": "Sweeping full-length black outer cape with broad luminous gold satin lining, gold floral outer-edge borders and complete visible hems.",
+        "waistcoat": "Black patterned brocade/damask waistcoat with gold buttons and gold-trimmed lower pocket detail.",
+        "neckwear": "Gold satin cravat.",
+        "cuff": "Black embroidered cuffs with gold floral pattern and narrow gold borders over white shirt cuffs.",
+        "trousers": "Black brocade-like tailored long trousers with narrow gold side stripe.",
+        "footwear": "Polished black ankle boots with small refined gold buckles.",
+        "nb": "Small gold serif NB on viewer-right chest, plain black fabric below."
+      },
+      "pose": "Viewer-right left hand offers an open ceremonial welcome palm to the side. Viewer-left right hand rests at waist/pocket. Long legs and both boots are visible between cape folds.",
+      "points": {
+        "emblem_blank_centre": {
+          "x": 54.4,
+          "y": 20
+        },
+        "nb": {
+          "x": 54.7,
+          "y": 17.8
+        },
+        "coat_lapel": {
+          "x": 36.2,
+          "y": 22.5
+        },
+        "waistcoat": {
+          "x": 47.5,
+          "y": 29
+        },
+        "cuff": {
+          "x": 70.5,
+          "y": 29.5
+        },
+        "trousers": {
+          "x": 51.5,
+          "y": 58
+        },
+        "footwear": {
+          "x": 65.5,
+          "y": 90.8
+        },
+        "cape_border": {
+          "x": 81,
+          "y": 58
+        },
+        "cape_lining": {
+          "x": 71,
+          "y": 43
+        }
+      },
+      "emblem_fit": {
+        "suggested_width_percent": 3.5,
+        "suggested_max_height_percent": 2.9,
+        "note": "Keep shield between NB and the outer gold floral lapel border."
+      },
+      "qa": {
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "format": "PNG",
+        "colour_mode": "RGB",
+        "alpha": false,
+        "checkerboard": false,
+        "complete_silhouette": true,
+        "hair_hands_hems_and_footwear_inside_frame": true,
+        "original_max_identity_preserved": true,
+        "long_slim_legs": true,
+        "chest_shield_absent": true,
+        "chest_patch_or_placeholder_absent": true,
+        "nb_on_character_left_viewer_right": true,
+        "plain_cloth_below_nb": true,
+        "cane_absent": true,
+        "page_text_absent": true,
+        "background": "Visually clean midnight navy, with small generated pixel/color variation; not a mathematically flat exact #0B1629 fill.",
+        "repair_count": 0,
+        "all_cape_hems_visible": true,
+        "crown_or_rank_props_absent": true,
+        "shared_for_four_prismatic_ranks": true,
+        "margin_note": "Entire sweeping cape silhouette visible, with navy margins above hair, beside cape and below boots."
+      }
+    }
+  ],
+  "limits": [
+    "The generator produced visually clean navy backdrops with slight pixel/color variation rather than perfectly uniform exact #0B1629 backgrounds.",
+    "Image-relative coordinates are hand-inspected estimates for the saved 1024x1536 canvases; verify the live shield layer at final display scale."
+  ]
+}

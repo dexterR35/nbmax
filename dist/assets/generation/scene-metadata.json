@@ -1,0 +1,125 @@
+{
+  "generator": "built-in imagegen",
+  "assets": [
+    {
+      "id": "welcome",
+      "prompt": "Use case: ads-marketing. Create ONE premium stylized 3D NetBet MAX campaign SCENE illustration, landscape 1536x1024. Reference 1 is absolute CHARACTER IDENTITY authority: same mature masculine face, angular long nose, warm tan skin, silver swept voluminous hair, black rectangular glasses, neatly shaped white beard, elegant very tall adult with very long legs. Reference 2 is wardrobe authority. Professional semi-realistic stylized 3D, refined facial anatomy, NOT a child, NOT chibi. Max fully visible head to shoes, body occupies LEFT 45-50% only, feet near bottom with margin, eyes near top quarter, natural proportional hands, no cane. RIGHT 48% must remain clean empty dark navy negative space, no objects on right, for website copy later. Atmosphere scenic but subordinate, softly blurred. Tiny gold 'NB' on viewer-right chest with a plain unobstructed cloth patch directly beneath it for a badge overlay. DO NOT draw a shield or other badge. No other letters, titles, game logos, slogans, buttons, UI, currency, offers, watermark. Cinematic sapphire blue light, premium fabric, realistic depth, full-body scene.\nSCENE: Navy and gold long tailored coat, bronze brocade waistcoat, white cravat, ivory trousers and brown polished shoes. Warm palm-open welcome with one arm extended modestly to viewer left, opposite hand relaxed by hip. Blue crystal gallery with subtle distant roulette, chips and reel motifs only behind Max.",
+      "refs": [
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/ref-08.png",
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/family-gold.png"
+      ],
+      "source_path": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-5802d581-ad31-4ac6-87f2-b6c4779296bc.png",
+      "path": "/workspace/scratch/ebe4c5fe5c2a/studio-assets/scene-welcome.png",
+      "width": 1536,
+      "height": 1024,
+      "outfit": "Navy gold-trim tailcoat, bronze brocade waistcoat, ivory cravat and trousers, brown shoes.",
+      "pose": "Viewer-left palm extended in welcome; opposite arm relaxed; long legs slightly apart.",
+      "scene": "Blue crystal gallery with roulette wheel, chips and blurred reel symbols behind Max.",
+      "badge": {
+        "x_percent": 31.3,
+        "y_percent": 20.8,
+        "width_percent": 1.65
+      },
+      "qa": "Inspected targeted edit: face, pose, full body, scene and composition retained.",
+      "repair_prompt": "Use case: precise-object-edit. Edit this exact existing 1536x1024 campaign image with ONE tiny local repair ONLY: remove the small rectangular plaque/plate/patch and its entire rectangular border directly below the gold NB letters on Max's viewer-right lapel, near x=31.3% y=20.8%. Seamlessly restore continuous original matching coat/lapel cloth with its natural shading. NO rectangle, NO border, NO badge, NO shield, NO new embroidery in that spot. Preserve NB letters exactly as they are ABOVE the repaired spot. Keep absolutely everything else unchanged: identical face, glasses, hair, beard, body proportions, whole full-body pose, hands, clothes, shoes, background, camera, lighting, colors, all placements and empty right half. Do not crop, zoom, reframe or redesign. Output same 1536x1024 image.",
+      "repair_source_path": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-dda3fca5-1157-4093-8063-3d5654960378.png",
+      "repair_observation": "Rectangular plaque removed, smooth navy cloth restored beneath NB."
+    },
+    {
+      "id": "temple",
+      "prompt": "Use case: ads-marketing. Create ONE premium stylized 3D NetBet MAX campaign SCENE illustration, landscape 1536x1024. Reference 1 is absolute CHARACTER IDENTITY authority: same mature masculine face, angular long nose, warm tan skin, silver swept voluminous hair, black rectangular glasses, neatly shaped white beard, elegant very tall adult with very long legs. Reference 2 is wardrobe authority. Professional semi-realistic stylized 3D, refined facial anatomy, NOT a child, NOT chibi. Max fully visible head to shoes, body occupies LEFT 45-50% only, feet near bottom with margin, eyes near top quarter, natural proportional hands, no cane. RIGHT 48% must remain clean empty dark navy negative space, no objects on right, for website copy later. Atmosphere scenic but subordinate, softly blurred. Tiny gold 'NB' on viewer-right chest with a plain unobstructed cloth patch directly beneath it for a badge overlay. DO NOT draw a shield or other badge. No other letters, titles, game logos, slogans, buttons, UI, currency, offers, watermark. Cinematic sapphire blue light, premium fabric, realistic depth, full-body scene.\nSCENE: Royal-blue velvet long tailored coat and trousers with restrained gold embroidery, blue silk tie, black monkstrap shoes. Guide pose: one palm open at waist and other hand lightly pointing toward distant scenery, both hands stay left of image midpoint. Softly blurred Egyptian game world with blue-gold temple columns and a small distant Egyptian queen game portrait behind Max, never competing with him.",
+      "refs": [
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/ref-08.png",
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/family-sapphire.png"
+      ],
+      "source_path": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-787be155-4fac-49bd-a19f-53ce05d3e997.png",
+      "path": "/workspace/scratch/ebe4c5fe5c2a/studio-assets/scene-temple.png",
+      "width": 1536,
+      "height": 1024,
+      "outfit": "Royal-blue velvet tailcoat and trousers, ornate gold embroidery, blue satin tie, black monkstrap shoes.",
+      "pose": "One open palm at waist, opposite index finger pointing toward viewer-right, crossed long legs.",
+      "scene": "Blue-gold Egyptian columns, Anubis statue at left and soft-focus queen portrait behind Max.",
+      "badge": {
+        "x_percent": 30.45,
+        "y_percent": 22.65,
+        "width_percent": 2.05
+      },
+      "qa": "Inspected targeted edit: face, pose, full body, scene and composition retained.",
+      "repair_prompt": "Use case: precise-object-edit. Edit this exact existing 1536x1024 campaign image with ONE tiny local repair ONLY: remove the small rectangular plaque/plate/patch and its entire rectangular border directly below the gold NB letters on Max's viewer-right lapel, near x=30.45% y=22.65%. Seamlessly restore continuous original matching coat/lapel cloth with its natural shading. NO rectangle, NO border, NO badge, NO shield, NO new embroidery in that spot. Preserve NB letters exactly as they are ABOVE the repaired spot. Keep absolutely everything else unchanged: identical face, glasses, hair, beard, body proportions, whole full-body pose, hands, clothes, shoes, background, camera, lighting, colors, all placements and empty right half. Do not crop, zoom, reframe or redesign. Output same 1536x1024 image.",
+      "repair_source_path": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-955536d4-9596-4c38-b5f5-51d42656b191.png",
+      "repair_observation": "Gold rectangular border removed; continuous blue lapel now shows a natural diagonal seam and adjacent embroidery."
+    },
+    {
+      "id": "emerald",
+      "prompt": "Use case: ads-marketing. Create ONE premium stylized 3D NetBet MAX campaign SCENE illustration, landscape 1536x1024. Reference 1 is absolute CHARACTER IDENTITY authority: same mature masculine face, angular long nose, warm tan skin, silver swept voluminous hair, black rectangular glasses, neatly shaped white beard, elegant very tall adult with very long legs. Reference 2 is wardrobe authority. Professional semi-realistic stylized 3D, refined facial anatomy, NOT a child, NOT chibi. Max fully visible head to shoes, body occupies LEFT 45-50% only, feet near bottom with margin, eyes near top quarter, natural proportional hands, no cane. RIGHT 48% must remain clean empty dark navy negative space, no objects on right, for website copy later. Atmosphere scenic but subordinate, softly blurred. Tiny gold 'NB' on viewer-right chest with a plain unobstructed cloth patch directly beneath it for a badge overlay. DO NOT draw a shield or other badge. No other letters, titles, game logos, slogans, buttons, UI, currency, offers, watermark. Cinematic sapphire blue light, premium fabric, realistic depth, full-body scene.\nSCENE: Adapt reference wardrobe into rich forest-green long coat with gold tailoring, green waistcoat, ivory cravat, dark green slim trousers, brown polished shoes. Tasteful excited pose with pleased smile and one small celebratory fist at waist, other hand open, long legs in lively natural stance. Enchanted blue-green garden with restrained luminous clover reel motif and tiny soft-focus folklore figure behind Max.",
+      "refs": [
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/ref-08.png",
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/family-gold.png"
+      ],
+      "source_path": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-ac1a0eec-6e23-4a87-b97f-5b01eb2bc73e.png",
+      "path": "/workspace/scratch/ebe4c5fe5c2a/studio-assets/scene-emerald.png",
+      "width": 1536,
+      "height": 1024,
+      "outfit": "Forest-green gold-trim tailcoat, green brocade waistcoat, ivory cravat, dark-green trousers, brown shoes.",
+      "pose": "Small raised celebratory fist and opposite open palm; slightly spread long-legged stance.",
+      "scene": "Enchanted garden with illuminated clover motifs and small blurred folklore figure behind.",
+      "badge": {
+        "x_percent": 30,
+        "y_percent": 20.65,
+        "width_percent": 2.2
+      },
+      "qa": "Inspected targeted edit: face, pose, full body, scene and composition retained.",
+      "repair_prompt": "Use case: precise-object-edit. Edit this exact existing 1536x1024 campaign image with ONE tiny local repair ONLY: remove the small rectangular plaque/plate/patch and its entire rectangular border directly below the gold NB letters on Max's viewer-right lapel, near x=30% y=20.65%. Seamlessly restore continuous original matching coat/lapel cloth with its natural shading. NO rectangle, NO border, NO badge, NO shield, NO new embroidery in that spot. Preserve NB letters exactly as they are ABOVE the repaired spot. Keep absolutely everything else unchanged: identical face, glasses, hair, beard, body proportions, whole full-body pose, hands, clothes, shoes, background, camera, lighting, colors, all placements and empty right half. Do not crop, zoom, reframe or redesign. Output same 1536x1024 image.",
+      "repair_source_path": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-1d95b4d2-bc48-4e87-8ea5-a741922f1e95.png",
+      "repair_observation": "Green rectangular patch removed, smooth green cloth restored beneath NB."
+    },
+    {
+      "id": "royal",
+      "prompt": "Use case: ads-marketing. Create ONE premium stylized 3D NetBet MAX campaign SCENE illustration, landscape 1536x1024. Reference 1 is absolute CHARACTER IDENTITY authority: same mature masculine face, angular long nose, warm tan skin, silver swept voluminous hair, black rectangular glasses, neatly shaped white beard, elegant very tall adult with very long legs. Reference 2 is wardrobe authority. Professional semi-realistic stylized 3D, refined facial anatomy, NOT a child, NOT chibi. Max fully visible head to shoes, body occupies LEFT 45-50% only, feet near bottom with margin, eyes near top quarter, natural proportional hands, no cane. RIGHT 48% must remain clean empty dark navy negative space, no objects on right, for website copy later. Atmosphere scenic but subordinate, softly blurred. Tiny gold 'NB' on viewer-right chest with a plain unobstructed cloth patch directly beneath it for a badge overlay. DO NOT draw a shield or other badge. No other letters, titles, game logos, slogans, buttons, UI, currency, offers, watermark. Cinematic sapphire blue light, premium fabric, realistic depth, full-body scene.\nSCENE: Black long coat with burgundy lapels and lining, fine gold embroidery, burgundy trousers and cravat, black polished boots. Confident gracious host gesture with one hand over lower waistcoat and other open to the side, relaxed long-legged contrapposto. Royal blue-column hall with a small distant softly blurred Norse game figure behind Max.",
+      "refs": [
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/ref-08.png",
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/family-red-diamond.png"
+      ],
+      "source_path": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-79c21dbb-613d-4fae-8a34-931736947771.png",
+      "path": "/workspace/scratch/ebe4c5fe5c2a/studio-assets/scene-royal.png",
+      "width": 1536,
+      "height": 1024,
+      "outfit": "Black embroidered tailcoat, burgundy lapels and lining, burgundy cravat and trousers, black boots.",
+      "pose": "One hand over lower waistcoat; opposite palm raised graciously; crossed long legs.",
+      "scene": "Royal blue-column hall with burgundy banners, braziers and distant soft-focus Norse figure.",
+      "badge": {
+        "x_percent": 29.6,
+        "y_percent": 20.25,
+        "width_percent": 2.1
+      },
+      "qa": "Inspected targeted edit: face, pose, full body, scene and composition retained.",
+      "repair_prompt": "Use case: precise-object-edit. Edit this exact existing 1536x1024 campaign image with ONE tiny local repair ONLY: remove the small rectangular plaque/plate/patch and its entire rectangular border directly below the gold NB letters on Max's viewer-right lapel, near x=29.6% y=20.25%. Seamlessly restore continuous original matching coat/lapel cloth with its natural shading. NO rectangle, NO border, NO badge, NO shield, NO new embroidery in that spot. Preserve NB letters exactly as they are ABOVE the repaired spot. Keep absolutely everything else unchanged: identical face, glasses, hair, beard, body proportions, whole full-body pose, hands, clothes, shoes, background, camera, lighting, colors, all placements and empty right half. Do not crop, zoom, reframe or redesign. Output same 1536x1024 image.",
+      "repair_source_path": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-0a916375-428c-4169-8e82-00943891c544.png",
+      "repair_observation": "Plaque reduced but a thin partial gold L-shaped line remains beneath NB. Not fully removed."
+    },
+    {
+      "id": "prismatic",
+      "prompt": "Use case: ads-marketing. Create ONE premium stylized 3D NetBet MAX campaign SCENE illustration, landscape 1536x1024. Reference 1 is absolute CHARACTER IDENTITY authority: same mature masculine face, angular long nose, warm tan skin, silver swept voluminous hair, black rectangular glasses, neatly shaped white beard, elegant very tall adult with very long legs. Reference 2 is wardrobe authority. Professional semi-realistic stylized 3D, refined facial anatomy, NOT a child, NOT chibi. Max fully visible head to shoes, body occupies LEFT 45-50% only, feet near bottom with margin, eyes near top quarter, natural proportional hands, no cane. RIGHT 48% must remain clean empty dark navy negative space, no objects on right, for website copy later. Atmosphere scenic but subordinate, softly blurred. Tiny gold 'NB' on viewer-right chest with a plain unobstructed cloth patch directly beneath it for a badge overlay. DO NOT draw a shield or other badge. No other letters, titles, game logos, slogans, buttons, UI, currency, offers, watermark. Cinematic sapphire blue light, premium fabric, realistic depth, full-body scene.\nSCENE: Black and gold embroidered cape with gold lining over black tailored three-piece suit, gold cravat, black polished ankle boots. Confident composed stance, one hand in trouser pocket and other palm raised gently at waist. Cinematic prismatic blue crystal world with several small soft-focus game portals/cards far behind Max on the left only, subtle multicolor refractions.",
+      "refs": [
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/ref-08.png",
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/family-prismatic.png"
+      ],
+      "source_path": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-6e6f6cb6-10c6-4738-8615-0e98c9ebf22d.png",
+      "path": "/workspace/scratch/ebe4c5fe5c2a/studio-assets/scene-prismatic.png",
+      "width": 1536,
+      "height": 1024,
+      "outfit": "Black three-piece suit and gold cravat under flowing gold-lined embroidered black cape; black boots.",
+      "pose": "One hand in trouser pocket, opposite palm extended gently; composed long-legged stance.",
+      "scene": "Blue crystal gallery with floating game-themed cards and subtle prismatic gemstone, reflective floor.",
+      "badge": {
+        "x_percent": 34.2,
+        "y_percent": 20.55,
+        "width_percent": 1.65
+      },
+      "qa": "Inspected targeted edit: face, pose, full body, scene and composition retained.",
+      "repair_prompt": "Use case: precise-object-edit. Edit this exact existing 1536x1024 campaign image with ONE tiny local repair ONLY: remove the small rectangular plaque/plate/patch and its entire rectangular border directly below the gold NB letters on Max's viewer-right lapel, near x=34.2% y=20.55%. Seamlessly restore continuous original matching coat/lapel cloth with its natural shading. NO rectangle, NO border, NO badge, NO shield, NO new embroidery in that spot. Preserve NB letters exactly as they are ABOVE the repaired spot. Keep absolutely everything else unchanged: identical face, glasses, hair, beard, body proportions, whole full-body pose, hands, clothes, shoes, background, camera, lighting, colors, all placements and empty right half. Do not crop, zoom, reframe or redesign. Output same 1536x1024 image.",
+      "repair_source_path": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-632feedb-9d58-44c5-b089-36d42aed145b.png",
+      "repair_observation": "Dark rectangular plaque remains visible beneath NB; targeted repair did not fully remove it."
+    }
+  ]
+}

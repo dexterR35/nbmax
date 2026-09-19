@@ -1,0 +1,1936 @@
+window.MAX_REFERENCES = [
+  {
+    "id": "ref-01",
+    "title": "Bronze · the first coat",
+    "roles": [
+      "wardrobe",
+      "identity"
+    ],
+    "description": "Warm brown long coat, pale cravat, copper-toned waistcoat and a bronze chest shield. Cane pose.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/ref-01.webp",
+    "thumb": "assets/thumbs/ref-01.webp",
+    "original": "assets/originals/ref-01.png",
+    "files": [
+      "ChatGPT Image Sep 19, 2026, 01_35_01 PM (3).png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-02",
+    "title": "Silver · early suit study",
+    "roles": [
+      "wardrobe",
+      "poses"
+    ],
+    "description": "Silver-grey contemporary three-piece tailoring; an open palm and crossed, elongated legs. An earlier exploration.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/ref-02.webp",
+    "thumb": "assets/thumbs/ref-02.webp",
+    "original": "assets/originals/ref-02.png",
+    "files": [
+      "1fcae4d1-3668-42cd-bce2-5fe7fca9d9f5.png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-03",
+    "title": "Regency cutaway reference",
+    "roles": [
+      "craft"
+    ],
+    "description": "Navy cutaway coat, cream waistcoat and pale trousers shown on a mannequin, front and back. Clothing reference, not Max.",
+    "width": 794,
+    "height": 813,
+    "image": "assets/images/ref-03.webp",
+    "thumb": "assets/thumbs/ref-03.webp",
+    "original": "assets/originals/ref-03.jpg",
+    "files": [
+      "il_794xN.7437151861_jj9w(1).jpg",
+      "il_794xN.7437151861_jj9w.jpg"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-04",
+    "title": "Gold · early suit study",
+    "roles": [
+      "wardrobe",
+      "poses"
+    ],
+    "description": "Gold-coloured suit, white shirt, dark tie and open palm. An early colour exploration, not an approved Gold-level outfit.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/ref-04.webp",
+    "thumb": "assets/thumbs/ref-04.webp",
+    "original": "assets/originals/ref-04.png",
+    "files": [
+      "223bd5db-b391-4cf3-9c41-1956962deb32.png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-05",
+    "title": "Icon · purple and silver",
+    "roles": [
+      "wardrobe",
+      "identity"
+    ],
+    "description": "Purple long coat with pale scrolling embroidery, an ivory/silver patterned waistcoat and pale cravat, charcoal trousers, black boots and a small purple chest shield. The actual rendered layers are light at the centre.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/ref-05.webp",
+    "thumb": "assets/thumbs/ref-05.webp",
+    "original": "assets/originals/ref-05.png",
+    "files": [
+      "ChatGPT Image Sep 19, 2026, 01_35_03 PM (10).png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-06",
+    "title": "Blue velvet-like coat reference",
+    "roles": [
+      "craft"
+    ],
+    "description": "Deep blue coat with broad gold floral decoration at the front and cuffs. The supplied photograph is cropped.",
+    "width": 379,
+    "height": 532,
+    "image": "assets/images/ref-06.webp",
+    "thumb": "assets/thumbs/ref-06.webp",
+    "original": "assets/originals/ref-06.png",
+    "files": [
+      "7d3cf878-23fd-4228-a50c-31c778ac127f.png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-07",
+    "title": "Ace · presenting gesture",
+    "roles": [
+      "poses",
+      "wardrobe"
+    ],
+    "description": "Burgundy coat, one hand extended toward viewer-right, the other resting in a pocket. Full silhouette on white.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/ref-07.webp",
+    "thumb": "assets/thumbs/ref-07.webp",
+    "original": "assets/originals/ref-07.png",
+    "files": [
+      "ChatGPT Image Sep 19, 2026, 01_35_00 PM (1).png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-08",
+    "title": "Black and gold · early host",
+    "roles": [
+      "identity",
+      "poses",
+      "wardrobe"
+    ],
+    "description": "Silver-haired Max in glasses; black three-piece suit, gold piping, MAX nameplate, N pin and open palm.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/ref-08.webp",
+    "thumb": "assets/thumbs/ref-08.webp",
+    "original": "assets/originals/ref-08.png",
+    "files": [
+      "f2338ac8-c267-442d-801b-4883d073ad54.png",
+      "f2338ac8-c267-442d-801b-4883d073ad54(1).png",
+      "f2338ac8-c267-442d-801b-4883d073ad54(2).png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-09",
+    "title": "Assistant at the screen edge",
+    "roles": [
+      "atmosphere"
+    ],
+    "description": "Supplied website composition showing Max beside the interface. A placement study, not the current site implementation.",
+    "width": 1835,
+    "height": 857,
+    "image": "assets/images/ref-09.webp",
+    "thumb": "assets/thumbs/ref-09.webp",
+    "original": "assets/originals/ref-09.png",
+    "files": [
+      "6e1a34e6-1b7d-4fd4-afbf-abfbeadbd2bd.png",
+      "6e1a34e6-1b7d-4fd4-afbf-abfbeadbd2bd(1).png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-10",
+    "title": "The presenting host",
+    "roles": [
+      "identity",
+      "poses"
+    ],
+    "description": "Navy and gold tailoring, silver hair and beard, dark spectacles and an extended hand. Elongated proportions.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/ref-10.webp",
+    "thumb": "assets/thumbs/ref-10.webp",
+    "original": "assets/originals/ref-10.png",
+    "files": [
+      "3ed861d6-07a6-4ac4-86f1-d796cd10240b(1).png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-11",
+    "title": "Black Diamond · Gothic cutaway",
+    "roles": [
+      "wardrobe",
+      "identity"
+    ],
+    "description": "Black coat with silver-toned border decoration, dark waistcoat and a near-black chest shield.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/ref-11.webp",
+    "thumb": "assets/thumbs/ref-11.webp",
+    "original": "assets/originals/ref-11.png",
+    "files": [
+      "ChatGPT Image Sep 19, 2026, 01_35_02 PM (7).png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-12",
+    "title": "Cane and open palm",
+    "roles": [
+      "poses",
+      "wardrobe"
+    ],
+    "description": "Burgundy Max retains his cane while opening the other hand toward the interface. A supported alternate pose.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/ref-12.webp",
+    "thumb": "assets/thumbs/ref-12.webp",
+    "original": "assets/originals/ref-12.png",
+    "files": [
+      "ChatGPT Image Sep 19, 2026, 01_30_59 PM.png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-13",
+    "title": "Centurion Elite · badge context",
+    "roles": [
+      "badges"
+    ],
+    "description": "Supplied screen extract of the Centurion Elite emblem and label.",
+    "width": 334,
+    "height": 182,
+    "image": "assets/images/ref-13.webp",
+    "thumb": "assets/thumbs/ref-13.webp",
+    "original": "assets/originals/ref-13.png",
+    "files": [
+      "10be85b9-9777-4722-ae5f-f9001adc5023.png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-14",
+    "title": "Prestige, Reserve and Signature",
+    "roles": [
+      "badges",
+      "atmosphere"
+    ],
+    "description": "Actual site screen showing three loyalty cards and their emblem treatments.",
+    "width": 1916,
+    "height": 895,
+    "image": "assets/images/ref-14.webp",
+    "thumb": "assets/thumbs/ref-14.webp",
+    "original": "assets/originals/ref-14.png",
+    "files": [
+      "3331e90d-3174-49f5-b499-6d1690ae3d4a.png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-15",
+    "title": "Craftsmanship benchmark",
+    "roles": [
+      "craft"
+    ],
+    "description": "Black and burgundy formal coat, dense gold-coloured floral borders, decorative fastenings, chain, gloves and boots. Provisional final-reference target; not Max artwork.",
+    "width": 794,
+    "height": 794,
+    "image": "assets/images/ref-15.webp",
+    "thumb": "assets/thumbs/ref-15.webp",
+    "original": "assets/originals/ref-15.webp",
+    "files": [
+      "il_794xN.8349830402_7u4e.webp",
+      "il_794xN.8349830402_7u4e(1).webp"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-16",
+    "title": "Navy and gold · early host",
+    "roles": [
+      "identity",
+      "poses",
+      "wardrobe"
+    ],
+    "description": "Gold-edged navy suit, MAX nameplate and open-hand welcome. An earlier character outfit.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/ref-16.webp",
+    "thumb": "assets/thumbs/ref-16.webp",
+    "original": "assets/originals/ref-16.png",
+    "files": [
+      "06583f88-45d0-4a65-9d54-f99e093eeeb6(1).png",
+      "06583f88-45d0-4a65-9d54-f99e093eeeb6(4).png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-17",
+    "title": "The original angular study",
+    "roles": [
+      "identity",
+      "poses"
+    ],
+    "description": "Swept silver hair, glasses, white beard, long legs, navy planes and orange lining. Early stylised character study.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/ref-17.webp",
+    "thumb": "assets/thumbs/ref-17.webp",
+    "original": "assets/originals/ref-17.png",
+    "files": [
+      "3d38e6af-1b15-4257-ba9f-97ab3cef8776(1).png",
+      "3d38e6af-1b15-4257-ba9f-97ab3cef8776(2).png",
+      "3d38e6af-1b15-4257-ba9f-97ab3cef8776.png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-18",
+    "title": "Foundation badge references",
+    "roles": [
+      "badges"
+    ],
+    "description": "Member, Bronze and Silver emblems in their original interface context.",
+    "width": 883,
+    "height": 210,
+    "image": "assets/images/ref-18.webp",
+    "thumb": "assets/thumbs/ref-18.webp",
+    "original": "assets/originals/ref-18.png",
+    "files": [
+      "988a45b4-150f-4170-b3df-a7d2816bccc5.png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-19",
+    "title": "The character and cane master",
+    "roles": [
+      "identity",
+      "wardrobe",
+      "poses"
+    ],
+    "description": "The reference pose: right hand on cane at viewer-left, left hand in pocket, slight head tilt, long burgundy coat and NB above the pink shield.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/ref-19.webp",
+    "thumb": "assets/thumbs/ref-19.webp",
+    "original": "assets/originals/ref-19.png",
+    "files": [
+      "3a0b3c4d-4580-4f60-aa31-4e39c665b2df(3).png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-20",
+    "title": "Champion, Ace and Elite Pro",
+    "roles": [
+      "badges",
+      "atmosphere"
+    ],
+    "description": "Supplied site screen showing the winged blue, pink and green shields.",
+    "width": 1916,
+    "height": 895,
+    "image": "assets/images/ref-20.webp",
+    "thumb": "assets/thumbs/ref-20.webp",
+    "original": "assets/originals/ref-20.png",
+    "files": [
+      "722913a4-468a-4f6d-b3c6-0c0117515658.png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-21",
+    "title": "Landing-page composition study",
+    "roles": [
+      "atmosphere"
+    ],
+    "description": "Earlier character-led page concept, with Max and badge imagery against a dark setting.",
+    "width": 1586,
+    "height": 992,
+    "image": "assets/images/ref-21.webp",
+    "thumb": "assets/thumbs/ref-21.webp",
+    "original": "assets/originals/ref-21.png",
+    "files": [
+      "3292b997-2223-4027-9101-afa5512ee2e3.png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-22",
+    "title": "First gem shield family",
+    "roles": [
+      "badges"
+    ],
+    "description": "Ruby, Emerald and Amethyst screen references; the same shield language with different gem colours.",
+    "width": 880,
+    "height": 416,
+    "image": "assets/images/ref-22.webp",
+    "thumb": "assets/thumbs/ref-22.webp",
+    "original": "assets/originals/ref-22.png",
+    "files": [
+      "8bd297b5-e9df-4c09-a419-e3fb7d7194d4.png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-23",
+    "title": "Bronze · early suit study",
+    "roles": [
+      "wardrobe",
+      "poses"
+    ],
+    "description": "Brown contemporary tailoring and an open palm on white; separate from the later cane collection.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/ref-23.webp",
+    "thumb": "assets/thumbs/ref-23.webp",
+    "original": "assets/originals/ref-23.png",
+    "files": [
+      "f5e63818-ac36-4748-8563-16940b012172.png",
+      "f5e63818-ac36-4748-8563-16940b012172(1).png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-24",
+    "title": "Centurion Elite · the ceremonial cape",
+    "roles": [
+      "wardrobe",
+      "identity"
+    ],
+    "description": "Black coat and cape with gold-coloured scrolling decoration, gold lining and cravat, NB and a small chest shield.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/ref-24.webp",
+    "thumb": "assets/thumbs/ref-24.webp",
+    "original": "assets/originals/ref-24.png",
+    "files": [
+      "ChatGPT Image Sep 19, 2026, 01_35_03 PM (11).png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-25",
+    "title": "The emblem design vocabulary",
+    "roles": [
+      "badges"
+    ],
+    "description": "Supplied asset sheet with Bronze, Silver, Platinum and numbered gem/wing variations. Source asset names are distinct from the customer-facing tier names.",
+    "width": 903,
+    "height": 673,
+    "image": "assets/images/ref-25.webp",
+    "thumb": "assets/thumbs/ref-25.webp",
+    "original": "assets/originals/ref-25.png",
+    "files": [
+      "549ea085-f83d-4528-acd9-91e3df3b57b0.png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-26",
+    "title": "Centurion pair",
+    "roles": [
+      "badges"
+    ],
+    "description": "Centurion and Centurion Elite shown together in the supplied loyalty interface.",
+    "width": 880,
+    "height": 416,
+    "image": "assets/images/ref-26.webp",
+    "thumb": "assets/thumbs/ref-26.webp",
+    "original": "assets/originals/ref-26.png",
+    "files": [
+      "1f5c0436-9742-4ba0-9174-e17a64404a63.png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-27",
+    "title": "Diamond · blue and silver",
+    "roles": [
+      "wardrobe",
+      "identity"
+    ],
+    "description": "Deep royal-blue long coat with silver-coloured floral borders, a matching blue patterned waistcoat, silver-grey cravat, dark navy trousers and polished black ankle boots. Cyan shield on the left chest.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/ref-27.webp",
+    "thumb": "assets/thumbs/ref-27.webp",
+    "original": "assets/originals/ref-27.png",
+    "files": [
+      "ChatGPT Image Sep 19, 2026, 01_35_02 PM (6).png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-28",
+    "title": "Amethyst, Diamond, Black Diamond",
+    "roles": [
+      "badges"
+    ],
+    "description": "Three unwinged gem emblems shown in the original interface.",
+    "width": 883,
+    "height": 210,
+    "image": "assets/images/ref-28.webp",
+    "thumb": "assets/thumbs/ref-28.webp",
+    "original": "assets/originals/ref-28.png",
+    "files": [
+      "cacc05f1-e853-490a-ba7f-42ba26f567d5.png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-29",
+    "title": "Black-and-gold cape reference",
+    "roles": [
+      "craft"
+    ],
+    "description": "Formal black clothing with gold floral front borders and an extended cape. Mannequin inspiration, not Max artwork.",
+    "width": 480,
+    "height": 625,
+    "image": "assets/images/ref-29.webp",
+    "thumb": "assets/thumbs/ref-29.webp",
+    "original": "assets/originals/ref-29.png",
+    "files": [
+      "b170e679-5041-4c9c-a774-5dc0c0d8ff8c.png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-30",
+    "title": "Burgundy Gothic coat reference",
+    "roles": [
+      "craft"
+    ],
+    "description": "High-collared long burgundy coat, dark layers and cane in the supplied menswear image. Costume inspiration only.",
+    "width": 384,
+    "height": 636,
+    "image": "assets/images/ref-30.webp",
+    "thumb": "assets/thumbs/ref-30.webp",
+    "original": "assets/originals/ref-30.png",
+    "files": [
+      "739e55fe-0bbd-4e87-b268-6b7eb3d57740.png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-31",
+    "title": "Winged gem references",
+    "roles": [
+      "badges"
+    ],
+    "description": "Ace, Elite Pro and Icon repeat the pink, green and purple cores with added metal wings.",
+    "width": 883,
+    "height": 223,
+    "image": "assets/images/ref-31.webp",
+    "thumb": "assets/thumbs/ref-31.webp",
+    "original": "assets/originals/ref-31.png",
+    "files": [
+      "33948a57-62cd-4fa4-a1fa-5e268b8e087e.png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-32",
+    "title": "Black Diamond · explaining",
+    "roles": [
+      "poses",
+      "wardrobe"
+    ],
+    "description": "Black formal coat and a hand extended toward viewer-right. A supplied gesture study, not a moving character.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/ref-32.webp",
+    "thumb": "assets/thumbs/ref-32.webp",
+    "original": "assets/originals/ref-32.png",
+    "files": [
+      "ee3e0992-d641-4611-a626-875925d246c2(1).png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-33",
+    "title": "Ace · burgundy embroidery",
+    "roles": [
+      "wardrobe",
+      "identity"
+    ],
+    "description": "Burgundy long coat with tone-on-tone scrolling borders, black patterned waistcoat, NB and pink winged shield.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/ref-33.webp",
+    "thumb": "assets/thumbs/ref-33.webp",
+    "original": "assets/originals/ref-33.png",
+    "files": [
+      "ChatGPT Image Sep 19, 2026, 01_35_02 PM (8).png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-34",
+    "title": "Elite Pro · green and gold",
+    "roles": [
+      "wardrobe",
+      "identity"
+    ],
+    "description": "Dark green coat with gold-coloured scrolling borders, green patterned waistcoat, gold cravat, charcoal trousers and polished black ankle boots. Green chest shield beneath NB.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/ref-34.webp",
+    "thumb": "assets/thumbs/ref-34.webp",
+    "original": "assets/originals/ref-34.png",
+    "files": [
+      "ChatGPT Image Sep 19, 2026, 01_35_03 PM (9).png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "session-member",
+    "title": "Member · the foundation",
+    "roles": [
+      "wardrobe",
+      "identity"
+    ],
+    "description": "Navy waistcoat, white shirt and pale cravat; no outer coat. Earlier artwork from this same conversation.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/session-member.webp",
+    "thumb": "assets/thumbs/session-member.webp",
+    "original": "assets/originals/session-member.png",
+    "files": [
+      "exec-9473c251-2dcc-46b3-a4d8-b051f2e1893f.png"
+    ],
+    "origin": "Prior artwork in this conversation"
+  },
+  {
+    "id": "session-silver",
+    "title": "Silver · cutaway tailoring",
+    "roles": [
+      "wardrobe",
+      "identity"
+    ],
+    "description": "Charcoal cutaway coat, pale patterned waistcoat and cravat. Earlier artwork from this same conversation.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/session-silver.webp",
+    "thumb": "assets/thumbs/session-silver.webp",
+    "original": "assets/originals/session-silver.png",
+    "files": [
+      "exec-91b66503-92fa-4911-a8f8-d0e26c09b338.png"
+    ],
+    "origin": "Prior artwork in this conversation"
+  },
+  {
+    "id": "session-amethyst",
+    "title": "Amethyst · velvet-like plum",
+    "roles": [
+      "wardrobe",
+      "identity"
+    ],
+    "description": "Long purple coat, dark layers and purple shield. Earlier artwork from this same conversation.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/session-amethyst.webp",
+    "thumb": "assets/thumbs/session-amethyst.webp",
+    "original": "assets/originals/session-amethyst.png",
+    "files": [
+      "exec-7a10e56f-01f8-4f88-bf6e-5a3974321e8c.png"
+    ],
+    "origin": "Prior artwork in this conversation"
+  },
+  {
+    "id": "ref-35",
+    "title": "Gothic red embroidery · shaped tails",
+    "roles": [
+      "craft"
+    ],
+    "description": "High winged collar, black long coat with red scrolling embroidery, dark patterned waistcoat, small red fastenings and red lining. Black trousers and lace-up shoes complete the mannequin outfit.",
+    "width": 794,
+    "height": 794,
+    "image": "assets/images/ref-35.webp",
+    "thumb": "assets/thumbs/ref-35.webp",
+    "original": "assets/originals/ref-35.webp",
+    "files": [
+      "il_794xN.8349099418_notk.webp"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-36",
+    "title": "Navy & gold · restrained tailoring",
+    "roles": [
+      "craft"
+    ],
+    "description": "A navy coat with gold piping, a dark waistcoat, white shirt and black cravat on a photographic clothing model. The source is cropped above the footwear; it is not Max’s face or body.",
+    "width": 794,
+    "height": 1191,
+    "image": "assets/images/ref-36.webp",
+    "thumb": "assets/thumbs/ref-36.webp",
+    "original": "assets/originals/ref-36.webp",
+    "files": [
+      "il_794xN.7678859829_lrnh.webp"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-37",
+    "title": "NetBet MAX · landing-page direction",
+    "roles": [
+      "atmosphere",
+      "badges",
+      "poses"
+    ],
+    "description": "Supplied blue NetBet MAX landing composition: full-length Max at left, enlarged gemstone shields near his feet, concise message at right, electric-blue button, white/red wordmark and a midnight-blue background.",
+    "width": 1029,
+    "height": 639,
+    "image": "assets/images/ref-37.webp",
+    "thumb": "assets/thumbs/ref-37.webp",
+    "original": "assets/originals/ref-37.png",
+    "files": [
+      "8700d36b-29e4-4b4d-b3f8-585b1cd344d2.png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-38",
+    "title": "Original long-legged character · screenshot",
+    "roles": [
+      "identity",
+      "poses"
+    ],
+    "description": "Supplied screen capture of the angular navy-and-orange Max with swept silver hair, glasses, white beard, long legs and open palm. Interface text and the visible crop belong to the source screenshot.",
+    "width": 421,
+    "height": 778,
+    "image": "assets/images/ref-38.webp",
+    "thumb": "assets/thumbs/ref-38.webp",
+    "original": "assets/originals/ref-38.png",
+    "files": [
+      "10c65ca5-4a0e-4f23-a38f-da15aceb1969.png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "ref-39",
+    "title": "Regency layers · cream trousers",
+    "roles": [
+      "craft"
+    ],
+    "description": "Navy double-breasted cutaway coat, warm patterned waistcoat, ivory shirt and cravat, and high-waisted cream trousers on a photographic clothing model. The reference establishes a complete colour relationship, not Max’s identity; shoes are outside the crop.",
+    "width": 414,
+    "height": 621,
+    "image": "assets/images/ref-39.webp",
+    "thumb": "assets/thumbs/ref-39.webp",
+    "original": "assets/originals/ref-39.png",
+    "files": [
+      "af63ac54-af4c-412e-a74c-790526359623.png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "proposal-gold",
+    "title": "Gold · a welcoming ambassador",
+    "roles": [
+      "wardrobe",
+      "poses",
+      "identity",
+      "proposals"
+    ],
+    "description": "Max with silver hair, black glasses and a white beard, offering an open palm. Navy gold-edged coat, brown patterned waistcoat, ivory cravat, cream trousers and brown Oxford shoes. NB, a small gold shield and N cuff fastening. Generated wardrobe and gesture proposal.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/proposal-gold.webp",
+    "thumb": "assets/thumbs/proposal-gold.webp",
+    "original": "assets/originals/proposal-gold.png",
+    "files": [
+      "max-gold-welcome-navy.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "proposal-champion",
+    "title": "Champion · explaining the way",
+    "roles": [
+      "wardrobe",
+      "poses",
+      "identity",
+      "proposals"
+    ],
+    "description": "The same silver-haired Max points toward viewer-right and opens the other palm. Royal-blue coat with gold floral borders, navy patterned waistcoat, silver-blue neckwear, blue trousers with a dark stripe and navy buckle boots. NB and a blue winged shield. Generated wardrobe and gesture proposal.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/proposal-champion.webp",
+    "thumb": "assets/thumbs/proposal-champion.webp",
+    "original": "assets/originals/proposal-champion.png",
+    "files": [
+      "max-champion-explain-navy.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "proposal-reserve",
+    "title": "Reserve · presenting the details",
+    "roles": [
+      "wardrobe",
+      "poses",
+      "identity",
+      "proposals"
+    ],
+    "description": "The same silver-haired Max presents with both hands open. Black textured split-tail coat, burgundy gold-embroidered lapels and cuffs, dark patterned waistcoat, burgundy cravat and trousers, and black lace-up boots with burgundy panels. NB, red shield, watch chain and N cuff details. Generated wardrobe and gesture proposal.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/proposal-reserve.webp",
+    "thumb": "assets/thumbs/proposal-reserve.webp",
+    "original": "assets/originals/proposal-reserve.png",
+    "files": [
+      "max-reserve-present-navy.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "family-member",
+    "title": "Member · a composed welcome",
+    "roles": [
+      "wardrobe",
+      "poses",
+      "identity",
+      "proposals"
+    ],
+    "description": "Max with swept silver hair, black rectangular glasses, white beard and long-legged proportions. Navy patterned waistcoat with blue piping; no outer coat. Ivory shirt and softly folded ivory cravat. Charcoal trousers with a subtle patterned appearance. Black polished ankle boots. The relaxed pocket hand and upright cane stance give Max a composed, approachable presence. Generated family wardrobe proposal; the website attaches the exact official rank emblem below NB.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/family-member.webp",
+    "thumb": "assets/thumbs/family-member.webp",
+    "original": "assets/originals/family-member.png",
+    "files": [
+      "family-member.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "family-bronze",
+    "title": "Bronze · a formal introduction",
+    "roles": [
+      "wardrobe",
+      "poses",
+      "identity",
+      "proposals"
+    ],
+    "description": "Max with swept silver hair, black rectangular glasses, white beard and long-legged proportions. Warm dark-brown long coat with copper-coloured edging. Brown patterned waistcoat, ivory cravat and a gold-coloured watch chain. Charcoal trousers balancing the warm brown upper layers. Polished black ankle boots. One hand rests on the cane while the other stays in a pocket; the upright posture feels measured. Generated family wardrobe proposal; the website attaches the exact official rank emblem below NB.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/family-bronze.webp",
+    "thumb": "assets/thumbs/family-bronze.webp",
+    "original": "assets/originals/family-bronze.png",
+    "files": [
+      "family-bronze.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "family-silver",
+    "title": "Silver · a poised host",
+    "roles": [
+      "wardrobe",
+      "poses",
+      "identity",
+      "proposals"
+    ],
+    "description": "Max with swept silver hair, black rectangular glasses, white beard and long-legged proportions. Charcoal cutaway coat with silver-coloured edging and buttons. Pale silver patterned waistcoat with an ivory cravat. Charcoal trousers extending the dark coat silhouette. Polished black ankle boots. A steady cane hand and a relaxed pocket hand preserve the earlier composed stance. Generated family wardrobe proposal; the website attaches the exact official rank emblem below NB.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/family-silver.webp",
+    "thumb": "assets/thumbs/family-silver.webp",
+    "original": "assets/originals/family-silver.png",
+    "files": [
+      "family-silver.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "family-gold",
+    "title": "Gold · the open-palm welcome",
+    "roles": [
+      "wardrobe",
+      "poses",
+      "identity",
+      "proposals"
+    ],
+    "description": "Max with swept silver hair, black rectangular glasses, white beard and long-legged proportions. Navy long coat with gold piping and a pale pocket square. Warm brown patterned waistcoat, gold-coloured chain and ivory cravat. Cream trousers deliberately contrast with the navy coat. Brown Oxford-style shoes complete the warmer lower half. An open palm extends toward the content; the other arm rests low. The shoulders stay relaxed. Generated family wardrobe proposal; the website attaches the exact official rank emblem below NB.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/family-gold.webp",
+    "thumb": "assets/thumbs/family-gold.webp",
+    "original": "assets/originals/family-gold.png",
+    "files": [
+      "family-gold.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "family-platinum",
+    "title": "Platinum · the raised-hand greeting",
+    "roles": [
+      "wardrobe",
+      "poses",
+      "identity",
+      "proposals"
+    ],
+    "description": "Max with swept silver hair, black rectangular glasses, white beard and long-legged proportions. Pearl-grey long coat with midnight lapels, dark cuffs and fine silver edging. Ivory patterned waistcoat, silver-coloured chain and steel-blue cravat. Steel-grey trousers continue the cool tonal palette. Charcoal double-monk shoes with pale metal buckles. An open hand is raised beside the shoulder; the other remains low. No cane interrupts the gesture. Generated family wardrobe proposal; the website attaches the exact official rank emblem below NB.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/family-platinum.webp",
+    "thumb": "assets/thumbs/family-platinum.webp",
+    "original": "assets/originals/family-platinum.png",
+    "files": [
+      "family-platinum.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "family-sapphire",
+    "title": "Sapphire · pointing the way",
+    "roles": [
+      "wardrobe",
+      "poses",
+      "identity",
+      "proposals"
+    ],
+    "description": "Max with swept silver hair, black rectangular glasses, white beard and long-legged proportions. Royal blue velvet-like long coat, gold floral collar/lapel borders and cuffs, gold edge piping and buttons. Dark navy patterned waistcoat with gold buttons. Silver-blue cravat over a white shirt. Royal blue trousers with a dark stripe down the outer leg. Polished navy ankle boots with silver-toned side buckles. Viewer-right hand points to viewer-right; viewer-left hand is open palm-up in front of the waist. Torso angled slightly, legs long and offset. Generated family wardrobe proposal; the website attaches the exact official rank emblem below NB.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/family-sapphire.webp",
+    "thumb": "assets/thumbs/family-sapphire.webp",
+    "original": "assets/originals/family-sapphire.png",
+    "files": [
+      "family-sapphire.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "family-ruby",
+    "title": "Ruby · an inviting presentation",
+    "roles": [
+      "wardrobe",
+      "poses",
+      "identity",
+      "proposals"
+    ],
+    "description": "Max with swept silver hair, black rectangular glasses, white beard and long-legged proportions. Burgundy long coat with red tonal vine embroidery on collar, lapel borders and cuffs; dark metallic buttons. Black/charcoal brocade-like patterned waistcoat with silver-toned buttons. Black cravat over a dark shirt. Charcoal trousers with clearly visible thin vertical pinstripes. Polished black loafer-style shoes with burgundy straps/inserts across the vamp. Viewer-right arm extends with an open palm at waist height; viewer-left hand rests lightly near the waist. No cane. Generated family wardrobe proposal; the website attaches the exact official rank emblem below NB.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/family-ruby.webp",
+    "thumb": "assets/thumbs/family-ruby.webp",
+    "original": "assets/originals/family-ruby.png",
+    "files": [
+      "family-ruby.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "family-emerald",
+    "title": "Emerald · a warm acknowledgement",
+    "roles": [
+      "wardrobe",
+      "poses",
+      "identity",
+      "proposals"
+    ],
+    "description": "Max with swept silver hair, black rectangular glasses, white beard and long-legged proportions. Forest-green long coat with gold floral embroidery on collar, lapel borders and cuffs; tonal textile pattern is visible on coat tails. Green patterned waistcoat with small gold-toned buttons. Gold cravat over a black shirt. Bottle-green trousers with visible front creases. Dark brown ankle boots with small gold buckles. Viewer-right palm opens beside the torso; viewer-left arm hangs naturally with relaxed fingers. No cane. Generated family wardrobe proposal; the website attaches the exact official rank emblem below NB.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/family-emerald.webp",
+    "thumb": "assets/thumbs/family-emerald.webp",
+    "original": "assets/originals/family-emerald.png",
+    "files": [
+      "family-emerald.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "family-amethyst",
+    "title": "Amethyst · a relaxed explanation",
+    "roles": [
+      "wardrobe",
+      "poses",
+      "identity",
+      "proposals"
+    ],
+    "description": "Max with swept silver hair, black rectangular glasses, white beard and long-legged proportions. Deep plum long coat with restrained purple scrolling embroidery on the high collar and cuffs; subtle tonal textile pattern and dark buttons. Black/charcoal patterned waistcoat with silver-toned buttons. Black cravat over a dark shirt. Dark charcoal trousers with a muted purple cast and visible front creases. Polished black dress boots; muted violet side gusset is clearly visible on the viewer-left boot. Viewer-left hand rests in a trouser pocket; viewer-right hand opens palm-up toward viewer-right at waist height. No cane. Generated family wardrobe proposal; the website attaches the exact official rank emblem below NB.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/family-amethyst.webp",
+    "thumb": "assets/thumbs/family-amethyst.webp",
+    "original": "assets/originals/family-amethyst.png",
+    "files": [
+      "family-amethyst.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "family-diamond",
+    "title": "Diamond · explaining with both hands",
+    "roles": [
+      "wardrobe",
+      "poses",
+      "identity",
+      "proposals"
+    ],
+    "description": "Max with swept silver hair, black rectangular glasses, white beard and long-legged proportions. Blue velvet-like long coat with silver floral embroidery on collar, lapel borders and cuffs; fine blue tonal pattern. Blue patterned waistcoat with silver-toned buttons and fine blue piping. Silver-grey cravat over a white shirt. Slate-blue trousers with front creases. Dark grey/near-black ankle boots with restrained silver/steel-toned buckles. Both arms open outward at waist level with both palms up in a calm explaining gesture. No cane. Generated family wardrobe proposal; the website attaches the exact official rank emblem below NB.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/family-diamond.webp",
+    "thumb": "assets/thumbs/family-diamond.webp",
+    "original": "assets/originals/family-diamond.png",
+    "files": [
+      "family-diamond.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "family-elite",
+    "title": "Elite · the helpful pointer",
+    "roles": [
+      "wardrobe",
+      "poses",
+      "identity",
+      "proposals"
+    ],
+    "description": "Max with swept silver hair, black rectangular glasses, white beard and long-legged proportions. Deep navy fitted long coat with raised collar, narrow bronze piping, sparse violet and bronze embroidered flourishes. Plum-purple paisley/brocade waistcoat with bronze buttons and small gold chain. Ivory gathered cravat. Dark navy tailored long trousers with fine bronze side piping. Polished black loafers with gold horsebit-style hardware. Viewer-left hand open with palm tilted upward at low waist; viewer-right arm extends with index finger pointing gently right. Relaxed tall stance with both feet visible. Generated family wardrobe proposal; the website attaches the exact official rank emblem below NB.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/family-elite.webp",
+    "thumb": "assets/thumbs/family-elite.webp",
+    "original": "assets/originals/family-elite.png",
+    "files": [
+      "family-elite.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "family-black-diamond",
+    "title": "Black Diamond · a measured invitation",
+    "roles": [
+      "wardrobe",
+      "poses",
+      "identity",
+      "proposals"
+    ],
+    "description": "Max with swept silver hair, black rectangular glasses, white beard and long-legged proportions. Black raised-collar cutaway tailcoat, long shaped back tails, restrained fine silver floral edgework on lapels and cuffs. Dark charcoal/black damask-patterned waistcoat with small silver buttons. Pale ivory-white cravat. Matte graphite tailored trousers with a very subtle dark floral surface pattern visible under light. Polished black ankle boots; a small silver buckle is visible on the viewer-left boot. Viewer-left arm bends with the right hand resting over upper waist; viewer-right left hand offers a restrained open palm. Chest stays unobstructed. Generated family wardrobe proposal; the website attaches the exact official rank emblem below NB.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/family-black-diamond.webp",
+    "thumb": "assets/thumbs/family-black-diamond.webp",
+    "original": "assets/originals/family-black-diamond.png",
+    "files": [
+      "family-black-diamond.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "family-red-diamond",
+    "title": "Red Diamond · presenting the full picture",
+    "roles": [
+      "wardrobe",
+      "poses",
+      "identity",
+      "proposals"
+    ],
+    "description": "Max with swept silver hair, black rectangular glasses, white beard and long-legged proportions. black patterned long coat with burgundy raised collar and lapels, gold floral embroidery, burgundy lining, gold piping and angular shaped tails. charcoal-black damask waistcoat with small gold buttons and double gold chain. burgundy cravat with red circular neck fastening. burgundy tailored trousers. polished black lace-up boots with burgundy side panels. two-hand presentation toward viewer-right: upper hand open at chest height, lower hand open across the waist; crossed long-leg stance. Generated family wardrobe proposal; the website attaches the exact official rank emblem below NB.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/family-red-diamond.webp",
+    "thumb": "assets/thumbs/family-red-diamond.webp",
+    "original": "assets/originals/family-red-diamond.png",
+    "files": [
+      "family-red-diamond.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "family-private",
+    "title": "Private Black Diamond · directing attention below",
+    "roles": [
+      "wardrobe",
+      "poses",
+      "identity",
+      "proposals"
+    ],
+    "description": "Max with swept silver hair, black rectangular glasses, white beard and long-legged proportions. Black velvet-like Edwardian long frock coat with raised collar and very narrow cobalt-blue edge piping, subtle black surface texture and silver buttons. Pearl-grey and silver paisley/damask waistcoat, silver buttons and chain. Deep blue-black satin cravat. Charcoal long tailored trousers with fine low-contrast grey windowpane checks. Polished black monk-strap ankle boots with restrained cobalt-edged straps and silver buckles. Viewer-left right hand offers an open palm at waist/chest level; viewer-right left hand points diagonally down toward the lower right. Chest is unblocked. Generated family wardrobe proposal; the website attaches the exact official rank emblem below NB.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/family-private.webp",
+    "thumb": "assets/thumbs/family-private.webp",
+    "original": "assets/originals/family-private.png",
+    "files": [
+      "family-private.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "family-prismatic",
+    "title": "Prismatic · the ceremonial welcome",
+    "roles": [
+      "wardrobe",
+      "poses",
+      "identity",
+      "proposals"
+    ],
+    "description": "Max with swept silver hair, black rectangular glasses, white beard and long-legged proportions. Black formal long coat with gold floral borders and restrained gold edging. A full black cape with gold lining and a floral gold border extends the silhouette. Black patterned brocade/damask waistcoat with gold buttons and gold-trimmed lower pocket detail. Gold satin cravat. Black brocade-like tailored long trousers with narrow gold side stripe. Polished black ankle boots with small refined gold buckles. Viewer-right left hand offers an open ceremonial welcome palm to the side. Viewer-left right hand rests at waist/pocket. Long legs and both boots are visible between cape folds. Generated family wardrobe proposal; the website attaches the exact official rank emblem below NB.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/family-prismatic.webp",
+    "thumb": "assets/thumbs/family-prismatic.webp",
+    "original": "assets/originals/family-prismatic.png",
+    "files": [
+      "family-prismatic.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "new-ref-01",
+    "title": "Gothic coat / cropped reference",
+    "roles": [
+      "wardrobe",
+      "craft"
+    ],
+    "description": "Black shaped tailcoat with burgundy lapels, cuffs and lining, gold floral borders, a chain, dark trousers and black shoes.",
+    "width": 377,
+    "height": 630,
+    "image": "assets/images/new-ref-01.webp",
+    "thumb": "assets/thumbs/new-ref-01.webp",
+    "original": "assets/originals/new-ref-01.png",
+    "files": [
+      "Screenshot_20260919_160416.png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "new-ref-02",
+    "title": "Navy and red / cropped reference",
+    "roles": [
+      "wardrobe",
+      "craft"
+    ],
+    "description": "Photographic model in a navy red-piped long coat, red waistcoat and bow tie, white trousers and light shoes. Costume inspiration only.",
+    "width": 209,
+    "height": 638,
+    "image": "assets/images/new-ref-02.webp",
+    "thumb": "assets/thumbs/new-ref-02.webp",
+    "original": "assets/originals/new-ref-02.png",
+    "files": [
+      "Screenshot_20260919_160335.png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "new-ref-03",
+    "title": "Navy, red and ivory / full reference",
+    "roles": [
+      "wardrobe",
+      "craft"
+    ],
+    "description": "A clothing reference showing a navy and red ensemble, ivory trousers and light shoes in a Paris-themed setting. The model is not Max.",
+    "width": 1140,
+    "height": 1140,
+    "image": "assets/images/new-ref-03.webp",
+    "thumb": "assets/thumbs/new-ref-03.webp",
+    "original": "assets/originals/new-ref-03.webp",
+    "files": [
+      "il_1140xN.8244318812_eltj.webp"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "new-ref-04",
+    "title": "Red tailcoat / pale layers",
+    "roles": [
+      "wardrobe",
+      "craft"
+    ],
+    "description": "A red coat with dark lapels and pale edging, pale waistcoat, ivory cravat and pale trousers. The reference is cropped above the footwear.",
+    "width": 794,
+    "height": 794,
+    "image": "assets/images/new-ref-04.webp",
+    "thumb": "assets/thumbs/new-ref-04.webp",
+    "original": "assets/originals/new-ref-04.webp",
+    "files": [
+      "il_794xN.7767725409_l53f.webp"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "new-ref-05",
+    "title": "Cravat and waistcoat / detail",
+    "roles": [
+      "wardrobe",
+      "craft"
+    ],
+    "description": "Close-up of an ivory cravat, white shirt, warm brown patterned waistcoat and navy coat with a white pocket square.",
+    "width": 794,
+    "height": 480,
+    "image": "assets/images/new-ref-05.webp",
+    "thumb": "assets/thumbs/new-ref-05.webp",
+    "original": "assets/originals/new-ref-05.webp",
+    "files": [
+      "il_794xN.7624968443_7uy7.webp"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "new-ref-06",
+    "title": "Black and burgundy / shaped tails",
+    "roles": [
+      "wardrobe",
+      "craft"
+    ],
+    "description": "A black coat on a mannequin with burgundy lapels, waistcoat and lining, delicate dark floral ornament, black trousers and black footwear.",
+    "width": 794,
+    "height": 794,
+    "image": "assets/images/new-ref-06.webp",
+    "thumb": "assets/thumbs/new-ref-06.webp",
+    "original": "assets/originals/new-ref-06.webp",
+    "files": [
+      "il_794xN.8289169857_72ua.webp"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "new-ref-07",
+    "title": "Gothic tailoring / three views",
+    "roles": [
+      "wardrobe",
+      "craft"
+    ],
+    "description": "A commercial clothing sheet showing front, three-quarter detail and back views. Raised collar, burgundy layers, long tails and subdued decorative borders are visible. Printed construction claims are not independently verified.",
+    "width": 794,
+    "height": 886,
+    "image": "assets/images/new-ref-07.webp",
+    "thumb": "assets/thumbs/new-ref-07.webp",
+    "original": "assets/originals/new-ref-07.webp",
+    "files": [
+      "il_794xN.8415388345_8xvo.webp"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "new-ref-08",
+    "title": "Rear waist and hem / garment reference",
+    "roles": [
+      "wardrobe",
+      "craft"
+    ],
+    "description": "Rear mannequin view of a long dark coat, with a waist tab, two buttons, central burgundy opening and fine hem ornament.",
+    "width": 794,
+    "height": 596,
+    "image": "assets/images/new-ref-08.webp",
+    "thumb": "assets/thumbs/new-ref-08.webp",
+    "original": "assets/originals/new-ref-08.webp",
+    "files": [
+      "il_794xN.8367507706_iifi.webp"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "new-ref-09",
+    "title": "Side silhouette / garment reference",
+    "roles": [
+      "wardrobe",
+      "craft"
+    ],
+    "description": "Side mannequin view of a black and burgundy long coat, raised collar, fitted waist, decorative edges and dark trousers and shoes.",
+    "width": 794,
+    "height": 596,
+    "image": "assets/images/new-ref-09.webp",
+    "thumb": "assets/thumbs/new-ref-09.webp",
+    "original": "assets/originals/new-ref-09.webp",
+    "files": [
+      "il_794xN.8415388303_harh.webp"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "new-ref-10",
+    "title": "Walking silhouette / garment reference",
+    "roles": [
+      "wardrobe",
+      "craft"
+    ],
+    "description": "Black and burgundy Gothic ensemble on a mannequin in a walking stance. Long shaped coat fronts, burgundy waistcoat, dark cravat, trousers and boots are visible.",
+    "width": 794,
+    "height": 596,
+    "image": "assets/images/new-ref-10.webp",
+    "thumb": "assets/thumbs/new-ref-10.webp",
+    "original": "assets/originals/new-ref-10.webp",
+    "files": [
+      "il_794xN.8367507720_16x2.webp"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "new-ref-11",
+    "title": "Game-world landing / emblem cluster",
+    "roles": [
+      "atmosphere",
+      "badges"
+    ],
+    "description": "Supplied blue landing composition with headline at left, gold lightning and XP symbols, blue shield, clover, small game-character portraits and a rank sequence at right.",
+    "width": 1736,
+    "height": 906,
+    "image": "assets/images/new-ref-11.webp",
+    "thumb": "assets/thumbs/new-ref-11.webp",
+    "original": "assets/originals/new-ref-11.png",
+    "files": [
+      "ChatGPT Image Sep 9, 2026, 02_29_28 AM (5).png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "new-ref-12",
+    "title": "Game-world landing / left visual",
+    "roles": [
+      "atmosphere",
+      "badges"
+    ],
+    "description": "Supplied navy landing composition with a large symbol cluster at left, white text and a blue button at right, game-character portraits and coloured emblems below.",
+    "width": 1736,
+    "height": 906,
+    "image": "assets/images/new-ref-12.webp",
+    "thumb": "assets/thumbs/new-ref-12.webp",
+    "original": "assets/originals/new-ref-12.png",
+    "files": [
+      "ChatGPT Image Sep 9, 2026, 02_29_28 AM (4).png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "new-ref-13",
+    "title": "Game-world landing / orbit",
+    "roles": [
+      "atmosphere",
+      "badges"
+    ],
+    "description": "Supplied navy landing concept with orbiting game-character portraits, a large gold lightning motif, clover and shield, and a row of loyalty emblems.",
+    "width": 1737,
+    "height": 906,
+    "image": "assets/images/new-ref-13.webp",
+    "thumb": "assets/thumbs/new-ref-13.webp",
+    "original": "assets/originals/new-ref-13.png",
+    "files": [
+      "ChatGPT Image Sep 9, 2026, 02_29_27 AM (2).png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "new-ref-14",
+    "title": "Game characters / layered composition",
+    "roles": [
+      "atmosphere",
+      "badges"
+    ],
+    "description": "Supplied landscape concept showing a queen, folklore figure and Norse-inspired warrior, with gold symbols, blue atmosphere and white campaign text.",
+    "width": 1672,
+    "height": 941,
+    "image": "assets/images/new-ref-14.webp",
+    "thumb": "assets/thumbs/new-ref-14.webp",
+    "original": "assets/originals/new-ref-14.png",
+    "files": [
+      "ChatGPT Image Sep 9, 2026, 02_27_53 AM (3)(3).png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "new-ref-15",
+    "title": "Game characters / foreground invitation",
+    "roles": [
+      "atmosphere",
+      "badges"
+    ],
+    "description": "Supplied landscape with a queen’s open palm in the foreground, smaller supporting characters behind, flowing blue shapes and a central message.",
+    "width": 1672,
+    "height": 941,
+    "image": "assets/images/new-ref-15.webp",
+    "thumb": "assets/thumbs/new-ref-15.webp",
+    "original": "assets/originals/new-ref-15.png",
+    "files": [
+      "ChatGPT Image Sep 9, 2026, 02_27_53 AM (1)(2).png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "new-ref-16",
+    "title": "Game characters / mobile hierarchy",
+    "roles": [
+      "atmosphere",
+      "badges"
+    ],
+    "description": "Supplied portrait campaign showing layered game characters above a large white headline, gold symbols and an electric-blue action button.",
+    "width": 941,
+    "height": 1672,
+    "image": "assets/images/new-ref-16.webp",
+    "thumb": "assets/thumbs/new-ref-16.webp",
+    "original": "assets/originals/new-ref-16.png",
+    "files": [
+      "ChatGPT Image Sep 9, 2026, 02_27_44 AM (5).png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "new-ref-17",
+    "title": "Game characters / royal environment",
+    "roles": [
+      "atmosphere",
+      "badges"
+    ],
+    "description": "Supplied portrait campaign with royal blue columns and banners, three game characters, floating symbols and a message below.",
+    "width": 940,
+    "height": 1672,
+    "image": "assets/images/new-ref-17.webp",
+    "thumb": "assets/thumbs/new-ref-17.webp",
+    "original": "assets/originals/new-ref-17.png",
+    "files": [
+      "ChatGPT Image Sep 9, 2026, 02_27_44 AM (3)(1).png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "new-ref-18",
+    "title": "Game characters / ensemble",
+    "roles": [
+      "atmosphere",
+      "badges"
+    ],
+    "description": "Supplied landscape artwork with queen, folklore and Norse-inspired characters behind gold lightning, clover, XP and gemstone symbols. A lower row compares winged emblems.",
+    "width": 1729,
+    "height": 910,
+    "image": "assets/images/new-ref-18.webp",
+    "thumb": "assets/thumbs/new-ref-18.webp",
+    "original": "assets/originals/new-ref-18.png",
+    "files": [
+      "ChatGPT Image Sep 9, 2026, 01_57_01 AM (2)(5).png"
+    ],
+    "origin": "Supplied reference"
+  },
+  {
+    "id": "face-front",
+    "title": "Max / Front",
+    "roles": [
+      "identity",
+      "poses",
+      "proposals"
+    ],
+    "description": "Max expression study: A centred frontal face, level eyes and a subtle closed-mouth smile. Silver swept hair, black rectangular glasses and a white beard. Navy coat with gold edging, ivory cravat and brown patterned waistcoat. Generated creative proposal.",
+    "width": 1254,
+    "height": 1254,
+    "image": "assets/images/face-front.webp",
+    "thumb": "assets/thumbs/face-front.webp",
+    "original": "assets/originals/face-front.png",
+    "files": [
+      "face-front.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "face-profile",
+    "title": "Max / Profile",
+    "roles": [
+      "identity",
+      "poses",
+      "proposals"
+    ],
+    "description": "Max expression study: A true right-facing profile shows the spectacle arm, nose and beard silhouette. Silver swept hair, black rectangular glasses and a white beard. Navy coat with gold edging, ivory cravat and brown patterned waistcoat. Generated creative proposal.",
+    "width": 1254,
+    "height": 1254,
+    "image": "assets/images/face-profile.webp",
+    "thumb": "assets/thumbs/face-profile.webp",
+    "original": "assets/originals/face-profile.png",
+    "files": [
+      "face-profile.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "face-three-quarter",
+    "title": "Max / Three Quarter",
+    "roles": [
+      "identity",
+      "poses",
+      "proposals"
+    ],
+    "description": "Max expression study: The head turns toward image-right while the eyes glance left; a slight tilt accompanies a small smile. Silver swept hair, black rectangular glasses and a white beard. Navy coat with gold edging, ivory cravat and brown patterned waistcoat. Generated creative proposal.",
+    "width": 1254,
+    "height": 1254,
+    "image": "assets/images/face-three-quarter.webp",
+    "thumb": "assets/thumbs/face-three-quarter.webp",
+    "original": "assets/originals/face-three-quarter.png",
+    "files": [
+      "face-three-quarter.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "face-talking",
+    "title": "Max / Talking",
+    "roles": [
+      "identity",
+      "poses",
+      "proposals"
+    ],
+    "description": "Max expression study: The head turns slightly to image-right; the mouth is open mid-speech with the upper teeth visible. Silver swept hair, black rectangular glasses and a white beard. Navy coat with gold edging, ivory cravat and brown patterned waistcoat. Generated creative proposal.",
+    "width": 1254,
+    "height": 1254,
+    "image": "assets/images/face-talking.webp",
+    "thumb": "assets/thumbs/face-talking.webp",
+    "original": "assets/originals/face-talking.png",
+    "files": [
+      "face-talking.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "face-excited",
+    "title": "Max / Excited",
+    "roles": [
+      "identity",
+      "poses",
+      "proposals"
+    ],
+    "description": "Max expression study: Raised brows and a broad toothy smile, with the head slightly turned. Silver swept hair, black rectangular glasses and a white beard. Navy coat with gold edging, ivory cravat and brown patterned waistcoat. Generated creative proposal.",
+    "width": 1254,
+    "height": 1254,
+    "image": "assets/images/face-excited.webp",
+    "thumb": "assets/thumbs/face-excited.webp",
+    "original": "assets/originals/face-excited.png",
+    "files": [
+      "face-excited.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "face-funny",
+    "title": "Max / Funny",
+    "roles": [
+      "identity",
+      "poses",
+      "proposals"
+    ],
+    "description": "Max expression study: An asymmetric eyebrow and a cheeky closed-mouth grin, with a turned and tilted head. Silver swept hair, black rectangular glasses and a white beard. Navy coat with gold edging, ivory cravat and brown patterned waistcoat. Generated creative proposal.",
+    "width": 1254,
+    "height": 1254,
+    "image": "assets/images/face-funny.webp",
+    "thumb": "assets/thumbs/face-funny.webp",
+    "original": "assets/originals/face-funny.png",
+    "files": [
+      "face-funny.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "face-smile",
+    "title": "Max / Smile",
+    "roles": [
+      "identity",
+      "poses",
+      "proposals"
+    ],
+    "description": "Max expression study: Near front, slight three-quarter turn. Warm closed-mouth smile, relaxed eyes and lifted mouth corners. Silver swept hair, black rectangular glasses and a white beard. Black and burgundy raised collar, ornamental borders and burgundy neckwear over patterned dark layers. Generated creative proposal.",
+    "width": 1254,
+    "height": 1254,
+    "image": "assets/images/face-smile.webp",
+    "thumb": "assets/thumbs/face-smile.webp",
+    "original": "assets/originals/face-smile.png",
+    "files": [
+      "face-smile.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "face-sad",
+    "title": "Max / Sad",
+    "roles": [
+      "identity",
+      "poses",
+      "proposals"
+    ],
+    "description": "Max expression study: Three-quarter facing viewer right, chin lowered. Eyes look downward, inner brows raised and lips downturned; no tears. Silver swept hair, black rectangular glasses and a white beard. Black and burgundy raised collar, ornamental borders and black neckwear over patterned dark layers. Generated creative proposal.",
+    "width": 1254,
+    "height": 1254,
+    "image": "assets/images/face-sad.webp",
+    "thumb": "assets/thumbs/face-sad.webp",
+    "original": "assets/originals/face-sad.png",
+    "files": [
+      "face-sad.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "face-angry",
+    "title": "Max / Angry",
+    "roles": [
+      "identity",
+      "poses",
+      "proposals"
+    ],
+    "description": "Max expression study: Near front, slight three-quarter turn. Brows furrowed, eyes narrowed and lips firmly closed; restrained anger. Silver swept hair, black rectangular glasses and a white beard. Black and burgundy raised collar, ornamental borders and burgundy neckwear over patterned dark layers. Generated creative proposal.",
+    "width": 1254,
+    "height": 1254,
+    "image": "assets/images/face-angry.webp",
+    "thumb": "assets/thumbs/face-angry.webp",
+    "original": "assets/originals/face-angry.png",
+    "files": [
+      "face-angry.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "face-villain",
+    "title": "Max / Villain",
+    "roles": [
+      "identity",
+      "poses",
+      "proposals"
+    ],
+    "description": "Max expression study: Three-quarter facing viewer right. One eyebrow lifted, sideways knowing gaze and asymmetric theatrical closed-mouth smirk. Silver swept hair, black rectangular glasses and a white beard. Black and burgundy raised collar, ornamental borders and black neckwear over patterned dark layers. Generated creative proposal.",
+    "width": 1254,
+    "height": 1254,
+    "image": "assets/images/face-villain.webp",
+    "thumb": "assets/thumbs/face-villain.webp",
+    "original": "assets/originals/face-villain.png",
+    "files": [
+      "face-villain.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "face-danger",
+    "title": "Max / Danger",
+    "roles": [
+      "identity",
+      "poses",
+      "proposals"
+    ],
+    "description": "Max expression study: Three-quarter facing viewer right. Eyes wide and looking off frame, raised tense brows, mouth slightly open in startled alert. Silver swept hair, black rectangular glasses and a white beard. Black and burgundy raised collar, ornamental borders and burgundy neckwear over patterned dark layers. Generated creative proposal.",
+    "width": 1254,
+    "height": 1254,
+    "image": "assets/images/face-danger.webp",
+    "thumb": "assets/thumbs/face-danger.webp",
+    "original": "assets/originals/face-danger.png",
+    "files": [
+      "face-danger.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "face-laughing",
+    "title": "Max / Laughing",
+    "roles": [
+      "identity",
+      "poses",
+      "proposals"
+    ],
+    "description": "Max expression study: Near front with slight tilt. Open mouth with natural visible upper teeth, raised cheeks and lightly crinkled eyes. Silver swept hair, black rectangular glasses and a white beard. Black and burgundy raised collar, ornamental borders and black neckwear over patterned dark layers. Generated creative proposal.",
+    "width": 1254,
+    "height": 1254,
+    "image": "assets/images/face-laughing.webp",
+    "thumb": "assets/thumbs/face-laughing.webp",
+    "original": "assets/originals/face-laughing.png",
+    "files": [
+      "face-laughing.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "build-front",
+    "title": "Max / Front body study",
+    "roles": [
+      "wardrobe",
+      "poses",
+      "identity",
+      "proposals"
+    ],
+    "description": "Max full-character study. Near-frontal upright body with slight head tilt; cheerful restrained smile; elbows bent and palms open near waist. Navy textured long tailcoat with red piping/lining; red brocade waistcoat; red bow tie; white shirt; ivory trousers; brown-and-white Oxford shoes. Generated styling proposal.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/build-front.webp",
+    "thumb": "assets/thumbs/build-front.webp",
+    "original": "assets/originals/build-front.png",
+    "files": [
+      "build-front.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "build-profile",
+    "title": "Max / Profile body study",
+    "roles": [
+      "wardrobe",
+      "poses",
+      "identity",
+      "proposals"
+    ],
+    "description": "Max full-character study. True side profile facing image left; upright, hands behind back. Navy red-piped long tailcoat; red waistcoat and bow tie; white shirt; ivory trousers; white-and-brown Oxford shoes. Generated styling proposal.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/build-profile.webp",
+    "thumb": "assets/thumbs/build-profile.webp",
+    "original": "assets/originals/build-profile.png",
+    "files": [
+      "build-profile.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "build-gothic",
+    "title": "Max / Gothic body study",
+    "roles": [
+      "wardrobe",
+      "poses",
+      "identity",
+      "proposals"
+    ],
+    "description": "Max full-character study. Three-quarter stance with confident smirk; gloved hands and forearms crossed low at waist; upper chest exposed; one leg crosses in front. Black textured longcoat, burgundy embroidered lapels, burgundy brocade waistcoat/lining, dark cravat, dark pinstriped trousers, black lace-up boots. Generated styling proposal.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/build-gothic.webp",
+    "thumb": "assets/thumbs/build-gothic.webp",
+    "original": "assets/originals/build-gothic.png",
+    "files": [
+      "build-gothic.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "build-back",
+    "title": "Max / Back body study",
+    "roles": [
+      "wardrobe",
+      "poses",
+      "identity",
+      "proposals"
+    ],
+    "description": "Max full-character study. Genuine back view; relaxed hands; slight right head turn exposes glasses and white beard hint. Black Gothic longcoat with burgundy piping, rear waist tab and two buttons, central burgundy pleat, delicate burgundy hem embroidery; pinstripe trousers; black boots. Generated styling proposal.",
+    "width": 1024,
+    "height": 1536,
+    "image": "assets/images/build-back.webp",
+    "thumb": "assets/thumbs/build-back.webp",
+    "original": "assets/originals/build-back.png",
+    "files": [
+      "build-back.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "scene-welcome",
+    "title": "Max / Welcome environment",
+    "roles": [
+      "atmosphere",
+      "poses",
+      "proposals"
+    ],
+    "description": "Max in the welcome game-world concept. Viewer-left palm extended in welcome; opposite arm relaxed; long legs slightly apart. Navy gold-trim tailcoat, bronze brocade waistcoat, ivory cravat and trousers, brown shoes. Blue crystal gallery with roulette wheel, chips and blurred reel symbols behind Max. Generated environment proposal with game motifs subordinate to Max.",
+    "width": 1536,
+    "height": 1024,
+    "image": "assets/images/scene-welcome.webp",
+    "thumb": "assets/thumbs/scene-welcome.webp",
+    "original": "assets/originals/scene-welcome.png",
+    "files": [
+      "scene-welcome.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "scene-temple",
+    "title": "Max / Temple environment",
+    "roles": [
+      "atmosphere",
+      "poses",
+      "proposals"
+    ],
+    "description": "Max in the temple game-world concept. One open palm at waist, opposite index finger pointing toward viewer-right, crossed long legs. Royal-blue velvet tailcoat and trousers, ornate gold embroidery, blue satin tie, black monkstrap shoes. Blue-gold Egyptian columns, Anubis statue at left and soft-focus queen portrait behind Max. Generated environment proposal with game motifs subordinate to Max.",
+    "width": 1536,
+    "height": 1024,
+    "image": "assets/images/scene-temple.webp",
+    "thumb": "assets/thumbs/scene-temple.webp",
+    "original": "assets/originals/scene-temple.png",
+    "files": [
+      "scene-temple.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "scene-emerald",
+    "title": "Max / Emerald environment",
+    "roles": [
+      "atmosphere",
+      "poses",
+      "proposals"
+    ],
+    "description": "Max in the emerald game-world concept. Small raised celebratory fist and opposite open palm; slightly spread long-legged stance. Forest-green gold-trim tailcoat, green brocade waistcoat, ivory cravat, dark-green trousers, brown shoes. Enchanted garden with illuminated clover motifs and small blurred folklore figure behind. Generated environment proposal with game motifs subordinate to Max.",
+    "width": 1536,
+    "height": 1024,
+    "image": "assets/images/scene-emerald.webp",
+    "thumb": "assets/thumbs/scene-emerald.webp",
+    "original": "assets/originals/scene-emerald.png",
+    "files": [
+      "scene-emerald.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "scene-royal",
+    "title": "Max / Royal environment",
+    "roles": [
+      "atmosphere",
+      "poses",
+      "proposals"
+    ],
+    "description": "Max in the royal game-world concept. One hand over lower waistcoat; opposite palm raised graciously; crossed long legs. Black embroidered tailcoat, burgundy lapels and lining, burgundy cravat and trousers, black boots. Royal blue-column hall with burgundy banners, braziers and distant soft-focus Norse figure. Generated environment proposal with game motifs subordinate to Max.",
+    "width": 1536,
+    "height": 1024,
+    "image": "assets/images/scene-royal.webp",
+    "thumb": "assets/thumbs/scene-royal.webp",
+    "original": "assets/originals/scene-royal.png",
+    "files": [
+      "scene-royal.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "scene-prismatic",
+    "title": "Max / Prismatic environment",
+    "roles": [
+      "atmosphere",
+      "poses",
+      "proposals"
+    ],
+    "description": "Max in the prismatic game-world concept. One hand in trouser pocket, opposite palm extended gently; composed long-legged stance. Black three-piece suit and gold cravat under flowing gold-lined embroidered black cape; black boots. Blue crystal gallery with floating game-themed cards and subtle prismatic gemstone, reflective floor. Generated environment proposal with game motifs subordinate to Max.",
+    "width": 1536,
+    "height": 1024,
+    "image": "assets/images/scene-prismatic.webp",
+    "thumb": "assets/thumbs/scene-prismatic.webp",
+    "original": "assets/originals/scene-prismatic.png",
+    "files": [
+      "scene-prismatic.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "ensemble-temple",
+    "title": "Max / Temple ensemble",
+    "roles": [
+      "atmosphere",
+      "poses",
+      "proposals"
+    ],
+    "description": "Max in the temple ensemble. Warm small smile, viewer-left hand in trouser pocket, viewer-right hand extended open in a guiding invitation. Royal-blue long coat with gold embroidery and gold lining; Blue patterned waistcoat; Ivory cravat; Blue patterned trousers; Black polished loafers. Supporting game cast: Egyptian queen, Anubis carved figure. Generated styling proposal; not an official game-title asset.",
+    "width": 1536,
+    "height": 1024,
+    "image": "assets/images/ensemble-temple.webp",
+    "thumb": "assets/thumbs/ensemble-temple.webp",
+    "original": "assets/originals/ensemble-temple.png",
+    "files": [
+      "ensemble-temple.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "ensemble-garden",
+    "title": "Max / Garden ensemble",
+    "roles": [
+      "atmosphere",
+      "poses",
+      "proposals"
+    ],
+    "description": "Max in the garden ensemble. Cheerful slight head tilt, one open hand at waist height, other hand in trouser pocket. Deep-green regency long coat with gold piping; Green patterned waistcoat with gold buttons; Cream cravat; Dark-green patterned trousers; Brown polished leather shoes. Supporting game cast: Egyptian queen, Folklore leprechaun, Norse warrior. Generated styling proposal; not an official game-title asset.",
+    "width": 1536,
+    "height": 1024,
+    "image": "assets/images/ensemble-garden.webp",
+    "thumb": "assets/thumbs/ensemble-garden.webp",
+    "original": "assets/originals/ensemble-garden.png",
+    "files": [
+      "ensemble-garden.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "ensemble-northern",
+    "title": "Max / Northern ensemble",
+    "roles": [
+      "atmosphere",
+      "poses",
+      "proposals"
+    ],
+    "description": "Max in the northern ensemble. Composed warm half-smile, standing upright with both arms relaxed naturally beside his body. Black gothic long coat with burgundy embroidery and burgundy lining; Burgundy/black patterned waistcoat; Burgundy cravat; Burgundy patterned trousers; Polished black ankle boots. Supporting game cast: Egyptian queen, Norse warrior. Generated styling proposal; not an official game-title asset.",
+    "width": 1536,
+    "height": 1024,
+    "image": "assets/images/ensemble-northern.webp",
+    "thumb": "assets/thumbs/ensemble-northern.webp",
+    "original": "assets/originals/ensemble-northern.png",
+    "files": [
+      "ensemble-northern.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "ensemble-salon",
+    "title": "Max / Salon ensemble",
+    "roles": [
+      "atmosphere",
+      "poses",
+      "proposals"
+    ],
+    "description": "Max in the salon ensemble. Warm smile, one arm extended in an open-handed welcome, other hand in trouser pocket. Navy long coat with restrained gold piping and gold buttons; Brown brocade waistcoat; Ivory cravat; Cream trousers; Brown polished leather shoes; White pocket square. Supporting game cast: Egyptian queen, Folklore leprechaun. Generated styling proposal; not an official game-title asset.",
+    "width": 1536,
+    "height": 1024,
+    "image": "assets/images/ensemble-salon.webp",
+    "thumb": "assets/thumbs/ensemble-salon.webp",
+    "original": "assets/originals/ensemble-salon.png",
+    "files": [
+      "ensemble-salon.png"
+    ],
+    "origin": "Generated proposal"
+  },
+  {
+    "id": "ensemble-convergence",
+    "title": "Max / Convergence ensemble",
+    "roles": [
+      "atmosphere",
+      "poses",
+      "proposals"
+    ],
+    "description": "Max in the convergence ensemble. Assured subtle smile, one hand in trouser pocket, other arm relaxed, one leg gently crossed in front. Black ceremonial long coat with gold embroidery; Black cape with gold lining; Gold cravat; Black patterned waistcoat; Black patterned trousers; Polished black buckle boots. Supporting game cast: Egyptian queen, Norse warrior, Folklore leprechaun. Generated styling proposal; not an official game-title asset.",
+    "width": 1536,
+    "height": 1024,
+    "image": "assets/images/ensemble-convergence.webp",
+    "thumb": "assets/thumbs/ensemble-convergence.webp",
+    "original": "assets/originals/ensemble-convergence.png",
+    "files": [
+      "ensemble-convergence.png"
+    ],
+    "origin": "Generated proposal"
+  }
+];

@@ -1,0 +1,57 @@
+{
+  "tool": "built-in image_gen",
+  "repair_prompts": [
+  {
+    "filename": "family-member.png",
+    "sources": [
+      "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-d43fbadb-2ae9-4b2e-b6ea-ba67f415f71b.png"
+    ],
+    "prompt": "Use case: precise-object-edit. Surgical retouch of this exact 1024x1536 portrait.\nThe previous removal left a very faint shield-shaped dark outline on the viewer-right chest immediately BELOW the gold NB letters (approximately x=560 to 592, y=312 to 352 pixels). Erase this residual outline and replace ALL of that small area with the same uninterrupted navy damask cloth texture as the surrounding waistcoat. There must be no shield shape, patch edge, perimeter line, ghost, badge, mount, indentation, circular outline or symbol there—just plain continuous garment fabric. Keep the small gold NB above it intact at exactly the same position.\nDo not alter anything else at all. Preserve every source pixel outside this small retouch, especially exact Max face, white hair, glasses, body, proportions, hands, cane, full garment silhouette, waistcoat, shirt, ivory cravat, trousers, boots, framing and midnight navy background. Single image, same dimensions and positioning. Do not draw a replacement emblem."
+  },
+  {
+    "filename": "family-gold.png",
+    "sources": [
+      "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-6447b10f-e4f8-4a42-93e5-06aef6140d36.png"
+    ],
+    "prompt": "Use case: precise-object-edit. Surgical retouch of this exact 1024x1536 portrait.\nThe previous removal left a faint dark shield-shaped outline on the viewer-right navy lapel immediately BELOW the gold NB letters (approximately x=536 to 567, y=299 to 331 pixels). Erase the entire residual outline, its top edge and pointed lower edge, and rebuild this small region as plain uninterrupted dark navy lapel fabric with natural continuous texture/shading. There must be no badge, shield silhouette, patch, ghost, perimeter, indentation, gem, outline, circular mount or placeholder there. Preserve the gold NB lettering above it exactly.\nThis is the ONLY change. Preserve every other pixel and all positioning from this image: original Max face, swept silver hair, glasses, beard, pose, extended open hand, exact navy coat/gold piping, brown patterned waistcoat and chain, ivory cravat, pocket square, cream trousers, brown Oxfords, N cuff, full-body framing, elegant long legs and navy backdrop. No movement, resizing or redesign. Same 1024x1536 portrait. Do not draw any replacement emblem."
+  }
+],
+  "assets": [
+    {
+      "filename": "family-member.png",
+      "sources": [
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/session-member.png"
+      ],
+      "prompt": "Use case: precise-object-edit.\nAsset type: NetBet Max Member family portrait, 1024x1536 PNG.\nInput image 1 is the EDIT TARGET; preserve it with extreme fidelity.\nPrimary request: make only two changes: (1) completely remove the small painted blue shield below NB on Max's LEFT chest (viewer-right) and restore continuous matching navy waistcoat fabric; (2) replace the grey photographic studio backdrop with a SOLID flat midnight navy #0B1629 background. A very faint grounding shadow is allowed.\nKeep the existing small gold text \"NB\" exactly as it is, above the now-empty area. Below NB there must be plain uninterrupted matching navy cloth: NO shield, badge, gem, medallion, patch, mount, outline, seam halo, circular marker or placeholder.\nPreserve every other detail from the edit target: the exact recognizable mature Max face, swept full silver hair, shaped white beard, black rectangular glasses, expression, skin tone, head angle, pose, body position and elegant long leg proportions. Preserve the navy patterned waistcoat with blue piping and gold buttons, ivory shirt and cravat, charcoal trousers, black boots, cane held by viewer-left hand and viewer-right hand in trouser pocket. No outer coat. Retain the source framing with all hair and complete shoes visible. Keep the polished stylized 3D rendering, clothing texture and illumination. Do not redesign or re-pose. Do not add text beyond existing NB. Output a single portrait, not a grid; no transparency and no checkerboard."
+    },
+    {
+      "filename": "family-bronze.png",
+      "sources": [
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/ref-01.png"
+      ],
+      "prompt": "Use case: precise-object-edit.\nAsset type: NetBet Max Bronze family portrait, 1024x1536 PNG.\nInput image 1 is the EDIT TARGET; preserve it with extreme fidelity.\nPrimary request: make only two changes: (1) completely remove the small bronze shield directly below NB on Max's LEFT chest (viewer-right) and restore continuous matching brown lapel fabric; (2) replace the grey photographic studio backdrop with a SOLID flat midnight navy #0B1629 background. A very faint grounding shadow is allowed.\nKeep the small gold text \"NB\" in its exact original location above the cleared area. Below NB there must be plain uninterrupted matching brown cloth: NO shield, badge, gem, medallion, patch, mount, outline, seam halo, circular marker or placeholder.\nPreserve every other detail: the same recognizable mature Max face, complete swept silver hair, white beard, black rectangular glasses, expression, skin tone, head angle, body position, cane posture and exact elegant long leg proportions. Keep the exact warm dark brown long coat with copper edging, patterned warm brown waistcoat, pale ivory cravat, chain, charcoal trousers and black boots. Viewer-left hand holds the cane; viewer-right hand remains in pocket. Preserve source silhouette, coat hem, exact garment details, lighting and polished stylized 3D rendering. Full hair and complete shoes must be in frame at the same locations. Do not redesign, move or re-pose. Do not add any page text. Single portrait, no transparency or checkerboard."
+    },
+    {
+      "filename": "family-silver.png",
+      "sources": [
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/session-silver.png"
+      ],
+      "prompt": "Use case: precise-object-edit.\nAsset type: NetBet Max Silver family portrait, 1024x1536 PNG.\nInput image 1 is the EDIT TARGET; preserve it with extreme fidelity.\nPrimary request: make only two changes: (1) completely remove the small silver shield directly below NB on Max's LEFT chest (viewer-right) and restore continuous matching charcoal lapel fabric; (2) replace the grey photographic studio backdrop with a SOLID flat midnight navy #0B1629 background. A very faint grounding shadow is allowed.\nKeep the small silver text \"NB\" exactly as it is, above the cleared area. Below NB there must be plain uninterrupted matching charcoal cloth: NO shield, badge, gem, medallion, patch, mount, outline, seam halo, circular marker or placeholder.\nPreserve every other detail: exact mature Max identity, swept silver hair, white beard, black rectangular glasses, face/expression/head angle, source pose and body position, elegant long legs, charcoal cutaway coat with silver edging and buttons, light silver patterned waistcoat, pale ivory cravat, charcoal trousers, polished black boots and cane. Viewer-left hand holds cane, viewer-right hand stays in trouser pocket. Preserve source framing, full hair and complete footwear visible at their original locations, polished stylized 3D texture and lighting. No redesign or pose alteration. No page text. Single portrait, no transparency or checkerboard."
+    },
+    {
+      "filename": "family-gold.png",
+      "sources": [
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/proposal-gold.png"
+      ],
+      "prompt": "Use case: precise-object-edit.\nAsset type: NetBet Max Gold family portrait, 1024x1536 PNG.\nInput image 1 is the EDIT TARGET.\nONE SINGLE LOCAL CHANGE ONLY: remove the small GOLD SHIELD directly below the gold letters NB on Max's LEFT chest (viewer-right). Fill the former shield area with uninterrupted matching dark navy lapel cloth and its natural texture/shading. Do not leave any border, outline, badge, patch, gem, medallion, circular mount or placeholder. Preserve the gold \"NB\" lettering exactly above the newly blank cloth.\nABSOLUTE INVARIANTS: preserve every other image detail and every position. Same original recognizable mature Max face, silver swept hair, white beard, black rectangular glasses, expression, exact silhouette, exact body proportions and long legs. Exact navy coat and gold trim, patterned brown waistcoat and chain, ivory cravat and white pocket square, cream trousers, brown Oxford shoes, N cuff detail, relaxed viewer-left hand, extended open viewer-right palm. DO NOT shift, resize, recenter, re-pose, recolor or restyle the character. Preserve the existing midnight navy backdrop exactly. Preserve full hair and entire shoes in the original frame. This is surgical removal of only the gold shield, not a new portrait. No new text, no checkerboard, no transparency. Output a single portrait PNG."
+    },
+    {
+      "filename": "family-platinum.png",
+      "sources": [
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/proposal-gold.png",
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/ref-36.webp"
+      ],
+      "prompt": "Use case: identity-preserve.\nAsset type: NetBet Max Platinum family portrait, 1024x1536 PNG.\nInput image 1 is the PRIMARY CHARACTER IDENTITY AND STYLIZED 3D RENDER reference. Input image 2 supplies ONLY the restrained tailored Edwardian long-frock silhouette and lapel construction; never copy its young man's face, hair, body, photorealistic style or cropped framing.\nCreate the Platinum wardrobe and greeting pose for the SAME unmistakable mature Max from image 1: full swept silver hair, shaped white beard and moustache, black rectangular glasses, warm knowing smile, exact recognizable facial structure, polished stylized 3D character, elegant long legs and refined slim proportions. Do not replace him with a generic man.\nWardrobe: pearl-grey Edwardian-inspired long frock coat with narrow silver edging and midnight navy lapels; ivory subtly patterned waistcoat; steel-blue cravat; steel-grey trousers with crisp folds; charcoal double-monk dress shoes. Restrained coordinated tailoring, no random ornaments. Small discreet silver text \"NB\" on Max's LEFT chest (viewer-right) above a clear area of plain uninterrupted midnight lapel cloth. The website will attach a shield afterward: leave the cloth BELOW NB completely BLANK. There must be NO generated shield, badge, gem, brooch, medallion, patch, circular mount, outline or placeholder anywhere at that chest location.\nPose: friendly short greeting, one open hand lifted beside the shoulder (viewer-right) with natural separated fingers and relaxed elbow; the other hand relaxed lower (viewer-left). NO CANE. Maintain elegant long-legged standing proportions like image 1 and an open welcoming expression.\nBackdrop: SOLID flat midnight navy #0B1629; a very faint studio grounding shadow is allowed. No environment, no gradient design, no transparency and NO checkerboard.\nComposition: one full-body portrait, whole swept hair plus complete shoes safely inside the frame, generous but restrained side breathing room. No page text. Match image 1's high-quality stylized 3D material realism and lighting."
+    }
+  ]
+}

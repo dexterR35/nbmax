@@ -1,0 +1,160 @@
+{
+  "purpose": "Eight selected images grouped into four introduction outfit models, with two views shown side by side on every card.",
+  "reuse": "Original supplied assets remain unchanged; display derivatives and the new Emerald cane portrait are referenced directly.",
+  "models": [
+    {
+      "id": "navy-red",
+      "name": "Navy & red",
+      "ref": "build-front",
+      "upload": "build-front.webp",
+      "views": [
+        {
+          "ref": "build-front",
+          "label": "Front",
+          "upload": "build-front.webp"
+        },
+        {
+          "ref": "build-profile",
+          "label": "Profile",
+          "upload": "build-profile.webp"
+        }
+      ],
+      "subtitle": "An open welcome, in navy, red and ivory.",
+      "garments": [
+        "Navy long coat with red piping and a red lining.",
+        "Red patterned waistcoat and bow tie over a white shirt.",
+        "Ivory tailored trousers.",
+        "Brown-and-ivory lace-up shoes."
+      ],
+      "detail": "#build/build-front"
+    },
+    {
+      "id": "gothic",
+      "name": "Black & burgundy",
+      "ref": "build-gothic",
+      "upload": "build-gothic.webp",
+      "views": [
+        {
+          "ref": "build-gothic",
+          "label": "Three-quarter",
+          "upload": "build-gothic.webp"
+        },
+        {
+          "ref": "build-back",
+          "label": "Back",
+          "upload": "build-back.webp"
+        }
+      ],
+      "subtitle": "A composed stance, with a richer Gothic character.",
+      "garments": [
+        "Black long coat with burgundy embroidery, collar and lining.",
+        "Burgundy waistcoat, black neckwear and a red jewelled fastening.",
+        "Dark pinstriped trousers.",
+        "Black lace-up boots and black gloves."
+      ],
+      "detail": "#build/build-gothic"
+    },
+    {
+      "id": "classic-gold",
+      "name": "Navy & gold",
+      "ref": "family-gold",
+      "upload": "family-gold (2).webp",
+      "views": [
+        {
+          "ref": "family-gold",
+          "label": "Presenting",
+          "upload": "family-gold (2).webp"
+        },
+        {
+          "ref": "proposal-gold",
+          "label": "Gold badge",
+          "upload": "proposal-gold.webp"
+        }
+      ],
+      "subtitle": "A familiar guide, with warm gold details.",
+      "garments": [
+        "Navy long coat with gold-coloured piping.",
+        "Brown patterned waistcoat, ivory cravat and a decorative chain.",
+        "Cream tailored trousers.",
+        "Brown polished lace-up shoes."
+      ],
+      "detail": "#detail/gold"
+    },
+    {
+      "id": "emerald",
+      "name": "Emerald & gold",
+      "ref": "family-emerald",
+      "upload": "family-emerald.webp",
+      "views": [
+        {
+          "ref": "family-emerald",
+          "label": "Gesture",
+          "upload": "family-emerald.webp"
+        },
+        {
+          "ref": "pose-emerald-cane",
+          "label": "Cane pose",
+          "upload": "Emerald,Elite Pro.png"
+        }
+      ],
+      "subtitle": "A confident green direction, finished with warm gold ornament.",
+      "garments": [
+        "Forest-green long coat with gold-coloured floral borders.",
+        "Green patterned waistcoat and gold-coloured neckwear.",
+        "Dark coordinated trousers.",
+        "Brown polished shoes and a formal cane."
+      ],
+      "detail": "#detail/emerald"
+    }
+  ],
+  "files": [
+    {
+      "uploaded_name": "build-front.webp",
+      "reference": "build-front",
+      "display_path": "assets/images/build-front.webp",
+      "sha256": "012cb241961f3ca9cc99eb73220baf5d9606c4d87f602bcde622d245a8b143ec"
+    },
+    {
+      "uploaded_name": "build-profile.webp",
+      "reference": "build-profile",
+      "display_path": "assets/images/build-profile.webp",
+      "sha256": "123350fafae24b789fa7eef2ec6eb30f936590dd3464c6a252021389d0af7d9c"
+    },
+    {
+      "uploaded_name": "build-gothic.webp",
+      "reference": "build-gothic",
+      "display_path": "assets/images/build-gothic.webp",
+      "sha256": "01bb7a02a414fbfa478d726240262c2c1db3143527e9b83d70a084353e4d27b3"
+    },
+    {
+      "uploaded_name": "family-gold (2).webp",
+      "reference": "family-gold",
+      "display_path": "assets/images/family-gold.webp",
+      "sha256": "0f04f73b4db305032bd8748c931c5b69a920b983148a7080081b708535ac5040"
+    },
+    {
+      "uploaded_name": "build-back.webp",
+      "reference": "build-back",
+      "display_path": "assets/images/build-back.webp",
+      "sha256": "c13160863f6cef3266506512b1c428a6c338012e7bd474d1b65d42526347d1be"
+    },
+    {
+      "uploaded_name": "proposal-gold.webp",
+      "reference": "proposal-gold",
+      "display_path": "assets/images/proposal-gold.webp",
+      "sha256": "e4026e420c9b99a81f9c6099856cf967c5e38f904ed71d3407a0d4cd506bb273"
+    },
+    {
+      "uploaded_name": "family-emerald.webp",
+      "reference": "family-emerald",
+      "display_path": "assets/images/family-emerald.webp",
+      "sha256": "67c9def19d72124d7869b245e4596376c6b7f12debb905552967c28f1d4bb90c"
+    },
+    {
+      "uploaded_name": "Emerald,Elite Pro.png",
+      "reference": "pose-emerald-cane",
+      "display_path": "assets/new_image/Emerald,Elite Pro.png",
+      "sha256": "cd16ccf96df4cebc229660a07bf38d92e832e72b540e5906831e0f92eb3c3cd0"
+    }
+  ]
+}

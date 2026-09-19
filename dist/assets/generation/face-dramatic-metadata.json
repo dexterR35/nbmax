@@ -1,0 +1,95 @@
+{
+  "mode": "built-in imagegen",
+  "reference_images": [
+    "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/ref-08.png",
+    "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/family-red-diamond.png",
+    "/workspace/scratch/ebe4c5fe5c2a/upload/il_794xN.8367507720_16x2.webp",
+    "/workspace/scratch/ebe4c5fe5c2a/upload/il_794xN.8415388345_8xvo.webp"
+  ],
+  "images": [
+    {
+      "name": "smile",
+      "path": "/workspace/scratch/ebe4c5fe5c2a/studio-assets/face-smile.png",
+      "source": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-9317035b-794c-4db2-a183-dd358d5d0df5.png",
+      "prompt": "Use case: stylized-concept. Generate ONE 1024x1024 square premium stylized 3D head-and-shoulders expression portrait of MAX. Reference images 1 and 2 are the ONLY identity authorities: same original mature Max with swept SILVER hair, white trimmed beard and moustache, black rectangular glasses, warm tan elongated face, long nose, recognizable dark eyes and personality. Images 3 and 4 are COSTUME inspiration ONLY; NEVER copy the human model's face, age, hair, identity or rendering. Maintain original Max's stylized face proportions, silver quiff, beard contour and glasses. Black/burgundy Gothic raised collar with restrained embroidered edge and dark cravat. Large complete head with at least 8 percent top and side margins. Neck and shoulder tops only, bottom cropped above chest badge area. NO hands, NO badges, NO pins or brooches, NO lettering, NO text. Plain solid opaque #0B1629 navy background, no gradients or environment. Premium soft studio lighting with crisp polished 3D materials. No hats, props, weapons, game backdrop or extra people. Expression and head angle: straight front, gentle closed-mouth warm smile.",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "head_angle": "Near front, slight three-quarter turn",
+      "expression": "Warm closed-mouth smile, relaxed eyes and lifted mouth corners",
+      "observations": "Recognizable original Max with silver hair, white beard, black rectangular glasses and tan long face. Black/burgundy Gothic costume. No hands, badges, text, props or backdrop. Head fully visible. Top margin about 2–4 percent, below requested 8 percent. Crop includes upper chest and cravat. Background appears plain dark navy; exact #0B1629 not verified.",
+      "repair_count": 0
+    },
+    {
+      "name": "sad",
+      "path": "/workspace/scratch/ebe4c5fe5c2a/studio-assets/face-sad.png",
+      "source": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-8965f88c-ce58-45e7-9f4c-a08a6fa1b175.png",
+      "prompt": "Use case: stylized-concept. Generate ONE 1024x1024 square premium stylized 3D head-and-shoulders expression portrait of MAX. Reference images 1 and 2 are the ONLY identity authorities: same original mature Max with swept SILVER hair, white trimmed beard and moustache, black rectangular glasses, warm tan elongated face, long nose, recognizable dark eyes and personality. Images 3 and 4 are COSTUME inspiration ONLY; NEVER copy the human model's face, age, hair, identity or rendering. Maintain original Max's stylized face proportions, silver quiff, beard contour and glasses. Black/burgundy Gothic raised collar with restrained embroidered edge and dark cravat. Large complete head with at least 8 percent top and side margins. Neck and shoulder tops only, bottom cropped above chest badge area. NO hands, NO badges, NO pins or brooches, NO lettering, NO text. Plain solid opaque #0B1629 navy background, no gradients or environment. Premium soft studio lighting with crisp polished 3D materials. No hats, props, weapons, game backdrop or extra people. Expression and head angle: three-quarter view, downturned eyes and lips, subtle empathetic sadness, no tears.",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "head_angle": "Three-quarter facing viewer right, chin lowered",
+      "expression": "Eyes look downward, inner brows raised and lips downturned; no tears",
+      "observations": "Recognizable original Max with silver hair, white beard, black rectangular glasses and tan long face. Black/burgundy Gothic costume. No hands, badges, text, props or backdrop. Head fully visible. Top margin about 2–4 percent, below requested 8 percent. Crop includes upper chest and cravat. Background appears plain dark navy; exact #0B1629 not verified.",
+      "repair_count": 0
+    },
+    {
+      "name": "angry",
+      "path": "/workspace/scratch/ebe4c5fe5c2a/studio-assets/face-angry.png",
+      "source": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-535719d4-ccae-4768-902c-dbbd8376c02a.png",
+      "prompt": "Use case: stylized-concept. Generate ONE 1024x1024 square premium stylized 3D head-and-shoulders expression portrait of MAX. Reference images 1 and 2 are the ONLY identity authorities: same original mature Max with swept SILVER hair, white trimmed beard and moustache, black rectangular glasses, warm tan elongated face, long nose, recognizable dark eyes and personality. Images 3 and 4 are COSTUME inspiration ONLY; NEVER copy the human model's face, age, hair, identity or rendering. Maintain original Max's stylized face proportions, silver quiff, beard contour and glasses. Black/burgundy Gothic raised collar with restrained embroidered edge and dark cravat. Large complete head with at least 8 percent top and side margins. Neck and shoulder tops only, bottom cropped above chest badge area. NO hands, NO badges, NO pins or brooches, NO lettering, NO text. Plain solid opaque #0B1629 navy background, no gradients or environment. Premium soft studio lighting with crisp polished 3D materials. No hats, props, weapons, game backdrop or extra people. Expression and head angle: straight front, furrowed brows and firmly pressed lips, restrained anger, not screaming.",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "head_angle": "Near front, slight three-quarter turn",
+      "expression": "Brows furrowed, eyes narrowed and lips firmly closed; restrained anger",
+      "observations": "Recognizable original Max with silver hair, white beard, black rectangular glasses and tan long face. Black/burgundy Gothic costume. No hands, badges, text, props or backdrop. Head fully visible. Top margin about 2–4 percent, below requested 8 percent. Crop includes upper chest and cravat. Background appears plain dark navy; exact #0B1629 not verified.",
+      "repair_count": 0
+    },
+    {
+      "name": "villain",
+      "path": "/workspace/scratch/ebe4c5fe5c2a/studio-assets/face-villain.png",
+      "source": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-ca054470-c7f9-4395-8989-49a0e2eb9964.png",
+      "prompt": "Use case: stylized-concept. Generate ONE 1024x1024 square premium stylized 3D head-and-shoulders expression portrait of MAX. Reference images 1 and 2 are the ONLY identity authorities: same original mature Max with swept SILVER hair, white trimmed beard and moustache, black rectangular glasses, warm tan elongated face, long nose, recognizable dark eyes and personality. Images 3 and 4 are COSTUME inspiration ONLY; NEVER copy the human model's face, age, hair, identity or rendering. Maintain original Max's stylized face proportions, silver quiff, beard contour and glasses. Black/burgundy Gothic raised collar with restrained embroidered edge and dark cravat. Large complete head with at least 8 percent top and side margins. Neck and shoulder tops only, bottom cropped above chest badge area. NO hands, NO badges, NO pins or brooches, NO lettering, NO text. Plain solid opaque #0B1629 navy background, no gradients or environment. Premium soft studio lighting with crisp polished 3D materials. No hats, props, weapons, game backdrop or extra people. Expression and head angle: three-quarter view, one eyebrow lifted and knowing theatrical smirk; fictional acting expression study, no scars or identity changes.",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "head_angle": "Three-quarter facing viewer right",
+      "expression": "One eyebrow lifted, sideways knowing gaze and asymmetric theatrical closed-mouth smirk",
+      "observations": "Recognizable original Max with silver hair, white beard, black rectangular glasses and tan long face. Black/burgundy Gothic costume. No hands, badges, text, props or backdrop. Head fully visible. Top margin about 2–4 percent, below requested 8 percent. Crop includes upper chest and cravat. Background appears plain dark navy; exact #0B1629 not verified.",
+      "repair_count": 0
+    },
+    {
+      "name": "danger",
+      "path": "/workspace/scratch/ebe4c5fe5c2a/studio-assets/face-danger.png",
+      "source": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-522b653e-eaaf-4260-884f-cfbd1aebd95c.png",
+      "prompt": "Use case: stylized-concept. Generate ONE 1024x1024 square premium stylized 3D head-and-shoulders expression portrait of MAX. Reference images 1 and 2 are the ONLY identity authorities: same original mature Max with swept SILVER hair, white trimmed beard and moustache, black rectangular glasses, warm tan elongated face, long nose, recognizable dark eyes and personality. Images 3 and 4 are COSTUME inspiration ONLY; NEVER copy the human model's face, age, hair, identity or rendering. Maintain original Max's stylized face proportions, silver quiff, beard contour and glasses. Black/burgundy Gothic raised collar with restrained embroidered edge and dark cravat. Large complete head with at least 8 percent top and side margins. Neck and shoulder tops only, bottom cropped above chest badge area. NO hands, NO badges, NO pins or brooches, NO lettering, NO text. Plain solid opaque #0B1629 navy background, no gradients or environment. Premium soft studio lighting with crisp polished 3D materials. No hats, props, weapons, game backdrop or extra people. Expression and head angle: profile-to-three-quarter view, startled alert widened eyes and lips slightly parted, looking at an unseen warning, no violence or weapons.",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "head_angle": "Three-quarter facing viewer right",
+      "expression": "Eyes wide and looking off frame, raised tense brows, mouth slightly open in startled alert",
+      "observations": "Recognizable original Max with silver hair, white beard, black rectangular glasses and tan long face. Black/burgundy Gothic costume. No hands, badges, text, props or backdrop. Head fully visible. Top margin about 2–4 percent, below requested 8 percent. Crop includes upper chest and cravat. Background appears plain dark navy; exact #0B1629 not verified.",
+      "repair_count": 0
+    },
+    {
+      "name": "laughing",
+      "path": "/workspace/scratch/ebe4c5fe5c2a/studio-assets/face-laughing.png",
+      "source": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-1a2dc830-361a-4923-a891-224ba13a13c4.png",
+      "prompt": "Use case: stylized-concept. Generate ONE 1024x1024 square premium stylized 3D head-and-shoulders expression portrait of MAX. Reference images 1 and 2 are the ONLY identity authorities: same original mature Max with swept SILVER hair, white trimmed beard and moustache, black rectangular glasses, warm tan elongated face, long nose, recognizable dark eyes and personality. Images 3 and 4 are COSTUME inspiration ONLY; NEVER copy the human model's face, age, hair, identity or rendering. Maintain original Max's stylized face proportions, silver quiff, beard contour and glasses. Black/burgundy Gothic raised collar with restrained embroidered edge and dark cravat. Large complete head with at least 8 percent top and side margins. Neck and shoulder tops only, bottom cropped above chest badge area. NO hands, NO badges, NO pins or brooches, NO lettering, NO text. Plain solid opaque #0B1629 navy background, no gradients or environment. Premium soft studio lighting with crisp polished 3D materials. No hats, props, weapons, game backdrop or extra people. Expression and head angle: straight front, eyes crinkled with mouth open naturally in a light laugh.",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "head_angle": "Near front with slight tilt",
+      "expression": "Open mouth with natural visible upper teeth, raised cheeks and lightly crinkled eyes",
+      "observations": "Recognizable original Max with silver hair, white beard, black rectangular glasses and tan long face. Black/burgundy Gothic costume. No hands, badges, text, props or backdrop. Head fully visible. Top margin about 2–4 percent, below requested 8 percent. Crop includes upper chest and cravat. Background appears plain dark navy; exact #0B1629 not verified.",
+      "repair_count": 0
+    }
+  ]
+}

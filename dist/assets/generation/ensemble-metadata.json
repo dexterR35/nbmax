@@ -1,0 +1,319 @@
+{
+  "description": "Five generated styling proposals for the NetBet MAX character exhibition. These are not official game title assets.",
+  "generation_mode": "Built-in image_gen, five independent calls in one parallel batch; one candidate per scene; no retries.",
+  "image_editing": "All five deliverables are direct copies of generated originals. No shields or other image edits have been applied.",
+  "coordinate_system": "Chest emblem centers measured on each exact 1536×1024 original. Percentages are relative to the entire uncropped image, origin top-left. width_percent is the recommended official shield width as a percentage of original image width. Apply translate(-50%, -50%) around the center. These are placement targets, not existing official shield positions.",
+  "integration_note": "Keep visible caption 'Generated styling proposal' in the exhibition. Existing navy readability gradient through x43%, fading by x56%, addresses minor copy-zone encroachment. The mobile crop x44.4–100% preserves every Max silhouette.",
+  "assets": [
+    {
+      "id": "ensemble-temple",
+      "label": "Generated styling proposal",
+      "not_official_game_title_asset": true,
+      "path": "/workspace/scratch/ebe4c5fe5c2a/ensemble-assets/ensemble-temple.png",
+      "source_path": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-20bd9927-9cfd-4c7e-900a-f11013ec0097.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: stylized-concept.\nAsset type: generated styling proposal for a NetBet MAX landing-page BACKGROUND ENSEMBLE, landscape 1536x1024. Produce one complete raster scene. This is character art only, not a page mockup.\nInput images: Image 1 is the binding identity reference for Max: match his mature charismatic face, swept-back sculpted silver hair, thick black rectangular glasses, white pointed beard and moustache, warm witty expression, slender elegant build and long legs. Images 2 and 3 are supporting Max wardrobe/material/rendering references only; DO NOT copy their left-sided composition. Images 4 and 5 define the secondary Egyptian queen, red-bearded folklore leprechaun, and blonde Norse warrior identities and 3D visual style; use only the requested characters, never their text, shields, logos, coins, XP emblems or layout.\nComposition: all figures form an ensemble only within RIGHT HALF x50%–95%. Max is recognizable main ambassador integrated into environment depth, standing FULL-LENGTH centered near x71%, height 78% of the canvas, hair around y12% and both shoe soles around y90%, with clear floor contact and full silhouette. Keep entire hair, both shoes, hands and long coat inside frame. Supporting figures stand several paces behind him, distinctly smaller, softer-focus and dimmer, arranged around x56%–62% and x85%–91%, never competing with Max. Make the LEFT 44% from top to bottom uninterrupted very dark midnight navy #07152c, with only faint atmospheric tonal variation; no objects, silhouettes, architecture edges, plants, coins, highlights, writing or figures in this zone. Blend scene into this dark space smoothly between x44% and x50%. Never mirror this layout. Keep perspective coherent.\nStyle: premium polished dimensional adult 3D character illustration matching the references, richly tailored realistic fabrics, restrained physically plausible metallic details and cinematic depth. Professional luxury gaming campaign, elongated elegant adult proportions, nuanced expressive face, clean anatomy, subtly animated film polish, not a children's cartoon.\nBrand garment detail: only tiny elegant gold letters \"NB\" stitched directly into Max's LEFT chest (viewer-right). Underneath NB leave a clear smooth patch of matching coat FABRIC, without any design or border, so an exact official shield can later be added there. No invented shield, no placeholder, no nameplate, no rectangle, no badge, no lapel pins. Keep this chest fabric unobscured by hand or scarf. NB is the sole permitted writing anywhere.\nGlobal avoid: NO interface, headings, buttons, marketing copy, watermarks, floating lettering, XP, game logo, oversized foreground coins/chips, giant objects, anatomical distortion, cropped legs, cropped hair, short legs, duplicated fingers, hard vertical split. No skin-revealing attire; all are adult characters. Mostly midnight/royal blue with appropriate wardrobe variation, white and restrained red, understated gold light.\n\nScene/backdrop: cinematic royal-blue and gold Egyptian temple concentrated on the right, midnight stone, slender gold-edged columns, a distant cobalt-lit arch and subtly engraved walls without readable hieroglyphs. Max wears a royal-blue embroidered formal long coat with elegant restrained gold trim, coordinated blue tailored trousers, blue patterned waistcoat, ivory neck cloth, polished BLACK shoes. Pose: attentive small guiding gesture with one relaxed open hand close to his waist, other arm at ease, a warm clever smile; unobstructed left chest. Secondary cast: the same Egyptian queen from images 4–5, white and blue draped gown, blue-gem gold diadem, long black hair, placed further back around x58%; a dark gold-accented ANUBIS CARVED FIGURE/statue further back around x88%, modest in size and soft focus. Max is the clearest and largest character. Blue ambient light with faint warm gold architectural glows.",
+      "refs": [
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/ref-08.png",
+        "/workspace/scratch/ebe4c5fe5c2a/studio-assets/scene-welcome.png",
+        "/workspace/scratch/ebe4c5fe5c2a/studio-assets/scene-prismatic.png",
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/new-ref-14.png",
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/new-ref-18.png"
+      ],
+      "visible_garments": [
+        "Royal-blue long coat with gold embroidery and gold lining",
+        "Blue patterned waistcoat",
+        "Ivory cravat",
+        "Blue patterned trousers",
+        "Black polished loafers"
+      ],
+      "pose": "Warm small smile, viewer-left hand in trouser pocket, viewer-right hand extended open in a guiding invitation.",
+      "background_figures": [
+        {
+          "character": "Egyptian queen",
+          "placement": "Behind Max at left, white/blue gown and blue-gold diadem",
+          "visible": "Complete figure apart from natural overlap with Max; gown extends to approximately x42%."
+        },
+        {
+          "character": "Anubis carved figure",
+          "placement": "Behind Max at right, dark stone with gold accents",
+          "visible": "Full statue with floor/platform; softly focused."
+        }
+      ],
+      "max_bounds_px_approximate": {
+        "left": 843,
+        "top": 18,
+        "right": 1314,
+        "bottom": 991
+      },
+      "chest_emblem": {
+        "x_px": 1128,
+        "y_px": 232,
+        "x_percent": 73.4375,
+        "y_percent": 22.6563,
+        "width_percent": 1.6,
+        "width_px": 24.576,
+        "location": "Max's left chest, viewer-right, directly below NB",
+        "measurement": "Visually measured on magnified exact-original chest-area excerpts; final placement should be checked with the exact official shield."
+      },
+      "deviations": [
+        "Max occupies approximately 95% of image height, larger than the requested 75–82%, while full hair and both shoes remain inside the frame.",
+        "Queen gown and architecture enter x42–44%; the page's left navy gradient can cover this.",
+        "A small dark rectangular fabric panel/pocket with a stitched border was generated directly below NB. It is not the official shield and remains in the unmodified original.",
+        "Guiding gesture is wider than requested."
+      ],
+      "mobile_crop_note": "All of Max remains inside the x44.4–100% crop. The queen's far-left gown hem is slightly cropped; face, torso and main silhouette remain visible."
+    },
+    {
+      "id": "ensemble-garden",
+      "label": "Generated styling proposal",
+      "not_official_game_title_asset": true,
+      "path": "/workspace/scratch/ebe4c5fe5c2a/ensemble-assets/ensemble-garden.png",
+      "source_path": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-968735cd-1363-4d0b-a2cb-bbe001b2b4c0.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: stylized-concept.\nAsset type: generated styling proposal for a NetBet MAX landing-page BACKGROUND ENSEMBLE, landscape 1536x1024. Produce one complete raster scene. This is character art only, not a page mockup.\nInput images: Image 1 is the binding identity reference for Max: match his mature charismatic face, swept-back sculpted silver hair, thick black rectangular glasses, white pointed beard and moustache, warm witty expression, slender elegant build and long legs. Images 2 and 3 are supporting Max wardrobe/material/rendering references only; DO NOT copy their left-sided composition. Images 4 and 5 define the secondary Egyptian queen, red-bearded folklore leprechaun, and blonde Norse warrior identities and 3D visual style; use only the requested characters, never their text, shields, logos, coins, XP emblems or layout.\nComposition: all figures form an ensemble only within RIGHT HALF x50%–95%. Max is recognizable main ambassador integrated into environment depth, standing FULL-LENGTH centered near x71%, height 78% of the canvas, hair around y12% and both shoe soles around y90%, with clear floor contact and full silhouette. Keep entire hair, both shoes, hands and long coat inside frame. Supporting figures stand several paces behind him, distinctly smaller, softer-focus and dimmer, arranged around x56%–62% and x85%–91%, never competing with Max. Make the LEFT 44% from top to bottom uninterrupted very dark midnight navy #07152c, with only faint atmospheric tonal variation; no objects, silhouettes, architecture edges, plants, coins, highlights, writing or figures in this zone. Blend scene into this dark space smoothly between x44% and x50%. Never mirror this layout. Keep perspective coherent.\nStyle: premium polished dimensional adult 3D character illustration matching the references, richly tailored realistic fabrics, restrained physically plausible metallic details and cinematic depth. Professional luxury gaming campaign, elongated elegant adult proportions, nuanced expressive face, clean anatomy, subtly animated film polish, not a children's cartoon.\nBrand garment detail: only tiny elegant gold letters \"NB\" stitched directly into Max's LEFT chest (viewer-right). Underneath NB leave a clear smooth patch of matching coat FABRIC, without any design or border, so an exact official shield can later be added there. No invented shield, no placeholder, no nameplate, no rectangle, no badge, no lapel pins. Keep this chest fabric unobscured by hand or scarf. NB is the sole permitted writing anywhere.\nGlobal avoid: NO interface, headings, buttons, marketing copy, watermarks, floating lettering, XP, game logo, oversized foreground coins/chips, giant objects, anatomical distortion, cropped legs, cropped hair, short legs, duplicated fingers, hard vertical split. No skin-revealing attire; all are adult characters. Mostly midnight/royal blue with appropriate wardrobe variation, white and restrained red, understated gold light.\n\nScene/backdrop: midnight-blue and emerald enchanted formal garden concentrated on the right, elegant dark stone path with a distant leafy arch, subtle blue dew and a few tiny soft emerald lights entirely in right half. Max wears a deep GREEN gold-edged regency long coat, GREEN patterned waistcoat, cream cravat, DARK GREEN tailored trousers and polished BROWN leather shoes, professional and refined. Pose: relaxed cheerful nod and a small open-hand gesture at waist height, other hand relaxed near coat seam, friendly slightly wry smile; no exaggerated arm extension. Secondary cast: the red-bearded green-eyed folklore leprechaun from images 4–5, green top hat with dark band and gold buckle, refined green coat and waistcoat, a small adult figure several paces behind around x86%, softly illuminated and secondary; no objects held. Keep Max's full long-legged silhouette clear. Dark blue atmospheric depth, understated gold touches.",
+      "refs": [
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/ref-08.png",
+        "/workspace/scratch/ebe4c5fe5c2a/studio-assets/scene-welcome.png",
+        "/workspace/scratch/ebe4c5fe5c2a/studio-assets/scene-prismatic.png",
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/new-ref-14.png",
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/new-ref-18.png"
+      ],
+      "visible_garments": [
+        "Deep-green regency long coat with gold piping",
+        "Green patterned waistcoat with gold buttons",
+        "Cream cravat",
+        "Dark-green patterned trousers",
+        "Brown polished leather shoes"
+      ],
+      "pose": "Cheerful slight head tilt, one open hand at waist height, other hand in trouser pocket.",
+      "background_figures": [
+        {
+          "character": "Egyptian queen",
+          "placement": "Behind Max at left",
+          "visible": "Head and body visible; lower gown softened by garden foreground."
+        },
+        {
+          "character": "Folklore leprechaun",
+          "placement": "Behind Max at right in green top hat and coat",
+          "visible": "Upper body and much of long coat; legs obscured by terrain and greenery."
+        },
+        {
+          "character": "Norse warrior",
+          "placement": "Farthest right and behind, in blue cape",
+          "visible": "Head and upper torso visible; outer cape/arm clipped at source right edge."
+        }
+      ],
+      "max_bounds_px_approximate": {
+        "left": 854,
+        "top": 24,
+        "right": 1193,
+        "bottom": 980
+      },
+      "chest_emblem": {
+        "x_px": 1127,
+        "y_px": 241,
+        "x_percent": 73.3724,
+        "y_percent": 23.5352,
+        "width_percent": 1.4,
+        "width_px": 21.504,
+        "location": "Max's left chest, viewer-right, directly below NB",
+        "measurement": "Visually measured on magnified exact-original chest-area excerpts; final placement should be checked with the exact official shield."
+      },
+      "deviations": [
+        "Generator added the queen and Norse warrior in addition to the requested folklore character.",
+        "Max occupies approximately 93% of image height rather than the requested 75–82%, with complete hair and shoes.",
+        "Garden architecture and foliage enter the right edge of the dark copy area.",
+        "Norse warrior's far-right arm/cape is already clipped by the original image edge."
+      ],
+      "mobile_crop_note": "All of Max and the main readable parts of supporting characters remain within x44.4–100%; Norse outer arm/cape is clipped in the original."
+    },
+    {
+      "id": "ensemble-northern",
+      "label": "Generated styling proposal",
+      "not_official_game_title_asset": true,
+      "path": "/workspace/scratch/ebe4c5fe5c2a/ensemble-assets/ensemble-northern.png",
+      "source_path": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-9831a14c-924d-4756-8c01-675b801e2c64.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: stylized-concept.\nAsset type: generated styling proposal for a NetBet MAX landing-page BACKGROUND ENSEMBLE, landscape 1536x1024. Produce one complete raster scene. This is character art only, not a page mockup.\nInput images: Image 1 is the binding identity reference for Max: match his mature charismatic face, swept-back sculpted silver hair, thick black rectangular glasses, white pointed beard and moustache, warm witty expression, slender elegant build and long legs. Images 2 and 3 are supporting Max wardrobe/material/rendering references only; DO NOT copy their left-sided composition. Images 4 and 5 define the secondary Egyptian queen, red-bearded folklore leprechaun, and blonde Norse warrior identities and 3D visual style; use only the requested characters, never their text, shields, logos, coins, XP emblems or layout.\nComposition: all figures form an ensemble only within RIGHT HALF x50%–95%. Max is recognizable main ambassador integrated into environment depth, standing FULL-LENGTH centered near x71%, height 78% of the canvas, hair around y12% and both shoe soles around y90%, with clear floor contact and full silhouette. Keep entire hair, both shoes, hands and long coat inside frame. Supporting figures stand several paces behind him, distinctly smaller, softer-focus and dimmer, arranged around x56%–62% and x85%–91%, never competing with Max. Make the LEFT 44% from top to bottom uninterrupted very dark midnight navy #07152c, with only faint atmospheric tonal variation; no objects, silhouettes, architecture edges, plants, coins, highlights, writing or figures in this zone. Blend scene into this dark space smoothly between x44% and x50%. Never mirror this layout. Keep perspective coherent.\nStyle: premium polished dimensional adult 3D character illustration matching the references, richly tailored realistic fabrics, restrained physically plausible metallic details and cinematic depth. Professional luxury gaming campaign, elongated elegant adult proportions, nuanced expressive face, clean anatomy, subtly animated film polish, not a children's cartoon.\nBrand garment detail: only tiny elegant gold letters \"NB\" stitched directly into Max's LEFT chest (viewer-right). Underneath NB leave a clear smooth patch of matching coat FABRIC, without any design or border, so an exact official shield can later be added there. No invented shield, no placeholder, no nameplate, no rectangle, no badge, no lapel pins. Keep this chest fabric unobscured by hand or scarf. NB is the sole permitted writing anywhere.\nGlobal avoid: NO interface, headings, buttons, marketing copy, watermarks, floating lettering, XP, game logo, oversized foreground coins/chips, giant objects, anatomical distortion, cropped legs, cropped hair, short legs, duplicated fingers, hard vertical split. No skin-revealing attire; all are adult characters. Mostly midnight/royal blue with appropriate wardrobe variation, white and restrained red, understated gold light.\n\nScene/backdrop: grand BLUE Norse great hall concentrated on the right, dark carved timber and basalt columns, cobalt banners without symbols or text, distant icy-blue window light, subtly warm low sconces. Max wears a BLACK and BURGUNDY embroidered gothic long coat, dark patterned waistcoat, BURGUNDY cravat, fitted BURGUNDY trousers, polished BLACK boots; refined adult tailoring with restrained metal buttons. Pose: composed standing stance with arms naturally relaxed by his sides, attentive calm half-smile, shoulders open, long legs fully visible. Secondary cast: smaller blonde-bearded NORSE WARRIOR from images 4–5 in dark blue gold-edged armor and blue fur-trimmed cape around x87%; smaller EGYPTIAN QUEEN with black hair and blue/gold diadem around x57%, both several paces behind, softened and dimmer. No weapons raised, no combat. Max remains the clear main ambassador within a coherent cinematic group.",
+      "refs": [
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/ref-08.png",
+        "/workspace/scratch/ebe4c5fe5c2a/studio-assets/scene-welcome.png",
+        "/workspace/scratch/ebe4c5fe5c2a/studio-assets/scene-prismatic.png",
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/new-ref-14.png",
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/new-ref-18.png"
+      ],
+      "visible_garments": [
+        "Black gothic long coat with burgundy embroidery and burgundy lining",
+        "Burgundy/black patterned waistcoat",
+        "Burgundy cravat",
+        "Burgundy patterned trousers",
+        "Polished black ankle boots"
+      ],
+      "pose": "Composed warm half-smile, standing upright with both arms relaxed naturally beside his body.",
+      "background_figures": [
+        {
+          "character": "Egyptian queen",
+          "placement": "Behind Max at left in white/blue gown",
+          "visible": "Full standing figure with some overlap; gown extends left to about x40%."
+        },
+        {
+          "character": "Norse warrior",
+          "placement": "Behind Max at right in blue cape and gold-edged armor",
+          "visible": "Full standing figure and boots."
+        }
+      ],
+      "max_bounds_px_approximate": {
+        "left": 814,
+        "top": 19,
+        "right": 1205,
+        "bottom": 974
+      },
+      "chest_emblem": {
+        "x_px": 1094,
+        "y_px": 249,
+        "x_percent": 71.224,
+        "y_percent": 24.3164,
+        "width_percent": 1.3,
+        "width_px": 19.968,
+        "location": "Max's left chest, viewer-right, directly below NB",
+        "measurement": "Visually measured on magnified exact-original chest-area excerpts; final placement should be checked with the exact official shield."
+      },
+      "deviations": [
+        "Max occupies approximately 93% of image height rather than the requested 75–82%, with complete hair and shoes.",
+        "Queen gown and architectural sconces extend into x40–44%.",
+        "Burgundy embroidery begins just below the clear NB chest region; the proposed small official shield partly overlaps the upper edge of this embroidery."
+      ],
+      "mobile_crop_note": "All of Max and the Norse warrior remain inside x44.4–100%. The queen's outer left gown hem is cropped, while face and body remain clearly visible."
+    },
+    {
+      "id": "ensemble-salon",
+      "label": "Generated styling proposal",
+      "not_official_game_title_asset": true,
+      "path": "/workspace/scratch/ebe4c5fe5c2a/ensemble-assets/ensemble-salon.png",
+      "source_path": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-cbace068-5942-4ce9-bf45-360cd43abb4c.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: stylized-concept.\nAsset type: generated styling proposal for a NetBet MAX landing-page BACKGROUND ENSEMBLE, landscape 1536x1024. Produce one complete raster scene. This is character art only, not a page mockup.\nInput images: Image 1 is the binding identity reference for Max: match his mature charismatic face, swept-back sculpted silver hair, thick black rectangular glasses, white pointed beard and moustache, warm witty expression, slender elegant build and long legs. Images 2 and 3 are supporting Max wardrobe/material/rendering references only; DO NOT copy their left-sided composition. Images 4 and 5 define the secondary Egyptian queen, red-bearded folklore leprechaun, and blonde Norse warrior identities and 3D visual style; use only the requested characters, never their text, shields, logos, coins, XP emblems or layout.\nComposition: all figures form an ensemble only within RIGHT HALF x50%–95%. Max is recognizable main ambassador integrated into environment depth, standing FULL-LENGTH centered near x71%, height 78% of the canvas, hair around y12% and both shoe soles around y90%, with clear floor contact and full silhouette. Keep entire hair, both shoes, hands and long coat inside frame. Supporting figures stand several paces behind him, distinctly smaller, softer-focus and dimmer, arranged around x56%–62% and x85%–91%, never competing with Max. Make the LEFT 44% from top to bottom uninterrupted very dark midnight navy #07152c, with only faint atmospheric tonal variation; no objects, silhouettes, architecture edges, plants, coins, highlights, writing or figures in this zone. Blend scene into this dark space smoothly between x44% and x50%. Never mirror this layout. Keep perspective coherent.\nStyle: premium polished dimensional adult 3D character illustration matching the references, richly tailored realistic fabrics, restrained physically plausible metallic details and cinematic depth. Professional luxury gaming campaign, elongated elegant adult proportions, nuanced expressive face, clean anatomy, subtly animated film polish, not a children's cartoon.\nBrand garment detail: only tiny elegant gold letters \"NB\" stitched directly into Max's LEFT chest (viewer-right). Underneath NB leave a clear smooth patch of matching coat FABRIC, without any design or border, so an exact official shield can later be added there. No invented shield, no placeholder, no nameplate, no rectangle, no badge, no lapel pins. Keep this chest fabric unobscured by hand or scarf. NB is the sole permitted writing anywhere.\nGlobal avoid: NO interface, headings, buttons, marketing copy, watermarks, floating lettering, XP, game logo, oversized foreground coins/chips, giant objects, anatomical distortion, cropped legs, cropped hair, short legs, duplicated fingers, hard vertical split. No skin-revealing attire; all are adult characters. Mostly midnight/royal blue with appropriate wardrobe variation, white and restrained red, understated gold light.\n\nScene/backdrop: a luxurious BLUE casino salon concentrated on the right, midnight polished marble floor, restrained blue and gold arches, softly blurred table-game atmosphere with a subtle roulette wheel far in the background and abstract reel motifs WITHOUT readable symbols or words. No giant casino props. Max wears a NAVY and GOLD long coat, BROWN brocade vest, IVORY cravat, CREAM tailored trousers, polished BROWN leather shoes. Pose: warm welcoming smile and modest open-hand invitation kept within the right-half group, other arm relaxed; elegant full-length long-legged stance. Secondary cast: smaller EGYPTIAN QUEEN from images 4–5 in white-blue gown and blue/gold diadem around x57%; the adult red-bearded green-clad FOLKLORE LEPRECHAUN from images 4–5 around x87%, both positioned several paces behind Max, subtly interacting with the salon, dimmer and softly focused. Cinematic royal-blue rim light, restrained warm gold reflection.",
+      "refs": [
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/ref-08.png",
+        "/workspace/scratch/ebe4c5fe5c2a/studio-assets/scene-welcome.png",
+        "/workspace/scratch/ebe4c5fe5c2a/studio-assets/scene-prismatic.png",
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/new-ref-14.png",
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/new-ref-18.png"
+      ],
+      "visible_garments": [
+        "Navy long coat with restrained gold piping and gold buttons",
+        "Brown brocade waistcoat",
+        "Ivory cravat",
+        "Cream trousers",
+        "Brown polished leather shoes",
+        "White pocket square"
+      ],
+      "pose": "Warm smile, one arm extended in an open-handed welcome, other hand in trouser pocket.",
+      "background_figures": [
+        {
+          "character": "Egyptian queen",
+          "placement": "Behind Max at left in white/blue gown and diadem",
+          "visible": "Full-length figure; far-left draped hem reaches approximately x42%."
+        },
+        {
+          "character": "Folklore leprechaun",
+          "placement": "Behind Max at right in green top hat and coat",
+          "visible": "Full-length figure, tipping his hat."
+        }
+      ],
+      "max_bounds_px_approximate": {
+        "left": 809,
+        "top": 23,
+        "right": 1207,
+        "bottom": 948
+      },
+      "chest_emblem": {
+        "x_px": 1125,
+        "y_px": 225,
+        "x_percent": 73.2422,
+        "y_percent": 21.9727,
+        "width_percent": 1.4,
+        "width_px": 21.504,
+        "location": "Max's left chest, viewer-right, directly below NB",
+        "measurement": "Visually measured on magnified exact-original chest-area excerpts; final placement should be checked with the exact official shield."
+      },
+      "deviations": [
+        "Max occupies approximately 90% of image height rather than the requested 75–82%, with complete hair and shoes.",
+        "The welcome hand is more extended than the requested modest gesture.",
+        "Queen cape and salon architecture enter x42–44%; roulette wheel is clearly recognizable in the background."
+      ],
+      "mobile_crop_note": "All of Max and the leprechaun remain in x44.4–100%. The queen's far-left cape hem is slightly cropped; her complete central figure remains visible."
+    },
+    {
+      "id": "ensemble-convergence",
+      "label": "Generated styling proposal",
+      "not_official_game_title_asset": true,
+      "path": "/workspace/scratch/ebe4c5fe5c2a/ensemble-assets/ensemble-convergence.png",
+      "source_path": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-c6f5480e-e2be-4b1c-b967-9acf524ae775.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: stylized-concept.\nAsset type: generated styling proposal for a NetBet MAX landing-page BACKGROUND ENSEMBLE, landscape 1536x1024. Produce one complete raster scene. This is character art only, not a page mockup.\nInput images: Image 1 is the binding identity reference for Max: match his mature charismatic face, swept-back sculpted silver hair, thick black rectangular glasses, white pointed beard and moustache, warm witty expression, slender elegant build and long legs. Images 2 and 3 are supporting Max wardrobe/material/rendering references only; DO NOT copy their left-sided composition. Images 4 and 5 define the secondary Egyptian queen, red-bearded folklore leprechaun, and blonde Norse warrior identities and 3D visual style; use only the requested characters, never their text, shields, logos, coins, XP emblems or layout.\nComposition: all figures form an ensemble only within RIGHT HALF x50%–95%. Max is recognizable main ambassador integrated into environment depth, standing FULL-LENGTH centered near x71%, height 78% of the canvas, hair around y12% and both shoe soles around y90%, with clear floor contact and full silhouette. Keep entire hair, both shoes, hands and long coat inside frame. Supporting figures stand several paces behind him, distinctly smaller, softer-focus and dimmer, arranged around x56%–62% and x85%–91%, never competing with Max. Make the LEFT 44% from top to bottom uninterrupted very dark midnight navy #07152c, with only faint atmospheric tonal variation; no objects, silhouettes, architecture edges, plants, coins, highlights, writing or figures in this zone. Blend scene into this dark space smoothly between x44% and x50%. Never mirror this layout. Keep perspective coherent.\nStyle: premium polished dimensional adult 3D character illustration matching the references, richly tailored realistic fabrics, restrained physically plausible metallic details and cinematic depth. Professional luxury gaming campaign, elongated elegant adult proportions, nuanced expressive face, clean anatomy, subtly animated film polish, not a children's cartoon.\nBrand garment detail: only tiny elegant gold letters \"NB\" stitched directly into Max's LEFT chest (viewer-right). Underneath NB leave a clear smooth patch of matching coat FABRIC, without any design or border, so an exact official shield can later be added there. No invented shield, no placeholder, no nameplate, no rectangle, no badge, no lapel pins. Keep this chest fabric unobscured by hand or scarf. NB is the sole permitted writing anywhere.\nGlobal avoid: NO interface, headings, buttons, marketing copy, watermarks, floating lettering, XP, game logo, oversized foreground coins/chips, giant objects, anatomical distortion, cropped legs, cropped hair, short legs, duplicated fingers, hard vertical split. No skin-revealing attire; all are adult characters. Mostly midnight/royal blue with appropriate wardrobe variation, white and restrained red, understated gold light.\n\nScene/backdrop: luminous BLUE crystalline archway uniting the game worlds, concentrated entirely on the right. Refined sapphire crystal columns and distant dark blue stone terraces with faint architectural hints of Egyptian temple, forest garden and Norse hall, all in one coherent premium scene. No floating cards, logos, plaques or emblems. Max wears a BLACK/GOLD ceremonial long coat and flowing BLACK cape with restrained gold lining and elegant gold embroidery, GOLD cravat, BLACK patterned vest, BLACK tailored trousers and polished BLACK boots. Keep cape behind legs so both long elegant legs and complete footwear remain visible. Pose: one hand casually in trouser pocket, other naturally relaxed, assured subtle witty smile. Secondary cast: EGYPTIAN QUEEN with black hair and blue-gem gold diadem, blonde NORSE WARRIOR in blue cape, and red-bearded green-clad FOLKLORE LEPRECHAUN from images 4–5, all significantly smaller and softer than Max, arranged at different depths around x56%, x86% and x91%, never entering left copy zone. Max's identity and mature character must dominate while integrated into the ensemble.",
+      "refs": [
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/ref-08.png",
+        "/workspace/scratch/ebe4c5fe5c2a/studio-assets/scene-welcome.png",
+        "/workspace/scratch/ebe4c5fe5c2a/studio-assets/scene-prismatic.png",
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/new-ref-14.png",
+        "/workspace/scratch/ebe4c5fe5c2a/max-exhibition/dist/assets/originals/new-ref-18.png"
+      ],
+      "visible_garments": [
+        "Black ceremonial long coat with gold embroidery",
+        "Black cape with gold lining",
+        "Gold cravat",
+        "Black patterned waistcoat",
+        "Black patterned trousers",
+        "Polished black buckle boots"
+      ],
+      "pose": "Assured subtle smile, one hand in trouser pocket, other arm relaxed, one leg gently crossed in front.",
+      "background_figures": [
+        {
+          "character": "Egyptian queen",
+          "placement": "Farther behind at left amid Egyptian temple details",
+          "visible": "Face and torso fully visible; lower gown partially obscured by steps."
+        },
+        {
+          "character": "Norse warrior",
+          "placement": "Behind Max at right in blue cape",
+          "visible": "Head and torso visible; lower legs obscured by platform and cape."
+        },
+        {
+          "character": "Folklore leprechaun",
+          "placement": "Farthest right, green top hat and coat",
+          "visible": "Head and body visible; feet obscured by steps."
+        }
+      ],
+      "max_bounds_px_approximate": {
+        "left": 762,
+        "top": 28,
+        "right": 1331,
+        "bottom": 983
+      },
+      "chest_emblem": {
+        "x_px": 1057,
+        "y_px": 229,
+        "x_percent": 68.8151,
+        "y_percent": 22.3633,
+        "width_percent": 1.6,
+        "width_px": 24.576,
+        "location": "Max's left chest, viewer-right, directly below NB",
+        "measurement": "Visually measured on magnified exact-original chest-area excerpts; final placement should be checked with the exact official shield."
+      },
+      "deviations": [
+        "Max occupies approximately 93% of image height rather than the requested 75–82%, with complete hair and shoes.",
+        "A small dark rectangular fabric panel/pocket with a stitched border was generated directly below NB. It is not the official shield and remains in the unmodified original.",
+        "The pose has gently crossed legs rather than a fully square stance.",
+        "Crystals, floor reflections and queen's far-left arm enter the x42–44% zone; the left gradient can cover this."
+      ],
+      "mobile_crop_note": "All of Max remains in x44.4–100%. A small portion of the queen's far-left forearm and draped sleeve is cropped; her face and torso and both right-side characters remain visible."
+    }
+  ]
+}

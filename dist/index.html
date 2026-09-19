@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101727">
+  <meta name="description" content="Meet Max, the NetBet MAX ambassador. Explore his complete wardrobe, guiding gestures, evolving emblems and character-led landing-page concepts.">
+  <title>NetBet MAX — Meet Your Ambassador</title>
+  <link rel="icon" href="assets/badges/member.png" type="image/png">
+  <link rel="preload" as="image" href="assets/images/build-front.webp">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="brand.css">
+  <link rel="stylesheet" href="collection.css">
+  <link rel="stylesheet" href="studio.css">
+  <link rel="stylesheet" href="landing.css">
+  <link rel="stylesheet" href="intro-models.css">
+  <script defer src="inventory.js"></script>
+  <script defer src="new-pose-data.js"></script>
+  <script defer src="data.js"></script>
+  <script defer src="ambassador-data.js"></script>
+  <script defer src="ambassador-looks.js"></script>
+  <script defer src="family-art.js"></script>
+  <script defer src="family-system.js"></script>
+  <script defer src="intro-models.js"></script>
+  <script defer src="collection-views.js"></script>
+  <script defer src="studio-data.js"></script>
+  <script defer src="studio-assets.js"></script>
+  <script defer src="studio-views.js"></script>
+  <script defer src="presentation.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#intro" aria-label="NetBet MAX character presentation home"><span class="netbet-wordmark"><img src="assets/logo/logo.webp" alt="NetBet" width="1200" height="247"><em>MAX</em></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu <span aria-hidden="true">+</span></button>
+    <nav id="primary-nav" aria-label="Main navigation">
+      <a href="#intro" data-nav="intro">Introduction</a>
+      <a href="#story" data-nav="story">Character</a>
+      <a href="#wardrobe" data-nav="wardrobe">Wardrobe</a>
+      <a href="#poses" data-nav="poses">Poses</a>
+      <a href="#build" data-nav="build">Character Build</a>
+      <a href="#landing" data-nav="landing">Landing pages</a>
+      <a href="#references" data-nav="references">Archive</a>
+    </nav>
+    <a class="header-link" href="#story/motion">See Max in action <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="main" tabindex="-1"></main>
+  <footer class="site-footer">
+    <a class="brand" href="#intro"><span class="netbet-wordmark"><img src="assets/logo/logo.webp" alt="NetBet" width="1200" height="247"><em>MAX</em></span></a>
+    <p>Your host. Your guide. Your Max.</p>
+    <div><span>NETBET MAX · CONCEPT EXHIBITION</span><a href="#references/sources">Sources & collection notes ↗</a></div>
+  </footer>
+  <dialog id="viewer" aria-labelledby="viewer-title">
+    <div class="viewer-head"><div><span class="eyebrow" id="viewer-kicker">Original artwork</span><h2 id="viewer-title"></h2></div><button type="button" class="circle-button" id="viewer-close" aria-label="Close image viewer">×</button></div>
+    <div class="viewer-tools"><button type="button" id="zoom-out" aria-label="Zoom out">−</button><output id="zoom-value" aria-live="polite">100%</output><button type="button" id="zoom-in" aria-label="Zoom in">+</button><button type="button" id="zoom-reset">Fit image</button><a id="viewer-original" target="_blank" rel="noopener">Open original ↗</a><a id="viewer-source" target="_blank" rel="noopener" hidden>Figma source ↗</a></div>
+    <div class="viewer-scroll" tabindex="0" aria-label="Scrollable artwork. Use zoom controls, then scroll to inspect details."><div class="viewer-canvas"><div id="viewer-figure"><img id="viewer-image" alt=""><img id="viewer-emblem" alt="" hidden></div></div></div>
+    <div class="viewer-bottom"><button class="circle-button" id="viewer-prev" aria-label="Previous reference">←</button><p id="viewer-caption"></p><button class="circle-button" id="viewer-next" aria-label="Next reference">→</button></div>
+  </dialog>
+  <dialog id="campaign-dialog" class="info-dialog" aria-labelledby="campaign-dialog-title">
+    <div class="info-dialog-top"><span class="eyebrow">Max explains</span><button type="button" class="circle-button" data-close-campaign aria-label="Close explanation">×</button></div>
+    <div id="campaign-dialog-content"></div>
+  </dialog>
+  <dialog id="card-dialog" class="card-dialog" aria-labelledby="card-dialog-title">
+    <div class="card-dialog-shell"><div class="card-dialog-top"><span class="eyebrow">Max / Complete details</span><button type="button" class="circle-button" data-close-card aria-label="Close details">×</button></div><div id="card-dialog-content"></div></div>
+  </dialog>
+  <aside class="max-guide" aria-label="Max presentation guide">
+    <button type="button" id="guide-toggle" class="guide-toggle" aria-expanded="false" aria-controls="guide-panel"><span class="guide-avatar"><img src="assets/images/proposal-gold.webp" alt="" width="1024" height="1536" loading="lazy"></span><span>Max can help<span class="guide-toggle-small">Explore the presentation</span></span><span aria-hidden="true">+</span></button>
+    <div id="guide-panel" class="guide-panel" hidden><div class="guide-panel-head"><span class="eyebrow">MAX / YOUR GUIDE</span><button type="button" data-close-guide aria-label="Close Max’s guide">×</button></div><p>Where would you like to go?</p><a href="#landing">See the landing-page examples <span>→</span></a><a href="#wardrobe/gold">Explore a complete outfit <span>→</span></a><a href="#wardrobe/reserve">Understand the badge wings <span>→</span></a><a href="#poses">Find a useful gesture <span>→</span></a><small>A proposed assistant interaction.</small></div>
+  </aside>
+  <div class="sr-only" id="announcement" aria-live="polite"></div>
+  <noscript><div class="noscript"><h1>Meet Max</h1><p>This presentation uses JavaScript for its navigable views, wardrobe selector and landing-page examples.</p><img src="assets/images/proposal-gold.webp" alt="Max in a navy coat, patterned waistcoat, cream trousers and brown shoes, welcoming visitors with an open palm."><p><a href="assets/documents/netbet-max-brief.pdf">Read the supplied character brief</a> · <a href="assets/reference-manifest.json">View the complete source manifest</a></p></div></noscript>
+</body>
+</html>

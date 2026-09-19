@@ -1,0 +1,501 @@
+{
+  "coordinate_system": "Percentages are normalized to actual 1024×1536 output bounds: x from left, y from top. Feature centres manually measured from inspected final output; use intended_shield_centre for image-relative overlay.",
+  "qa_method": "Each source and each generated result inspected with view_image. Image dimensions, mode and background samples read with Pillow without pixel edits. Only built-in image_gen performed image content edits.",
+  "global_notes": [
+    "Five selected PNGs saved outside Site checkout.",
+    "No Site, hosting or project tools used.",
+    "Member still has a faint unwanted shield outline despite allowed repair; explicitly flagged.",
+    "Gold shield removed with one targeted repair; all other selected outputs require no badge-removal repair.",
+    "Background is visually midnight navy, but generator did not produce perfectly uniform #0B1629 pixels."
+  ],
+  "assets": [
+    {
+      "filename": "family-member.png",
+      "garments": "Navy patterned waistcoat with blue piping, ivory shirt and cravat, charcoal trousers and black boots; no outer coat.",
+      "pose": "Source cane stance preserved: viewer-left hand on cane, viewer-right hand in trouser pocket.",
+      "qa": {
+        "identity_preserved": true,
+        "full_hair_and_shoes_visible": true,
+        "no_cane": false,
+        "shield_status": "FAIL: faint shield-shaped residual outline remains below NB after the one targeted repair; no coloured shield remains.",
+        "painted_shield_remaining": true,
+        "repair_count": 1,
+        "background": "Visually plain opaque midnight navy, no checkerboard. Pixel samples vary slightly around requested #0B1629 rather than an exact mathematically uniform hex fill."
+      },
+      "points_px": {
+        "NB": [
+          576,
+          301
+        ],
+        "intended_shield_centre": [
+          576,
+          330
+        ],
+        "collar": [
+          505,
+          249
+        ],
+        "waistcoat": [
+          511,
+          438
+        ],
+        "coat_lapel": [
+          440,
+          289
+        ],
+        "cuff": [
+          301,
+          654
+        ],
+        "trousers": [
+          535,
+          953
+        ],
+        "footwear": [
+          609,
+          1447
+        ]
+      },
+      "point_notes": {
+        "coat_lapel": "Waistcoat lapel; there is no outer coat.",
+        "cuff": "Viewer-left ivory sleeve cuff.",
+        "footwear": "Viewer-right boot."
+      },
+      "overlay_hint": {
+        "width_percent": 3.7,
+        "centre_valid": true,
+        "note": "Exact shield overlay must fully cover faint residual outline."
+      },
+      "path": "/workspace/scratch/ebe4c5fe5c2a/family-assets/family-member.png",
+      "generated_source_path": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-65db9167-65a7-4b1d-aec9-2a311be01f58.png",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB"
+      },
+      "points_percent": {
+        "NB": {
+          "x": 56.25,
+          "y": 19.6
+        },
+        "intended_shield_centre": {
+          "x": 56.25,
+          "y": 21.48
+        },
+        "collar": {
+          "x": 49.32,
+          "y": 16.21
+        },
+        "waistcoat": {
+          "x": 49.9,
+          "y": 28.52
+        },
+        "coat_lapel": {
+          "x": 42.97,
+          "y": 18.82
+        },
+        "cuff": {
+          "x": 29.39,
+          "y": 42.58
+        },
+        "trousers": {
+          "x": 52.25,
+          "y": 62.04
+        },
+        "footwear": {
+          "x": 59.47,
+          "y": 94.21
+        }
+      }
+    },
+    {
+      "filename": "family-bronze.png",
+      "garments": "Warm dark brown long coat with copper edging, patterned brown waistcoat, ivory cravat, gold watch chain, charcoal trousers and black boots.",
+      "pose": "Source cane stance preserved: viewer-left hand on cane, viewer-right hand in trouser pocket.",
+      "qa": {
+        "identity_preserved": true,
+        "full_hair_and_shoes_visible": true,
+        "no_cane": false,
+        "shield_status": "PASS: NB retained and chest below it clear of visible generated badge or outline.",
+        "painted_shield_remaining": false,
+        "repair_count": 0,
+        "background": "Visually plain opaque midnight navy, no checkerboard. Pixel samples vary slightly around requested #0B1629 rather than an exact mathematically uniform hex fill."
+      },
+      "points_px": {
+        "NB": [
+          592,
+          277
+        ],
+        "intended_shield_centre": [
+          592,
+          307
+        ],
+        "collar": [
+          505,
+          250
+        ],
+        "waistcoat": [
+          520,
+          451
+        ],
+        "coat_lapel": [
+          420,
+          315
+        ],
+        "cuff": [
+          689,
+          606
+        ],
+        "trousers": [
+          523,
+          938
+        ],
+        "footwear": [
+          586,
+          1447
+        ]
+      },
+      "point_notes": {
+        "cuff": "Viewer-right brown coat cuff near pocket hand.",
+        "footwear": "Viewer-right black boot."
+      },
+      "overlay_hint": {
+        "width_percent": 3.5,
+        "centre_valid": true
+      },
+      "path": "/workspace/scratch/ebe4c5fe5c2a/family-assets/family-bronze.png",
+      "generated_source_path": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-402d8185-b581-49a6-8c26-29064b06c626.png",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB"
+      },
+      "points_percent": {
+        "NB": {
+          "x": 57.81,
+          "y": 18.03
+        },
+        "intended_shield_centre": {
+          "x": 57.81,
+          "y": 19.99
+        },
+        "collar": {
+          "x": 49.32,
+          "y": 16.28
+        },
+        "waistcoat": {
+          "x": 50.78,
+          "y": 29.36
+        },
+        "coat_lapel": {
+          "x": 41.02,
+          "y": 20.51
+        },
+        "cuff": {
+          "x": 67.29,
+          "y": 39.45
+        },
+        "trousers": {
+          "x": 51.07,
+          "y": 61.07
+        },
+        "footwear": {
+          "x": 57.23,
+          "y": 94.21
+        }
+      }
+    },
+    {
+      "filename": "family-silver.png",
+      "garments": "Charcoal cutaway coat with silver edging/buttons, pale silver patterned waistcoat, ivory cravat, charcoal trousers and black boots.",
+      "pose": "Source cane stance preserved: viewer-left hand on cane, viewer-right hand in trouser pocket.",
+      "qa": {
+        "identity_preserved": true,
+        "full_hair_and_shoes_visible": true,
+        "no_cane": false,
+        "shield_status": "PASS: NB retained and charcoal cloth below it clear of visible generated badge or outline.",
+        "painted_shield_remaining": false,
+        "repair_count": 0,
+        "background": "Visually plain opaque midnight navy, no checkerboard. Pixel samples vary slightly around requested #0B1629 rather than an exact mathematically uniform hex fill."
+      },
+      "points_px": {
+        "NB": [
+          588,
+          285
+        ],
+        "intended_shield_centre": [
+          587,
+          317
+        ],
+        "collar": [
+          506,
+          259
+        ],
+        "waistcoat": [
+          511,
+          449
+        ],
+        "coat_lapel": [
+          414,
+          302
+        ],
+        "cuff": [
+          686,
+          613
+        ],
+        "trousers": [
+          519,
+          930
+        ],
+        "footwear": [
+          592,
+          1437
+        ]
+      },
+      "point_notes": {
+        "cuff": "Viewer-right charcoal coat cuff near pocket hand.",
+        "footwear": "Viewer-right black boot."
+      },
+      "overlay_hint": {
+        "width_percent": 3.5,
+        "centre_valid": true
+      },
+      "path": "/workspace/scratch/ebe4c5fe5c2a/family-assets/family-silver.png",
+      "generated_source_path": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-bab274b0-d2f3-45e1-97aa-c34125de8242.png",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB"
+      },
+      "points_percent": {
+        "NB": {
+          "x": 57.42,
+          "y": 18.55
+        },
+        "intended_shield_centre": {
+          "x": 57.32,
+          "y": 20.64
+        },
+        "collar": {
+          "x": 49.41,
+          "y": 16.86
+        },
+        "waistcoat": {
+          "x": 49.9,
+          "y": 29.23
+        },
+        "coat_lapel": {
+          "x": 40.43,
+          "y": 19.66
+        },
+        "cuff": {
+          "x": 66.99,
+          "y": 39.91
+        },
+        "trousers": {
+          "x": 50.68,
+          "y": 60.55
+        },
+        "footwear": {
+          "x": 57.81,
+          "y": 93.55
+        }
+      }
+    },
+    {
+      "filename": "family-gold.png",
+      "garments": "Navy coat with gold piping, warm brown patterned waistcoat and chain, ivory cravat and pocket square, cream trousers, brown Oxford shoes; N cuff detail retained.",
+      "pose": "Original position and open-palm pose retained: viewer-right arm extended at waist/chest height, viewer-left hand relaxed lower.",
+      "qa": {
+        "identity_preserved": true,
+        "full_hair_and_shoes_visible": true,
+        "no_cane": true,
+        "shield_status": "PASS after targeted repair: NB retained; no visible shield-shaped outline remains in the blank navy lapel.",
+        "painted_shield_remaining": false,
+        "repair_count": 1,
+        "framing_note": "Same silhouette, head, hands and footwear positions as source; generative microtexture differences remain possible.",
+        "background": "Visually plain opaque midnight navy, no checkerboard. Pixel samples vary slightly around requested #0B1629 rather than an exact mathematically uniform hex fill."
+      },
+      "points_px": {
+        "NB": [
+          560,
+          286
+        ],
+        "intended_shield_centre": [
+          553,
+          314
+        ],
+        "collar": [
+          474,
+          245
+        ],
+        "waistcoat": [
+          454,
+          443
+        ],
+        "coat_lapel": [
+          372,
+          329
+        ],
+        "cuff": [
+          783,
+          541
+        ],
+        "trousers": [
+          552,
+          994
+        ],
+        "footwear": [
+          701,
+          1447
+        ]
+      },
+      "point_notes": {
+        "cuff": "Viewer-right ivory cuff with N detail.",
+        "footwear": "Viewer-right brown Oxford."
+      },
+      "overlay_hint": {
+        "width_percent": 3.6,
+        "centre_valid": true
+      },
+      "path": "/workspace/scratch/ebe4c5fe5c2a/family-assets/family-gold.png",
+      "generated_source_path": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-56e372ba-110e-46ce-b84c-42c0382e0a81.png",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB"
+      },
+      "points_percent": {
+        "NB": {
+          "x": 54.69,
+          "y": 18.62
+        },
+        "intended_shield_centre": {
+          "x": 54,
+          "y": 20.44
+        },
+        "collar": {
+          "x": 46.29,
+          "y": 15.95
+        },
+        "waistcoat": {
+          "x": 44.34,
+          "y": 28.84
+        },
+        "coat_lapel": {
+          "x": 36.33,
+          "y": 21.42
+        },
+        "cuff": {
+          "x": 76.46,
+          "y": 35.22
+        },
+        "trousers": {
+          "x": 53.91,
+          "y": 64.71
+        },
+        "footwear": {
+          "x": 68.46,
+          "y": 94.21
+        }
+      }
+    },
+    {
+      "filename": "family-platinum.png",
+      "garments": "Pearl-grey long frock coat with narrow silver edging and midnight lapels/cuffs, ivory patterned waistcoat, steel-blue cravat, steel-grey trousers and charcoal double-monk shoes.",
+      "pose": "Friendly raised viewer-right open hand beside shoulder, viewer-left hand relaxed lower, no cane; original mature Max identity and long legs retained.",
+      "qa": {
+        "identity_preserved": true,
+        "full_hair_and_shoes_visible": true,
+        "no_cane": true,
+        "shield_status": "PASS: small silver NB above uninterrupted dark navy lapel; no generated chest shield or mount.",
+        "painted_shield_remaining": false,
+        "repair_count": 0,
+        "background": "Visually plain opaque midnight navy, no checkerboard. Pixel samples vary slightly around requested #0B1629 rather than an exact mathematically uniform hex fill."
+      },
+      "points_px": {
+        "NB": [
+          562,
+          284
+        ],
+        "intended_shield_centre": [
+          552,
+          315
+        ],
+        "collar": [
+          474,
+          253
+        ],
+        "waistcoat": [
+          450,
+          430
+        ],
+        "coat_lapel": [
+          374,
+          320
+        ],
+        "cuff": [
+          789,
+          417
+        ],
+        "trousers": [
+          551,
+          966
+        ],
+        "footwear": [
+          703,
+          1444
+        ]
+      },
+      "point_notes": {
+        "cuff": "Viewer-right raised wrist cuff.",
+        "footwear": "Viewer-right charcoal double-monk shoe."
+      },
+      "overlay_hint": {
+        "width_percent": 3.6,
+        "centre_valid": true
+      },
+      "path": "/workspace/scratch/ebe4c5fe5c2a/family-assets/family-platinum.png",
+      "generated_source_path": "/workspace/scratch/ebe4c5fe5c2a/generated_images/exec-b1d90674-bc35-446e-a18c-a4cd2d8a7fc8.png",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB"
+      },
+      "points_percent": {
+        "NB": {
+          "x": 54.88,
+          "y": 18.49
+        },
+        "intended_shield_centre": {
+          "x": 53.91,
+          "y": 20.51
+        },
+        "collar": {
+          "x": 46.29,
+          "y": 16.47
+        },
+        "waistcoat": {
+          "x": 43.95,
+          "y": 27.99
+        },
+        "coat_lapel": {
+          "x": 36.52,
+          "y": 20.83
+        },
+        "cuff": {
+          "x": 77.05,
+          "y": 27.15
+        },
+        "trousers": {
+          "x": 53.81,
+          "y": 62.89
+        },
+        "footwear": {
+          "x": 68.65,
+          "y": 94.01
+        }
+      }
+    }
+  ]
+}

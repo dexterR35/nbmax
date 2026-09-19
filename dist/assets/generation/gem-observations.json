@@ -1,0 +1,313 @@
+{
+  "inspection": "Visual inspection of all complete generated PNGs, with local-file reinspection of Sapphire and Diamond before the single repair and visible generated-image inspection after it. Observations describe visible appearance only, not garment construction.",
+  "generator": "built-in image_gen",
+  "outputDirectory": "/workspace/scratch/ebe4c5fe5c2a/family-assets/",
+  "dimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "coordinateSystem": "Percentage of full source image, origin at top left, x increases right and y down. IntendedShieldCentre is an overlay anchor only, not an existing generated badge.",
+  "sharedFindings": {
+    "identity": "Mature Max identity is visually retained: swept silver hair, black rectangular glasses, white beard, measured smile, slim torso and very long legs.",
+    "framing": "Full hair and both complete shoes are inside every image. Sapphire preserves the tighter source framing; other four have somewhat more bottom margin.",
+    "background": "All five are opaque RGB PNGs with near-midnight-navy backgrounds. They show slight tonal variation and are not mathematically uniform #0B1629.",
+    "props": "No cane, scenery, page text, checkerboard or transparency."
+  },
+  "assets": [
+    {
+      "family": "sapphire",
+      "file": "family-sapphire.png",
+      "reference": "proposal-champion.png",
+      "pose": "Viewer-right hand points to viewer-right; viewer-left hand is open palm-up in front of the waist. Torso angled slightly, legs long and offset.",
+      "wardrobe": {
+        "coat": "Royal blue velvet-like long coat, gold floral collar/lapel borders and cuffs, gold edge piping and buttons.",
+        "waistcoat": "Dark navy patterned waistcoat with gold buttons.",
+        "neckwear": "Silver-blue cravat over a white shirt.",
+        "cuffs": "White shirt cuffs with black-and-gold N marks are visible.",
+        "trousers": "Royal blue trousers with a dark stripe down the outer leg.",
+        "shoes": "Polished navy ankle boots with silver-toned side buckles."
+      },
+      "chest": "Gold NB remains. No blue gem or metallic shield remains. A faint dark pointed tonal shape is still visible below NB after the single targeted repair; flag for composited QA. This is at the intended official-emblem overlay location.",
+      "repairs": 1,
+      "anchors": {
+        "NB": {
+          "xPct": 60.25,
+          "yPct": 20.05,
+          "label": "Gold NB monogram"
+        },
+        "intendedShieldCentre": {
+          "xPct": 60.55,
+          "yPct": 22.46,
+          "label": "Centre below NB for exact official overlay"
+        },
+        "coatLapel": {
+          "xPct": 42.97,
+          "yPct": 22.79,
+          "label": "Viewer-left gold floral lapel"
+        },
+        "waistcoat": {
+          "xPct": 53.03,
+          "yPct": 30.27,
+          "label": "Navy patterned waistcoat"
+        },
+        "cuff": {
+          "xPct": 81.64,
+          "yPct": 29.69,
+          "label": "Viewer-right white N cuff"
+        },
+        "trousers": {
+          "xPct": 54.39,
+          "yPct": 64.32,
+          "label": "Blue trousers and dark side stripe"
+        },
+        "shoes": {
+          "xPct": 64.45,
+          "yPct": 94.99,
+          "label": "Viewer-right navy buckle boot"
+        },
+        "shoeViewerLeft": {
+          "xPct": 47.56,
+          "yPct": 90.49,
+          "label": "Viewer-left navy buckle boot"
+        }
+      },
+      "path": "/workspace/scratch/ebe4c5fe5c2a/family-assets/family-sapphire.png"
+    },
+    {
+      "family": "ruby",
+      "file": "family-ruby.png",
+      "reference": "ref-33.png",
+      "pose": "Viewer-right arm extends with an open palm at waist height; viewer-left hand rests lightly near the waist. No cane.",
+      "wardrobe": {
+        "coat": "Burgundy long coat with red tonal vine embroidery on collar, lapel borders and cuffs; dark metallic buttons.",
+        "waistcoat": "Black/charcoal brocade-like patterned waistcoat with silver-toned buttons.",
+        "neckwear": "Black cravat over a dark shirt.",
+        "cuffs": "Burgundy embroidered coat cuffs with dark inner edging.",
+        "trousers": "Charcoal trousers with clearly visible thin vertical pinstripes.",
+        "shoes": "Polished black loafer-style shoes with burgundy straps/inserts across the vamp."
+      },
+      "chest": "Small gold NB at viewer-right chest. Matching burgundy fabric below is clear of a shield, gemstone, mount or border.",
+      "repairs": 0,
+      "anchors": {
+        "NB": {
+          "xPct": 60.45,
+          "yPct": 18.42,
+          "label": "Gold NB monogram"
+        },
+        "intendedShieldCentre": {
+          "xPct": 60.55,
+          "yPct": 20.64,
+          "label": "Clear burgundy fabric below NB"
+        },
+        "coatLapel": {
+          "xPct": 40.53,
+          "yPct": 22.98,
+          "label": "Viewer-left embroidered burgundy border"
+        },
+        "waistcoat": {
+          "xPct": 50.78,
+          "yPct": 28.97,
+          "label": "Dark patterned waistcoat"
+        },
+        "cuff": {
+          "xPct": 76.17,
+          "yPct": 31.71,
+          "label": "Viewer-right embroidered cuff"
+        },
+        "trousers": {
+          "xPct": 57.62,
+          "yPct": 63.35,
+          "label": "Charcoal pinstripe trouser leg"
+        },
+        "shoes": {
+          "xPct": 66.41,
+          "yPct": 92.32,
+          "label": "Viewer-right black/burgundy loafer"
+        },
+        "shoeViewerLeft": {
+          "xPct": 44.14,
+          "yPct": 89.84,
+          "label": "Viewer-left black/burgundy loafer"
+        }
+      },
+      "path": "/workspace/scratch/ebe4c5fe5c2a/family-assets/family-ruby.png"
+    },
+    {
+      "family": "emerald",
+      "file": "family-emerald.png",
+      "reference": "ref-34.png",
+      "pose": "Viewer-right palm opens beside the torso; viewer-left arm hangs naturally with relaxed fingers. No cane.",
+      "wardrobe": {
+        "coat": "Forest-green long coat with gold floral embroidery on collar, lapel borders and cuffs; tonal textile pattern is visible on coat tails.",
+        "waistcoat": "Green patterned waistcoat with small gold-toned buttons.",
+        "neckwear": "Gold cravat over a black shirt.",
+        "cuffs": "Green coat cuffs with gold floral scrolling.",
+        "trousers": "Bottle-green trousers with visible front creases.",
+        "shoes": "Dark brown ankle boots with small gold buckles."
+      },
+      "chest": "Small gold NB at viewer-right chest; clear green cloth directly beneath it. No shield or mount is visible.",
+      "repairs": 0,
+      "anchors": {
+        "NB": {
+          "xPct": 59.47,
+          "yPct": 19.73,
+          "label": "Gold NB monogram"
+        },
+        "intendedShieldCentre": {
+          "xPct": 59.57,
+          "yPct": 21.88,
+          "label": "Clear green cloth beneath NB"
+        },
+        "coatLapel": {
+          "xPct": 40.33,
+          "yPct": 22.59,
+          "label": "Viewer-left gold floral lapel"
+        },
+        "waistcoat": {
+          "xPct": 48.24,
+          "yPct": 30.86,
+          "label": "Green patterned waistcoat"
+        },
+        "cuff": {
+          "xPct": 70.51,
+          "yPct": 30.53,
+          "label": "Viewer-right gold embroidered cuff"
+        },
+        "trousers": {
+          "xPct": 57.91,
+          "yPct": 64.13,
+          "label": "Bottle-green trouser leg"
+        },
+        "shoes": {
+          "xPct": 65.82,
+          "yPct": 92.77,
+          "label": "Viewer-right brown gold-buckle boot"
+        },
+        "shoeViewerLeft": {
+          "xPct": 44.43,
+          "yPct": 89.78,
+          "label": "Viewer-left brown boot"
+        }
+      },
+      "path": "/workspace/scratch/ebe4c5fe5c2a/family-assets/family-emerald.png"
+    },
+    {
+      "family": "amethyst",
+      "file": "family-amethyst.png",
+      "reference": "session-amethyst.png",
+      "pose": "Viewer-left hand rests in a trouser pocket; viewer-right hand opens palm-up toward viewer-right at waist height. No cane.",
+      "wardrobe": {
+        "coat": "Deep plum long coat with restrained purple scrolling embroidery on the high collar and cuffs; subtle tonal textile pattern and dark buttons.",
+        "waistcoat": "Black/charcoal patterned waistcoat with silver-toned buttons.",
+        "neckwear": "Black cravat over a dark shirt.",
+        "cuffs": "Plum coat cuffs with purple scrolling embroidery.",
+        "trousers": "Dark charcoal trousers with a muted purple cast and visible front creases.",
+        "shoes": "Polished black dress boots; muted violet side gusset is clearly visible on the viewer-left boot."
+      },
+      "chest": "Small gold NB at viewer-right chest; clean plum cloth beneath it, with no shield or mount visible.",
+      "repairs": 0,
+      "anchors": {
+        "NB": {
+          "xPct": 58.4,
+          "yPct": 18.55,
+          "label": "Gold NB monogram"
+        },
+        "intendedShieldCentre": {
+          "xPct": 58.4,
+          "yPct": 20.9,
+          "label": "Clear plum cloth beneath NB"
+        },
+        "coatLapel": {
+          "xPct": 40.04,
+          "yPct": 20.96,
+          "label": "Viewer-left plum coat front/lapel"
+        },
+        "waistcoat": {
+          "xPct": 50.49,
+          "yPct": 28.91,
+          "label": "Dark patterned waistcoat"
+        },
+        "cuff": {
+          "xPct": 71.88,
+          "yPct": 32.42,
+          "label": "Viewer-right purple embroidered cuff"
+        },
+        "trousers": {
+          "xPct": 57.03,
+          "yPct": 64,
+          "label": "Charcoal-purple trouser leg"
+        },
+        "shoes": {
+          "xPct": 63.48,
+          "yPct": 92.19,
+          "label": "Viewer-right black dress boot"
+        },
+        "shoeViewerLeft": {
+          "xPct": 44.43,
+          "yPct": 89.78,
+          "label": "Viewer-left boot with violet gusset"
+        }
+      },
+      "path": "/workspace/scratch/ebe4c5fe5c2a/family-assets/family-amethyst.png"
+    },
+    {
+      "family": "diamond",
+      "file": "family-diamond.png",
+      "reference": "ref-27.png",
+      "pose": "Both arms open outward at waist level with both palms up in a calm explaining gesture. No cane.",
+      "wardrobe": {
+        "coat": "Blue velvet-like long coat with silver floral embroidery on collar, lapel borders and cuffs; fine blue tonal pattern.",
+        "waistcoat": "Blue patterned waistcoat with silver-toned buttons and fine blue piping.",
+        "neckwear": "Silver-grey cravat over a white shirt.",
+        "cuffs": "Silver-embroidered blue coat cuffs above white shirt cuffs.",
+        "trousers": "Slate-blue trousers with front creases.",
+        "shoes": "Dark grey/near-black ankle boots with restrained silver/steel-toned buckles."
+      },
+      "chest": "White/silver NB remains at viewer-right chest. No colored gem, metallic surround or isolated shield outline is visible after repair; the blue cloth below is darker than adjacent patterned cloth and should be checked with the official overlay in place.",
+      "repairs": 1,
+      "anchors": {
+        "NB": {
+          "xPct": 59.57,
+          "yPct": 19.08,
+          "label": "White/silver NB monogram"
+        },
+        "intendedShieldCentre": {
+          "xPct": 59.57,
+          "yPct": 21.35,
+          "label": "Blue fabric below NB for exact official overlay"
+        },
+        "coatLapel": {
+          "xPct": 40.63,
+          "yPct": 22.01,
+          "label": "Viewer-left silver floral lapel"
+        },
+        "waistcoat": {
+          "xPct": 49.8,
+          "yPct": 30.14,
+          "label": "Blue patterned waistcoat"
+        },
+        "cuff": {
+          "xPct": 72.27,
+          "yPct": 32.68,
+          "label": "Viewer-right silver embroidered cuff"
+        },
+        "trousers": {
+          "xPct": 57.91,
+          "yPct": 63.54,
+          "label": "Slate-blue trouser leg"
+        },
+        "shoes": {
+          "xPct": 66.11,
+          "yPct": 92.38,
+          "label": "Viewer-right grey steel-buckle boot"
+        },
+        "shoeViewerLeft": {
+          "xPct": 46.29,
+          "yPct": 89.65,
+          "label": "Viewer-left grey boot"
+        }
+      },
+      "path": "/workspace/scratch/ebe4c5fe5c2a/family-assets/family-diamond.png"
+    }
+  ]
+}

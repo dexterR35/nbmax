@@ -1,0 +1,50 @@
+# Tooling / local runtime
+.sites-runtime/
+.agents/
+.codex/
+.qa/
+
+# Dependencies and archives
+node_modules/
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and environment
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Exhibition media stays in git
+!dist/assets/images/
+!dist/assets/images/**
+!dist/assets/thumbs/
+!dist/assets/thumbs/**
+!dist/assets/badges/
+!dist/assets/badges/**
+!dist/assets/logo/
+!dist/assets/logo/**
+!dist/assets/originals/
+!dist/assets/originals/**
+!dist/assets/video/
+!dist/assets/video/**
+!*.png
+!*.jpg
+!*.jpeg
+!*.webp
+!*.gif
+!*.svg
+!*.mp4
+!*.webm
+!*.mov

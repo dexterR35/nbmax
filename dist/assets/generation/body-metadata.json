@@ -1,0 +1,77 @@
+{
+  "generator": "built-in image_gen",
+  "dimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "coordinateSystem": "Percent of full source canvas; shield x/y is center, width is percent of source width.",
+  "assets": [
+    {
+      "file": "build-front.png",
+      "prompt": "Use case: stylized-concept. Create one professional full-length 3D character-build study, portrait 1024x1536. Identity references first three images: SAME mature Max, swept sculpted silver hair, thick black rectangular glasses, warm tan skin, sharply trimmed white beard, angular expressive face; tall original long-legged slim proportions, sophisticated premium 3D rendering identical to reference family. Garment photos are tailoring inspiration ONLY, never their human model identity. Plain solid #0B1629 navy background with clean soft studio illumination. Entire hair and both shoes fully inside canvas, generous 3% margin top/bottom. No cane, prop, shield, watermark, panel or caption. Central straight FRONTAL view: cheerful excited smile, tasteful celebratory stance, both elbows gently bent, both hands open near waist, upper chest clear. Navy long tailcoat with fine red piping, red waistcoat, red bow tie, crisp white shirt, IVORY long tailored trousers and white/brown coordinated Oxford shoes. Small gold letters 'NB' on HIS LEFT upper chest, viewer-right, with a clear blank cloth region immediately below NB for later shield overlay. Do not generate a shield. Premium tailoring; preserve original slim long legs.",
+      "referenceFiles": [
+        "il_1140xN.8244318812_eltj.webp",
+        "il_794xN.7767725409_l53f.webp"
+      ],
+      "pose": "Near-frontal upright body with slight head tilt; cheerful restrained smile; elbows bent and palms open near waist.",
+      "garments": "Navy textured long tailcoat with red piping/lining; red brocade waistcoat; red bow tie; white shirt; ivory trousers; brown-and-white Oxford shoes.",
+      "shieldOverlay": {
+        "visible": true,
+        "centerXPct": 60.7,
+        "centerYPct": 21.9,
+        "widthPct": 4,
+        "rotationDeg": 0
+      },
+      "notes": "Gold NB at viewer-right upper chest; blank navy cloth beneath. Full hair and both shoes visible. Smile is tasteful, not exuberant."
+    },
+    {
+      "file": "build-profile.png",
+      "prompt": "Use case: stylized-concept. Create one professional full-length 3D character-build study, portrait 1024x1536. Identity references first three images: SAME mature Max, swept sculpted silver hair, thick black rectangular glasses, warm tan skin, sharply trimmed white beard, angular expressive face; tall original long-legged slim proportions, sophisticated premium 3D rendering identical to reference family. Garment photos are tailoring inspiration ONLY, never their human model identity. Plain solid #0B1629 navy background with clean soft studio illumination. Entire hair and both shoes fully inside canvas, generous 3% margin top/bottom. No cane, prop, shield, watermark, panel or caption. TRUE 90-degree RIGHT SIDE PROFILE, facing image left, body and face exactly in profile, upright relaxed posture, both hands behind back. Navy long tailcoat with fine red piping, red waistcoat, red bow tie, crisp white shirt, IVORY long tailored trousers and white/brown coordinated Oxford shoes. His LEFT chest NB badge is naturally occluded on far side: do not show badge and do not relocate NB to right side or back. Preserve original slim long legs. This is a true side silhouette study, not three-quarter.",
+      "referenceFiles": [
+        "il_1140xN.8244318812_eltj.webp",
+        "il_794xN.7767725409_l53f.webp"
+      ],
+      "pose": "True side profile facing image left; upright, hands behind back.",
+      "garments": "Navy red-piped long tailcoat; red waistcoat and bow tie; white shirt; ivory trousers; white-and-brown Oxford shoes.",
+      "shieldOverlay": {
+        "visible": false,
+        "reason": "Chest badge occluded by side view; do not overlay or relocate to back."
+      },
+      "notes": "Full hair and both shoes visible. White pocket square appears on near side. No NB visible."
+    },
+    {
+      "file": "build-gothic.png",
+      "prompt": "Use case: stylized-concept. Create one professional full-length 3D character-build study, portrait 1024x1536. Identity references first three images: SAME mature Max, swept sculpted silver hair, thick black rectangular glasses, warm tan skin, sharply trimmed white beard, angular expressive face; tall original long-legged slim proportions, sophisticated premium 3D rendering identical to reference family. Garment photos are tailoring inspiration ONLY, never their human model identity. Plain solid #0B1629 navy background with clean soft studio illumination. Entire hair and both shoes fully inside canvas, generous 3% margin top/bottom. No cane, prop, shield, watermark, panel or caption. Three-quarter body view with HIS LEFT chest visible viewer-right, confident theatrical smirk, arms crossed LOW at waist keeping entire upper chest unobscured. Gothic black longcoat, burgundy embroidered lapels and burgundy vest, dark cravat, dark pinstriped trousers, black lace-up boots. Restrained fine burgundy embroidery along cuffs and hem, burgundy lining. Small gold 'NB' on his LEFT upper chest viewer-right, clear BLANK cloth immediately below NB reserved for later shield overlay. No shield. Preserve original tall slim long-legged proportions.",
+      "referenceFiles": [
+        "il_794xN.8367507720_16x2.webp",
+        "il_794xN.8289169857_72ua.webp"
+      ],
+      "pose": "Three-quarter stance with confident smirk; gloved hands and forearms crossed low at waist; upper chest exposed; one leg crosses in front.",
+      "garments": "Black textured longcoat, burgundy embroidered lapels, burgundy brocade waistcoat/lining, dark cravat, dark pinstriped trousers, black lace-up boots.",
+      "shieldOverlay": {
+        "visible": true,
+        "centerXPct": 61,
+        "centerYPct": 20.7,
+        "widthPct": 4,
+        "rotationDeg": 7
+      },
+      "notes": "Gold NB viewer-right chest. One targeted repair removed an unwanted white rectangular plate and restored black cloth below NB. Full hair and boots visible.",
+      "repairPrompt": "Use case: precise-object-edit. Edit only one small detail of this full-body Max study: remove the white rectangular nameplate directly below the gold NB letters on viewer-right upper chest, replacing that rectangle and a small surrounding area below NB with clean plain BLACK coat cloth. Leave a clearly blank unembroidered black cloth area below NB about 5% of canvas width, ready for a later separate shield overlay. Do NOT generate any shield, badge or replacement plate. Preserve the gold NB in its current location. Preserve absolutely everything else: Max identity face silver hair black glasses white beard, full-length tall slim anatomy, hands crossed low, all garments textures other embroidery pose lighting navy background framing and complete shoes. Output same 1024x1536."
+    },
+    {
+      "file": "build-back.png",
+      "prompt": "Use case: stylized-concept. Create one professional full-length 3D character-build study, portrait 1024x1536. Identity references first three images: SAME mature Max, swept sculpted silver hair, thick black rectangular glasses, warm tan skin, sharply trimmed white beard, angular expressive face; tall original long-legged slim proportions, sophisticated premium 3D rendering identical to reference family. Garment photos are tailoring inspiration ONLY, never their human model identity. Plain solid #0B1629 navy background with clean soft studio illumination. Entire hair and both shoes fully inside canvas, generous 3% margin top/bottom. No cane, prop, shield, watermark, panel or caption. Genuine straight BACK VIEW of Max, body completely facing away, hands relaxed at sides, only slight head turn giving small hint of glasses and white hair. Gothic black longcoat matching garment references with burgundy embroidered lapels and vest on hidden front, dark cravat, dark pinstriped trousers, black lace-up boots. Rear waist tab with two buttons, central burgundy pleat and delicate burgundy hem embroidery all clearly visible. No chest badge visible; do NOT relocate NB or shield to back. Preserve original tall slim long legs.",
+      "referenceFiles": [
+        "il_794xN.8367507706_iifi.webp",
+        "il_794xN.8415388303_harh.webp"
+      ],
+      "pose": "Genuine back view; relaxed hands; slight right head turn exposes glasses and white beard hint.",
+      "garments": "Black Gothic longcoat with burgundy piping, rear waist tab and two buttons, central burgundy pleat, delicate burgundy hem embroidery; pinstripe trousers; black boots.",
+      "shieldOverlay": {
+        "visible": false,
+        "reason": "Chest badge fully occluded by back view; no overlay."
+      },
+      "notes": "Entire hair and shoes visible. Back tab, pleat and hem are clear. Front study gloves are absent in back view."
+    }
+  ]
+}
