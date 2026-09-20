@@ -122,11 +122,13 @@
 .pose-study-card:focus-visible{outline:2px solid #8daeff;outline-offset:5px}
 .pose-card-art{display:block;width:100%;background:#0b1629;overflow:hidden}
 .pose-card-art>.character-canvas,.pose-card-art>img{display:block;width:100%;aspect-ratio:2/3;object-fit:contain}
+.pose-study-card-landscape{grid-column:span 2}
+.pose-study-card-landscape .pose-card-art>img{aspect-ratio:16/9;object-fit:cover}
 .pose-card-copy{display:block;padding-top:14px}
 .pose-card-copy>.eyebrow{display:block;margin-bottom:8px}
 .pose-card-copy>strong{display:block;font-size:17px;line-height:1.4;font-weight:600}
 .pose-card-copy>span:last-child{display:block;font-size:12px;line-height:1.5;color:#92a9ce;margin-top:7px}
 .pose-card-detail{border-top:1px solid var(--line);padding-top:46px}
 @media(max-width:1000px){.pose-card-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
-@media(max-width:700px){.pose-card-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:25px 15px}.pose-card-copy>strong{font-size:15px}.pose-library-heading{align-items:flex-start}.pose-library-copy{max-width:none}}
+@media(max-width:700px){.pose-card-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:25px 15px}.pose-card-copy>strong{font-size:15px}.pose-library-heading{align-items:flex-start}.pose-library-copy{max-width:none}.pose-study-card-landscape{grid-column:1/-1}}
 @media(max-width:420px){.pose-card-grid{gap:22px 12px}.pose-card-copy>span:last-child{font-size:11px}}

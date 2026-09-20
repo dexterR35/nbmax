@@ -22,7 +22,7 @@ const window={document,scrollY:0,scrollTo(){},matchMedia:()=>motionPreference,se
 const context=vm.createContext({window,document,location:{hash:'#intro'},requestAnimationFrame:f=>f(),console});
 for(const file of ['inventory.js','new-pose-data.js','data.js','ambassador-data.js','ambassador-looks.js','family-art.js','family-system.js','intro-models.js','collection-views.js','studio-data.js','studio-assets.js','studio-views.js','presentation.js','app.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),context,{filename:file});
 const D=window.MAX_DATA,R=window.MAX_REFERENCES;
-assert.equal(D.levels.length,28);assert.equal(D.levels.filter(l=>l.outfit).length,28);assert.equal(R.length,113);assert.equal(D.wardrobes.length,15);assert.equal(window.MAX_NEW_POSE_ART.length,9);
+assert.equal(D.levels.length,28);assert.equal(D.levels.filter(l=>l.outfit).length,28);assert.equal(R.length,117);assert.equal(D.wardrobes.length,15);assert.equal(window.MAX_NEW_POSE_ART.length,9);assert.equal(window.MAX_GUIDE_ART.length,4);
 assert.equal(new Set(D.levels.map(l=>l.slug)).size,28);
 assert.equal(D.families.flatMap(f=>f.slugs).length,28);
 assert.equal(new Set(D.families.flatMap(f=>f.slugs)).size,28);
@@ -75,12 +75,12 @@ for(const fn of events.input)fn({target:{matches:s=>s==='.archive-search',value:
 const click=dataset=>{for(const fn of events.click)fn({target:{closest:()=>({dataset})}});};
 visit('detail/centurion-elite');click({level:'centurion'});assert.equal(context.location.hash,'detail/centurion');
 visit('detail/ace');click({annotation:'2'});assert.ok(get('#annotation-panel').innerHTML.includes('NB & the level shield'));
-const posesPage=visit('poses');assert.equal((posesPage.match(/class="card-corner-badge"/g)||[]).length,19);assert.ok(!posesPage.includes('class="character-emblem"'),'Pose cards keep the corner badge and do not overlay a second chest emblem');click({pose:'present'});assert.equal(get('#card-dialog').open,true);assert.ok(get('#card-dialog-content').innerHTML.includes('Present, then step aside'));get('#card-dialog').close();
+const posesPage=visit('poses');assert.equal((posesPage.match(/class="card-corner-badge"/g)||[]).length,21);assert.ok(!posesPage.includes('class="character-emblem"'),'Pose cards keep the corner badge and do not overlay a second chest emblem');assert.ok(posesPage.includes('assets/new_image/guid_max1.png'));assert.ok(posesPage.includes('assets/new_image/guide_max2.png'));click({pose:'present'});assert.equal(get('#card-dialog').open,true);assert.ok(get('#card-dialog-content').innerHTML.includes('Present, then step aside'));get('#card-dialog').close();
 visit('wardrobe/ace');click({badge:'ace'});assert.equal(get('#viewer').open,true);assert.equal(get('#viewer-image').src,'assets/badges/ace.png');get('#viewer').close();
 // New ambassador routes must pair the right gesture, complete ensemble and badge.
 const proposals=R.filter(r=>r.origin==='Generated proposal');
 assert.equal(proposals.length,44);
-assert.equal(D.poses.length,19);
+assert.equal(D.poses.length,21);
 for(const c of window.MAX_AMBASSADOR.campaigns){
  const html=visit('landing/'+c.id);
  assert.ok(html.includes('assets/images/'+c.scene+'.webp'));
@@ -93,7 +93,7 @@ for(const c of window.MAX_AMBASSADOR.campaigns){
  for(const point of l.outfit.closeups)for(const n of point)assert.ok(n>0&&n<100);
 }
 for(const p of D.poses){
- const html=visit('poses/'+p.id);assert.ok(html.includes(p.title));assert.ok(html.includes('assets/images/'+p.ref+'.webp'));
+ const html=visit('poses/'+p.id),art=R.find(r=>r.id===p.ref);assert.ok(html.includes(p.title));assert.ok(html.includes(art.image));
 }
 visit('landing/reserve');click({campaignAction:'reserve'});assert.equal(get('#campaign-dialog').open,true);
 assert.ok(get('#campaign-dialog-content').innerHTML.includes('£20'));
@@ -110,7 +110,7 @@ const story=visit('story');assert.ok(!story.includes('A closer archive reading')
 assert.equal((story.match(/<a class="collection-card(?:\s|\")/g)||[]).length,10);assert.equal((story.match(/class="card-corner-badge"/g)||[]).length,10);assert.equal((story.match(/class="character-emblem"/g)||[]).length,2,'Story cards keep the corner badge; only the opener and assistant keep a chest emblem');assert.ok(story.includes('Open character page'));assert.ok(!story.includes('data-collection-card="character"'));
 assert.equal((story.match(/data-paired-wardrobe=/g)||[]).length,7);assert.ok(story.includes('assets/new_image/platinum.png'));
 for(const slug of ['gold','platinum','champion','ruby','emerald','amethyst','prestige','private','premier','reserve']){assert.ok(story.includes(`data-character-card="${slug}"`));assert.ok(story.includes(`href="#story/${slug}"`));const characterPage=visit('story/'+slug);assert.ok(characterPage.includes('character-route-detail'));assert.ok(characterPage.includes(`href="#detail/${slug}"`));}
-const intro=visit('intro');assert.ok(intro.includes('data-card-collection="intro"'));
+const intro=visit('intro');assert.ok(intro.includes('data-card-collection="intro"'));assert.ok(intro.includes('hero-concept-label">CONCEPT'));assert.ok(intro.includes('hero-character-title'));assert.ok(intro.includes('Calm. Familiar. Friendly.'));assert.ok(intro.includes('Concept demonstration only.'));assert.ok(intro.includes('Max has a calm, approachable expression'));
 assert.equal((intro.match(/<a class="collection-card(?:\s|\")/g)||[]).length,4);assert.equal(timers.size,0,'Static card grids do not start carousel timers');
 assert.equal((intro.match(/class="card-corner-badge"/g)||[]).length,4);assert.equal((intro.match(/data-paired-intro=/g)||[]).length,4);
 assert.ok(!intro.includes('class="character-emblem"'),'Introduction cards do not overlay a second chest emblem');
@@ -122,8 +122,8 @@ assert.equal(window.MAX_INTRO_MODELS.length,4);assert.ok(intro.includes('Four lo
 for(const id of ['build-front','build-profile','build-gothic'])assert.ok(intro.includes('data-intro-art="'+id+'"'));
 assert.ok(!intro.includes('data-character-level="champion"'),'Introduction uses only the newly selected portrait models');
 assert.ok(intro.includes('build-gothic.webp'));assert.ok(intro.includes('family-gold.webp'));
-assert.equal((intro.match(/data-promotion-line=/g)||[]).length,6);assert.ok(!intro.includes('Navy textured long tailcoat with red piping and lining'));assert.ok(intro.includes('data-intro-art="build-front"'));
-click({promotionAnnotation:'5'});assert.ok(get('#promotion-annotation-panel').innerHTML.includes('Oxford shoes'));
+assert.equal((intro.match(/data-promotion-line=/g)||[]).length,6);assert.ok(!intro.includes('Navy textured long tailcoat with red piping and lining'));assert.ok(intro.includes('data-intro-art="build-front"'));assert.ok(intro.includes('Calm, familiar and friendly'));assert.ok(!intro.includes('aria-label="Detail 1: Calm, familiar and friendly"'));
+click({promotionAnnotation:'6'});assert.ok(get('#promotion-annotation-panel').innerHTML.includes('Oxford shoes'));
 const wardrobeCards=visit('wardrobe/gold');assert.ok(wardrobeCards.includes('data-card-collection="collection"'));
 assert.equal((wardrobeCards.match(/<a class="collection-card(?:\s|\")/g)||[]).length,15);
 assert.equal((wardrobeCards.match(/class="card-corner-badge"/g)||[]).length,15);

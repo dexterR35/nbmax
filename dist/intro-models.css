@@ -4,6 +4,17 @@
 .intro-selected-hero .ambassador-hero-art{flex-direction:column;align-self:center}
 .intro-selected-hero{grid-template-columns:.8fr 1.5fr;gap:2%;padding-inline:clamp(28px,3.5vw,54px)}
 .intro-selected-hero .ambassador-hero-copy{grid-column:1;grid-row:1;padding-left:0;padding-right:4%}
+.hero-concept-label{display:table;margin-bottom:12px;padding:7px 11px;border:1px solid #7097ff;color:#fff;background:#376ce033;font-size:11px;font-weight:750;letter-spacing:.18em}
+.hero-character-title{display:flex;align-items:baseline;gap:12px;margin-top:20px}
+.hero-character-title span{color:#86a7ff;font-size:10px;font-weight:700;letter-spacing:.15em;text-transform:uppercase}
+.hero-character-title strong{color:#eef4ff;font-size:16px;font-weight:650;letter-spacing:-.01em}
+.intro-selected-hero .hero-disclaimer{margin-top:20px;padding-top:15px;border-top:1px solid #334c73;color:#90a7ca;font-size:12px;line-height:1.6}
+.intro-selected-hero .hero-disclaimer strong{color:#c6d5ed;font-weight:650}
+.intro-promotion-study .annotation-label strong{margin-top:10px;margin-bottom:12px}
+.intro-promotion-study .annotation-label small{line-height:1.7}
+.intro-promotion-study .annotation-label-text-only{padding:16px 0 18px 18px;border-top:1px solid #5578af;border-bottom:1px solid #5578af;background:#0b1629cc}
+.intro-promotion-study .annotation-inspector h2{margin-bottom:18px}
+.intro-promotion-study .annotation-inspector p{line-height:1.8}
 .intro-selected-hero .ambassador-hero-art{grid-column:2;grid-row:1}
 .intro-hero-duo{position:relative;z-index:1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:stretch;width:min(100%,880px);gap:clamp(5px,.8vw,13px)}
 .intro-selected-hero .intro-hero-image{width:100%;z-index:1}
@@ -37,10 +48,17 @@
 .intro-motion-copy h2 i{color:#86a7ff;font-family:var(--serif);font-weight:400}
 .intro-motion-copy p{font-size:16px;line-height:1.75;color:#b7c6df;margin-bottom:25px}
 .intro-motion video{display:block;width:100%;aspect-ratio:16/9;background:#101d34;border:1px solid #334e77}
+.intro-guide-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(24px,3vw,42px)}
+.intro-guide-card{min-width:0;border-bottom:1px solid #344c73;padding-bottom:22px}
+.intro-guide-card figure{position:relative;margin:0 0 20px;background:#071426;border:1px solid #304a72;overflow:hidden}
+.intro-guide-card figure>img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}
+.intro-guide-card figure>.image-open{position:absolute;right:14px;bottom:14px;background:#0b1629dd}
+.intro-guide-card h3{font-size:clamp(1.35rem,2.2vw,2rem);line-height:1.15;margin:9px 0 10px}
+.intro-guide-card p{color:#aebfda;line-height:1.65;max-width:54ch}
 @media(max-width:800px){
  .intro-model-choices{gap:15px}.intro-model-choices>button{grid-template-columns:1fr;gap:12px;padding:0 0 14px;text-align:center}.intro-model-choices .intro-selected-art{width:min(100%,145px);margin:auto}.intro-model-choices>button>span:last-child{gap:5px}.intro-model-choices strong{font-size:14px}
  .intro-model-slide .carousel-garments>div{grid-template-columns:85px 1fr}
- .intro-motion{grid-template-columns:1fr;gap:30px}.intro-motion-copy{max-width:620px}
+ .intro-motion{grid-template-columns:1fr;gap:30px}.intro-motion-copy{max-width:620px}.intro-guide-grid{grid-template-columns:1fr}
 }
 @media(max-width:640px){
  .intro-hero-duo{width:min(100%,560px);gap:2px}.intro-selected-hero .intro-hero-image{width:100%;max-width:none}.intro-selected-hero .hero-emblems{gap:22px;margin-top:12px}.intro-selected-hero .art-provenance{font-size:12px;margin-bottom:0}
