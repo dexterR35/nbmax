@@ -1,0 +1,12 @@
+NetBet reference / full-body Max banner
+Created: 2026-09-23
+Method: built-in ImageGen, single generation.
+Dimensions: 1672 x 941.
+Original: assets/originals/intro-max-navy.png
+Display: assets/images/intro-max-navy.webp (quality 91, encoding-only derivative).
+Identity source: assets/images/build-front.webp
+Background reference: user-supplied codex-clipboard-37fb0a23-88f5-4964-8ad5-b6be9f1c7c09.png.
+The reference screenshot supplies composition and background only; the character is Max. This is a still image, not a new film. The website uses real HTML for its interface and play button.
+
+Exact prompt:
+Use case: compositing. Create a polished wide 16:9 landscape website campaign banner asset. Input 1 is ART DIRECTION ONLY: extract and recreate the background of the large Meet NetBet Max hero panel in the supplied NetBet website screenshot, midnight navy with very subtle huge tonal italic MAX letters, soft smoky-blue diagonal facets, dark elegant gaming loyalty atmosphere, restrained lighting. Input 2 is the exact canonical male Max to place into this background, replacing the woman from input1. Preserve his exact face, swept silver-white hair, black rectangular glasses, white beard, mature friendly smile, slender long-legged stylized 3D proportions, navy tailcoat with red piping and lining, red patterned waistcoat, red bow tie, ivory trousers, brown-and-ivory Oxford shoes, little gold NB chest mark. Show his COMPLETE body from hair to both shoes at the RIGHT, centered at 77 percent of canvas width; full height from 5 percent to 96 percent. Max stands relaxed, one open welcoming palm pointing toward the left, other hand relaxed. Render Max large enough to read but the full silhouette must fit. LEFT 55 percent stays dark clear negative space for later real webpage text and badges. Match the navy background tone of the reference panel precisely, not neon. No woman. No site header, no sidebar, no interface chrome, no badges or cards, no play button, no foreground heading or prose, no watermarks. Only the very faint giant tonal MAX lettering in background. 1536x864 or equivalent wide16:9. Premium detailed stylized 3D character, crisp texture.

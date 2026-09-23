@@ -1,0 +1,25 @@
+NETBET MAX / Introduction campaign artwork
+Created: 2026-09-23
+Method: built-in imagegen, one generation, no retries.
+Original dimensions: 1672 x 941 pixels.
+Original: assets/originals/intro-max-blue.png
+Display derivative: assets/images/intro-max-blue.webp (WebP quality 91, encoding only).
+Identity reference: assets/images/build-front.webp.
+Art-direction reference: user-supplied codex-clipboard-00c06e20-399f-4a87-92cd-3c3bd199ee6c.png.
+Reference screenshot supplies background art direction only; its female character is not used.
+Observed result: Max identity, costume and blue/navy palette preserved; both palms are open. Left hand reaches approximately 38% across canvas. This is a still concept, not newly generated video.
+
+Exact generation prompt:
+
+Use case: ads-marketing
+Asset type: one wide website hero and campaign backdrop, also usable as video poster and loyalty mockup.
+Primary request: Create ONE polished premium stylized 3D character marketing image in a precise wide 16:9 composition, ideally 1536 by 864 pixels.
+Input images: Image 1 is the canonical identity and costume reference for Max. Preserve this SAME male character, face, hairstyle, proportions, glasses and clothing. Image 2 is BACKDROP ART DIRECTION ONLY: use its deep navy atmosphere and gigantic outlined neon blue MAX lettering. Do not copy its female character, chrome, interface or other text.
+Scene/backdrop: dark midnight navy, subtle tasteful diagonal blue facets and controlled glow. Across the background behind Max, enormous dimensional outlined neon-blue letters spelling "MAX" (M A X), subtly illuminated. Keep their left side very low contrast and subdued so text can later be placed over it.
+Subject: the exact charming older male Max from image 1, swept silver-white hair, rectangular black glasses, white trimmed beard, warm relaxed confident smile, navy long tailored coat with red piping, red brocade waistcoat, red bow tie, ivory shirt and ivory trousers. Retain the small existing gold "NB" detail on his coat and original gold buttons.
+Composition/framing: Max occupies the RIGHT half, framed from upper thighs upward. Full head and hairstyle comfortably inside the canvas with generous top margin. One palm open in a welcoming gesture; hands anatomically clean and natural. Reserve the LEFT 45 percent as mostly dark empty navy negative space for a later HTML heading and button. Character centered around 75 percent of image width; maintain comfortable right margin.
+Style/medium: polished high-end stylized 3D character campaign render, richly textured tailored fabrics, refined clean surfaces, expressive appealing face consistent with reference 1.
+Lighting/mood: blue rim light and soft flattering facial light, sophisticated confident and welcoming atmosphere.
+Color palette: BLUE and NAVY exclusively for background and lighting; retain costume original red details, ivory, warm skin tones and tiny gold hardware. No pink or purple washes.
+Text (verbatim): only subtle giant background "MAX" and existing small coat "NB".
+Constraints: no interface, no buttons, no UI panels, no promotional copy, no slogan, no extra text or logos, no watermarks, no other people, no female character, no chrome styling. Preserve Max's identity and outfit faithfully. Produce one final image only.

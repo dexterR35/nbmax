@@ -43,7 +43,7 @@
     'ambassador-welcome':'gold','ambassador-explain':'champion','ambassador-present':'reserve',composed:'ruby',welcome:'gold',present:'ruby',explain:'black-diamond','level-tour':'diamond','level-detail':'black-diamond'
   };return level(p.level||mapped[p.id]);}
   function poseCards(){return D.poses.map((p,i)=>{const matched=poseLevel(p);return `<button type="button" class="pose-study-card${p.format==='landscape'?' pose-study-card-landscape':''}" data-pose="${p.id}" aria-haspopup="dialog"><span class="card-corner-badge" data-card-badge="${matched.slug}">${badge(matched)}<small>${esc(matched.name)}</small></span><span class="pose-card-art">${p.level?C.character(p.level,'',false,false):img(p.ref)}</span><span class="pose-card-copy"><span class="eyebrow">Gesture ${pad(i+1)}</span><strong>${p.title}</strong><span>${p.status||'Supplied pose study'}</span></span></button>`;}).join('');}
-  function motion(){return `<section class="section-spaced rule" id="motion"><div class="section-head"><div><span class="eyebrow">Motion / Character film</span><h2>Max in <i>motion.</i></h2></div></div><div class="motion-grid ${D.motion.length===1?'single':''}">${D.motion.map(m=>`<article class="motion-slot">${m.src?`<video controls preload="metadata" playsinline poster="${ref(m.poster).image}" aria-label="Max: ${m.name}"><source src="${esc(m.src)}" type="video/mp4">${m.captions?`<track default kind="captions" src="${esc(m.captions)}" srclang="en" label="English">`:''}Your browser cannot play this video. <a href="${esc(m.src)}">Download the clip</a>.</video>`:`<div class="motion-still">${m.level?C.character(m.level):img(m.poster)}<span>Still reference · video needed</span></div>`}<h3>${m.name}</h3><p>${m.need}</p></article>`).join('')}</div></section>`;}
+  function motion(){return `<section class="section-spaced rule" id="motion"><div class="section-head"><div><span class="eyebrow">Motion / Character film</span><h2>Max in <i>motion.</i></h2></div></div><div class="motion-grid ${D.motion.length===1?'single':''}">${D.motion.map(m=>`<article class="motion-slot">${m.src?P.filmPoster(m):`<div class="motion-still">${m.level?C.character(m.level):img(m.poster)}<span>Still reference · video needed</span></div>`}<h3>${m.name}</h3><p>${m.need}</p></article>`).join('')}</div></section>`;}
   function renderPoses(id){if(D.poses.some(p=>p.id===id))state.pose=id;return `<div class="wrap"><header class="page-heading"><div><span class="eyebrow">Pose & gesture / Body language</span><h1>A gesture says<br><i>just enough.</i></h1></div></header>${S.faceRail()}<div class="section-head section-spaced pose-library-heading"><div><span class="eyebrow">The complete body language</span><h2>Poses, gestures and posture.</h2></div><div class="pose-library-copy"><a class="text-link" href="#build/build-front">See new body-angle studies ↗</a></div></div><div class="pose-card-grid" aria-label="Character gesture studies">${poseCards()}</div></div>`;}
   function sourceNotes(){return P.sources();}
   function filteredRefs(){return R.filter(r=>(state.filter==='all'||r.roles.includes(state.filter))&&(!state.search||`${r.title} ${r.description} ${r.files.join(' ')}`.toLowerCase().includes(state.search.toLowerCase())));}
@@ -68,6 +68,7 @@
     if(previous===valid&&(valid==='wardrobe'||valid==='detail'||(valid==='landing'&&focused?.dataset.campaign))){window.scrollTo({top:oldScroll,behavior:'instant'});if(restoreSelector)document.querySelector(restoreSelector)?.focus({preventScroll:true});}else{window.scrollTo({top:0,behavior:'instant'});if(previous)main.focus({preventScroll:true});}
     if(valid==='references'&&arg==='sources')requestAnimationFrame(()=>document.querySelector('#sources').scrollIntoView());
     if(valid==='story'&&arg==='motion')requestAnimationFrame(()=>document.querySelector('#motion').scrollIntoView());
+    if(valid==='intro'&&['film','example'].includes(arg))requestAnimationFrame(()=>document.querySelector(arg==='film'?'#intro-film':'#intro-example')?.scrollIntoView({block:'start',behavior:'instant'}));
     if(valid==='landing'){const requested=state.campaign,rail=document.querySelector('.campaign-tabs'),tab=document.querySelector('#campaign-tab-'+requested),page=document.querySelector('#landing-page-'+requested);if(rail&&tab)rail.scrollLeft=Math.max(0,tab.offsetLeft-(rail.clientWidth-tab.clientWidth)/2);if(arg&&page){page.scrollIntoView({block:'start'});requestAnimationFrame(()=>{page.scrollIntoView({block:'start'});setActiveLanding(requested);initLandingSpy();});}}
     initReveals();
     initAutoplay();
@@ -103,6 +104,24 @@
       e.preventDefault();const id=landingLink.dataset.campaignLink,page=document.querySelector('#landing-page-'+id);setActiveLanding(id);page?.scrollIntoView({block:'start',behavior:reducedMotion.matches?'instant':'smooth'});return;
     }
     const b=e.target.closest('button');if(!b)return;
+    if(b.dataset.characterWatch){
+      const player=document.querySelector(`[data-character-film="${b.dataset.characterWatch}"]`),video=player.querySelector('video'),status=document.querySelector(`[data-film-status="${b.dataset.characterWatch}"]`);
+      video.hidden=false;b.hidden=true;status.hidden=true;video.focus({preventScroll:true});
+      video.play().catch(()=>{status.textContent='The film could not start. Use the player controls to try again.';status.hidden=false;});return;
+    }
+    if(b.hasAttribute?.('data-intro-watch')){
+      const video=document.querySelector('#intro-video');if(!video)return;
+      const cover=document.querySelector('.intro-video-cover'),status=document.querySelector('.intro-video-status');
+      cover.hidden=true;status.hidden=true;video.hidden=false;
+      document.querySelector('#intro-film').scrollIntoView({block:'center',behavior:reducedMotion.matches?'instant':'smooth'});
+      video.focus({preventScroll:true});
+      video.play().catch(()=>{status.textContent='The film could not start. Use the player controls to try again.';status.hidden=false;});
+      return;
+    }
+    if(b.dataset.introDevice){
+      document.querySelector('#intro-site-preview').classList.toggle('is-mobile',b.dataset.introDevice==='mobile');
+      document.querySelectorAll('[data-intro-device]').forEach(x=>x.setAttribute('aria-pressed',x===b));return;
+    }
     if(b.hasAttribute?.('data-close-card')){cardDialog.close();return;}
     if(b.dataset.studioImage){openStudio(b.dataset.studioImage);return;}
     if(b.dataset.faceFilter){document.querySelector('#expression-grid').innerHTML=S.expressionGrid(b.dataset.faceFilter);document.querySelectorAll('[data-face-filter]').forEach(x=>x.setAttribute('aria-pressed',x===b));return;}

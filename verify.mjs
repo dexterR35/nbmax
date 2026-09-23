@@ -8,16 +8,19 @@ const events={},elements=new Map(),timers=new Map();
 let timerId=0;
 const motionPreference={matches:false,addEventListener(type,fn){this.change=fn;}};
 class Element {
- constructor(key){this.key=key;this.dataset={};this.innerHTML='';this.style={};this.clientWidth=800;this.clientHeight=600;this.offsetLeft=0;this.offsetTop=0;this.classList={add(){},remove(){},toggle(){return false;}};this.attributes={};this.handlers={};}
+ constructor(key){this.key=key;this.dataset={};this.innerHTML='';this.style={};this.clientWidth=800;this.clientHeight=600;this.offsetLeft=0;this.offsetTop=0;const classes=new Set();this.classList={add(...names){names.forEach(n=>classes.add(n));},remove(...names){names.forEach(n=>classes.delete(n));},contains:n=>classes.has(n),toggle(n,force){const enabled=force??!classes.has(n);enabled?classes.add(n):classes.delete(n);return enabled;}};this.attributes={};this.handlers={};this.playCalls=0;}
  addEventListener(type,fn){this.handlers[type]=fn;}
  setAttribute(k,v){this.attributes[k]=String(v);}
  removeAttribute(k){delete this.attributes[k];}
+ hasAttribute(k){return Object.hasOwn(this.attributes,k);}
  querySelector(s){return get(s);}
  querySelectorAll(){return [];}
- focus(){} scrollTo(){} scrollBy(){} scrollIntoView(){} showModal(){this.open=true;} close(){this.open=false;this.handlers.close?.();} matches(s){return this.key===s;}
+ focus(){this.focused=true;} scrollTo(){} scrollBy(){} scrollIntoView(options){this.scrollOptions=options;} showModal(){this.open=true;} close(){this.open=false;this.handlers.close?.();} matches(s){return this.key===s;}
+ play(){this.playCalls++;return this.playError?Promise.reject(this.playError):Promise.resolve();}
 }
 const get=s=>{if(!elements.has(s))elements.set(s,new Element(s));return elements.get(s);};
-const document={querySelector:get,querySelectorAll:s=>s==='[data-tour]'?[get('[data-tour="intro"]'),get('[data-tour="character"]')]:[],body:get('body'),activeElement:null,addEventListener:(t,f)=>{(events[t]??=[]).push(f);}};
+const introDevices=['desktop','mobile'].map(device=>{const button=get(`[data-intro-device="${device}"]`);button.dataset.introDevice=device;return button;});
+const document={querySelector:get,querySelectorAll:s=>s==='[data-tour]'?[get('[data-tour="intro"]'),get('[data-tour="character"]')]:s==='[data-intro-device]'?introDevices:[],body:get('body'),activeElement:null,addEventListener:(t,f)=>{(events[t]??=[]).push(f);}};
 const window={document,scrollY:0,scrollTo(){},matchMedia:()=>motionPreference,setInterval(fn,ms){assert.equal(ms,2500);timers.set(++timerId,fn);return timerId;},clearInterval(id){timers.delete(id);},addEventListener:(t,f)=>{(events[t]??=[]).push(f);}};
 const context=vm.createContext({window,document,location:{hash:'#intro'},requestAnimationFrame:f=>f(),console});
 for(const file of ['inventory.js','new-pose-data.js','data.js','ambassador-data.js','ambassador-looks.js','family-art.js','family-system.js','intro-models.js','collection-views.js','studio-data.js','studio-assets.js','studio-views.js','presentation.js','app.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),context,{filename:file});
@@ -28,7 +31,7 @@ assert.equal(D.families.flatMap(f=>f.slugs).length,28);
 assert.equal(new Set(D.families.flatMap(f=>f.slugs)).size,28);
 const referenceIds=new Set(R.map(r=>r.id));
 const validatedAssets=new Set();
-function asset(src){if(!src||src.startsWith('http')||src.startsWith('#'))return;assert.ok(fs.existsSync(path.join(root,src)),`Missing asset ${src}`);validatedAssets.add(src);}
+function asset(src){if(!src||src.startsWith('http')||src.startsWith('#'))return;const local=src.split(/[?#]/)[0];assert.ok(fs.existsSync(path.join(root,local)),`Missing asset ${src}`);validatedAssets.add(local);}
 for(const r of R){[r.image,r.thumb,r.original].forEach(asset);assert.ok(r.description.length>30);}
 for(const l of D.levels){asset(l.badge);if(l.outfit){assert.ok(referenceIds.has(l.outfit.ref));assert.equal(l.outfit.annotations.length,6);for(const a of l.outfit.annotations){assert.ok(a.x>0&&a.x<100&&a.y>0&&a.y<100);for(const key of ['title','text','finish','meaning','delta'])assert.ok(a[key]?.length);}}}
 // Family membership must keep the complete costume and pose fixed, not merely similar.
@@ -54,6 +57,7 @@ const rendered=[];
 function checkHTML(html,route){
  assert.equal((html.match(/<h1(?:\s[^>]*)?>/g)||[]).length,1,`${route}: one primary heading`);
  for(const match of html.matchAll(/<(?:img|script|source)\b[^>]*\bsrc="([^"]+)"[^>]*>/g))asset(match[1]);
+ for(const match of html.matchAll(/<video\b[^>]*\bposter="([^"]+)"[^>]*>/g))asset(match[1]);
  for(const match of html.matchAll(/<img\b([^>]+)>/g)){assert.ok(/\balt="[^"]+"/.test(match[1]),`${route}: meaningful alt`);assert.ok(/\bwidth="\d+"/.test(match[1]),`${route}: dimensions`);}
  for(const m of html.matchAll(/\bhref="([^"]+)"/g)){if(!m[1].startsWith('http')&&!m[1].startsWith('#'))asset(m[1]);}
  const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(ids.length,new Set(ids).size,`${route}: duplicate IDs`);
@@ -124,6 +128,28 @@ assert.ok(!intro.includes('data-character-level="champion"'),'Introduction uses 
 assert.ok(intro.includes('build-gothic.webp'));assert.ok(intro.includes('family-gold.webp'));
 assert.equal((intro.match(/data-promotion-line=/g)||[]).length,6);assert.ok(!intro.includes('Navy textured long tailcoat with red piping and lining'));assert.ok(intro.includes('data-intro-art="build-front"'));assert.ok(intro.includes('Calm, familiar and friendly'));assert.ok(!intro.includes('aria-label="Detail 1: Calm, familiar and friendly"'));
 click({promotionAnnotation:'6'});assert.ok(get('#promotion-annotation-panel').innerHTML.includes('Oxford shoes'));
+// Introduction deep links, preview controls and visitor-started playback.
+for(const section of ['film','example']){
+ const target=get('#intro-'+section);target.scrollOptions=null;
+ const html=visit('intro/'+section);assert.equal(get('main').dataset.view,'intro');assert.ok(html.includes(`id="intro-${section}"`));assert.equal(target.scrollOptions?.block,'start');
+}
+const clickElement=button=>{for(const fn of events.click)fn({target:{closest:selector=>selector==='button'?button:null}});};
+for(const [device,pressed] of [['desktop','true'],['mobile','false']])assert.match(intro,new RegExp(`<button\\b[^>]*data-intro-device="${device}"[^>]*aria-pressed="${pressed}"`));
+for(const selected of [introDevices[1],introDevices[0]]){
+ clickElement(selected);assert.equal(get('#intro-site-preview').classList.contains('is-mobile'),selected.dataset.introDevice==='mobile');
+ for(const button of introDevices)assert.equal(button.attributes['aria-pressed'],String(button===selected));
+}
+const videoMarkup=intro.match(/<video\b[^>]*id="intro-video"[^>]*>/)?.[0];
+assert.ok(videoMarkup,'Introduction provides a native video');
+for(const attribute of ['controls','playsinline','hidden'])assert.match(videoMarkup,new RegExp(`\\s${attribute}(?:\\s|>|=)`));
+assert.ok(!/\sautoplay(?:\s|>|=)/.test(videoMarkup),'Film starts only when requested');
+const introVideo=get('#intro-video'),introCover=get('.intro-video-cover'),introStatus=get('.intro-video-status'),watchButton=get('[data-intro-watch]');
+introVideo.hidden=true;introVideo.controls=true;introCover.hidden=false;introStatus.hidden=true;watchButton.setAttribute('data-intro-watch','');
+assert.equal(introVideo.playCalls,0);clickElement(watchButton);await Promise.resolve();
+assert.equal(introVideo.playCalls,1);assert.equal(introVideo.hidden,false);assert.equal(introVideo.focused,true);assert.equal(introCover.hidden,true);assert.equal(introStatus.hidden,true);
+introVideo.playError=new Error('Playback blocked');clickElement(watchButton);await Promise.resolve();
+assert.equal(introVideo.playCalls,2);assert.equal(introStatus.hidden,false);assert.ok(introStatus.textContent.length>0,'Failed playback provides recovery guidance');
+assert.equal(introVideo.hidden,false);assert.equal(introVideo.controls,true,'Native controls remain available after a rejected play request');assert.equal(introCover.hidden,true);introVideo.playError=null;
 const wardrobeCards=visit('wardrobe/gold');assert.ok(wardrobeCards.includes('data-card-collection="collection"'));
 assert.equal((wardrobeCards.match(/<a class="collection-card(?:\s|\")/g)||[]).length,15);
 assert.equal((wardrobeCards.match(/class="card-corner-badge"/g)||[]).length,15);
@@ -170,5 +196,5 @@ assert.ok(fs.readFileSync(path.join(root,'brand.css'),'utf8').includes('--blue:#
 assert.ok(fs.readFileSync(path.join(root,'styles.css'),'utf8').includes('prefers-reduced-motion'));
 fs.mkdirSync(path.join(import.meta.dirname,'.qa'),{recursive:true});
 fs.writeFileSync(path.join(import.meta.dirname,'.qa','rendered.json'),JSON.stringify(rendered));
-console.log(`PASS: ${rendered.length} rendered route checks; 28 complete rank presentations; 15 shared wardrobe designs; 168 bounded annotation anchors; ${validatedAssets.size} local assets; 19 wardrobe poses; 16 character studies; 7 supplied landing pages plus 10 developed concepts; exact-emblem family continuity, linked collection cards, reduced-motion behavior, composite zoom, selectors, search, offer actions and assistant.`);
-console.log('Browser preview is not available for this buildless static Sites project. These checks do not assert visual rendering or actual assistive-technology behavior.');
+console.log(`PASS: ${rendered.length} rendered route checks; 28 complete rank presentations; 15 shared wardrobe designs; 168 bounded annotation anchors; ${validatedAssets.size} local assets; 19 wardrobe poses; 16 character studies; 7 supplied landing pages plus 10 developed concepts; introduction deep links, preview controls and playback recovery; exact-emblem family continuity, linked collection cards, reduced-motion behavior, composite zoom, selectors, search, offer actions and assistant.`);
+console.log('Source/render checks do not assert visual layout, actual media decoding or assistive-technology behavior.');
