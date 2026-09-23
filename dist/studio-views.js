@@ -48,8 +48,7 @@ window.MAX_STUDIO_VIEWS={create({D,R,esc,badge,img}){
       <div class="campaign-footer"><span>18+ · Play responsibly</span><span>Creative proposal · Illustrative game-world setting</span></div>
     </div>`;
   }
-  function landing(id,device){
-    const supplied=[
+  const supplied=[
       {id:'supplied-1',label:'Northern welcome',name:'Northern welcome',image:'assets/landing_pages/1.png',alt:'Max with a cane beside a warrior and wolf in a snowy blue-and-gold landscape',level:'champion',badges:['sapphire','champion'],eyebrow:'The Sapphire collection',title:'Step into the north.',accent:'Max knows the way.',body:'A familiar guide for a world of ice, gold and legends.',cta:'Explore Sapphire'},
       {id:'supplied-2',label:'Candy promenade',name:'Candy promenade',image:'assets/landing_pages/2.png',alt:'Max beside a candy-inspired woman and robot in a burgundy confectionery landscape',level:'ace',badges:['ruby','ace'],eyebrow:'The Ruby collection',title:'A sweeter world.',accent:'The same sharp guide.',body:'Let Max introduce the Ruby ranks in a world full of colour.',cta:'Explore Ruby'},
       {id:'supplied-3',label:'Egyptian hall',name:'Egyptian hall',image:'assets/landing_pages/3.png',alt:'Max beside Egyptian-inspired characters in an ivory and navy temple setting',level:'gold',badges:['gold'],eyebrow:'The Gold rank',title:'Treasures ahead.',accent:'Let Max guide you.',body:'A composed welcome to your level, benefits and next discovery.',cta:'Explore Gold'},
@@ -58,6 +57,7 @@ window.MAX_STUDIO_VIEWS={create({D,R,esc,badge,img}){
       {id:'supplied-6',label:'Northern champion',name:'Northern champion',image:'assets/landing_pages/6.png',alt:'A hammer-carrying Max beside a warrior and wolf in a snowy northern landscape',level:'centurion-elite',badges:['premier','elite-premier','centurion','centurion-elite'],eyebrow:'The Prismatic collection',title:'A legendary welcome.',accent:'Every detail, presented.',body:'Four ranks build toward the collection’s widest ceremonial wings.',cta:'Explore Prismatic'},
       {id:'supplied-7',label:'Candy ensemble',name:'Candy ensemble',image:'assets/landing_pages/7.png',alt:'Max beside a candy-inspired woman and robot in a bright confectionery world',level:'ace',badges:['ruby','ace'],eyebrow:'The Ace rank',title:'A little delight.',accent:'A lot of character.',body:'Meet the winged Ruby emblem in Max’s burgundy collection.',cta:'Explore Ace'}
     ];
+  function landing(id,device){
     const allIds=[...supplied.map(x=>x.id),...A.campaigns.map(x=>x.id)],selectedId=allIds.includes(id)?id:supplied[0].id,count=allIds.length;
     const tabs=[...supplied,...A.campaigns].map((x,index)=>`<a id="campaign-tab-${x.id}" href="#landing/${x.id}" data-campaign-link="${x.id}" ${x.id===selectedId?'aria-current="page"':''}><span>${String(index+1).padStart(2,'0')}</span>${x.label}</a>`).join('');
     const suppliedPages=supplied.map((x,index)=>`<section class="landing-page-entry supplied-landing-entry${x.id===selectedId?' is-selected':''}" id="landing-page-${x.id}" aria-labelledby="landing-page-title-${x.id}"><header><span>${String(index+1).padStart(2,'0')} / ${count}</span><h2 id="landing-page-title-${x.id}">${x.name}</h2></header>${suppliedFrame(x,index===0||x.id===selectedId)}</section>`).join('');
@@ -70,5 +70,5 @@ window.MAX_STUDIO_VIEWS={create({D,R,esc,badge,img}){
       <div class="landing-stack" aria-label="All landing pages">${suppliedPages}${conceptPages}</div>
     </div>`;
   }
-  return {artwork,faceRail,studyPage,expressionGrid,sceneFrame,landing};
+  return {artwork,faceRail,studyPage,expressionGrid,sceneFrame,landing,suppliedPreview:id=>suppliedFrame(supplied.find(c=>c.id===id),false)};
 }};
